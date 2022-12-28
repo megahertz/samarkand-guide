@@ -1,0 +1,7 @@
+.cache-loader
+.docusaurus
+.DS_Store
+.idea
+
+/node_modules
+/build

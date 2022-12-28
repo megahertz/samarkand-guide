@@ -1,0 +1,21 @@
+.price {
+  border-bottom: 1px dotted;
+  color: var(--ifm-color-primary-light);
+  cursor: default;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.price:focus:after,
+.price:active:after,
+.price:hover:after {
+  background-color: var(--ifm-breadcrumb-color-active);
+  border-radius: 3px;
+  color: var(--ifm-color-success-contrast-background);
+  content: attr(data-title);
+  display: block;
+  margin-top: 4px;
+  padding: 4px 6px;
+  position: absolute;
+  white-space: pre;
+}

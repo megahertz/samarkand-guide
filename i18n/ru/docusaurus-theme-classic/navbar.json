@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "SamGuide",
+    "description": "The title in the navbar"
+  },
+  "item.label.Tutorial": {
+    "message": "Руководство",
+    "description": "Navbar item with label Руководство"
+  },
+  "item.label.Blog": {
+    "message": "Блог",
+    "description": "Navbar item with label Блог"
+  }
+}
