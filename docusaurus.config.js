@@ -1,3 +1,5 @@
+'use strict';
+
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -74,8 +76,8 @@ const config = {
 
   themes: [
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({ hashed: true, language: ["ru"] }),
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      { hashed: true, language: ['ru'] },
     ],
   ],
 };

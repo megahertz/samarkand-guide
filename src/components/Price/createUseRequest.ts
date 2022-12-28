@@ -1,17 +1,19 @@
 import { useEffect, useState } from 'react';
 
-export default function createUseRequest<T extends (...args: any[]) => any>({
+export default function createUseRequest<
+  T extends (...arguments_: any[]) => any,
+>({
   cacheName,
   cacheLifeTime = 60 * 60 * 24,
   factory,
 }: {
   cacheName: string;
   cacheLifeTime?: number;
-  factory: T,
-}): (...args: Parameters<T>) => ReturnType<T> {
+  factory: T;
+}): (...arguments_: Parameters<T>) => ReturnType<T> {
   let promise;
 
-  return (...args: Parameters<T>): ReturnType<T> => {
+  return (...arguments_: Parameters<T>): ReturnType<T> => {
     const [cache, setCache] = useCache(cacheName, cacheLifeTime);
     const [response, setResponse] = useState(cache);
 
@@ -20,14 +22,14 @@ export default function createUseRequest<T extends (...args: any[]) => any>({
         return;
       }
 
-      promise = promise || factory(...args);
+      promise = promise || factory(...arguments_);
       promise
-        .then((res) => {
-          setCache(res);
-          setResponse(res);
+        .then((resp) => {
+          setCache(resp);
+          setResponse(resp);
         })
-        .catch((e) => console.debug(e))
-    }, []);
+        .catch((e) => console.debug(e));
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     return response;
   };
@@ -43,17 +45,23 @@ function useCache(name, lifeTimeSec = 60 * 60 * 24, defaultValue = null) {
     cachedData = cache.expires * 1000 > Date.now() && cache.data;
   }
 
-  return [cachedData || defaultValue, (updatedData) => {
-    if (storage) {
-      storage.setItem(name, JSON.stringify({
-        expires: Math.round((Date.now() / 1000) + lifeTimeSec),
-        data: updatedData,
-      }));
-    }
-  }];
+  return [
+    cachedData || defaultValue,
+    (updatedData) => {
+      if (storage) {
+        storage.setItem(
+          name,
+          JSON.stringify({
+            expires: Math.round(Date.now() / 1000 + lifeTimeSec),
+            data: updatedData,
+          }),
+        );
+      }
+    },
+  ];
 }
 
 function useLocalStorage(): Storage | null {
   const storage = typeof window === 'object' && window && window.localStorage;
-  return storage.getItem ? storage as any : null;
+  return storage.getItem && (storage as any);
 }
