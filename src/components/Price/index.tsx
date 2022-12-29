@@ -9,8 +9,7 @@ const FORMATS = {
   byn: '{value} б.р.',
   rub: '{value} ₽',
   uah: '{value} ₴',
-  // eslint-disable-next-line no-template-curly-in-string
-  usd: '${value} ₴',
+  usd: '${value}', // eslint-disable-line no-template-curly-in-string
   default: '{value} {code}',
 };
 
@@ -45,7 +44,7 @@ export default function Price({ children }: { children: string }) {
   return (
     <span
       aria-label="Price"
-      role="term"
+      role="tooltip"
       className={styles.price}
       data-title={currencies}
       tabIndex={0}
