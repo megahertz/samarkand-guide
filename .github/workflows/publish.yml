@@ -27,6 +27,5 @@ jobs:
         with:
           accountId: ${{ secrets.cloudflare_account_id }}
           apiToken: ${{ secrets.cloudflare_api_token }}
-          branch: production
           directory: build
           projectName: samarkand-guide
