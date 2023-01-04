@@ -40,6 +40,16 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        pages: {
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+            '**/components/**',
+            '**/lib/**',
+          ],
+        },
       }),
     ],
   ],
@@ -60,7 +70,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/map', label: 'Map', position: 'left' },
         ],
       },
       footer: {

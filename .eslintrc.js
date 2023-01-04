@@ -105,6 +105,7 @@ module.exports = {
         'unicorn/no-null': 'off',
         'unicorn/no-fn-reference-in-iterator': 'off',
         'unicorn/no-useless-undefined': 'off',
+        'unicorn/numeric-separators-style': 'off',
         'unicorn/prefer-query-selector': 'off',
         'unicorn/prefer-regexp-test': 'off',
         'unicorn/prefer-top-level-await': 'off',

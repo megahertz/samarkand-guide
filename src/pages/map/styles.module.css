@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.map {
+  flex: 1;
+}
+
+.sidebar {
+
+}
+
+
