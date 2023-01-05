@@ -1,13 +1,16 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+.container {
+  display: flex;
+}
 
 .heroBanner {
+  background: url("@site/static/img/background.jpg") #020a2e;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto 100%;
+  flex: 1 auto;
   padding: 4rem 0;
-  text-align: center;
   position: relative;
-  overflow: hidden;
+  text-align: center;
 }
 
 @media screen and (max-width: 996px) {

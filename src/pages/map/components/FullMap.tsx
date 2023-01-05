@@ -1,4 +1,9 @@
-import { Map, Placemark } from '@pbe/react-yandex-maps';
+import {
+  GeolocationControl,
+  Map,
+  Placemark,
+  TypeSelector,
+} from '@pbe/react-yandex-maps';
 import { PlacemarkItem } from '@site/src/pages/map/lib/types';
 import React from 'react';
 import styles from './styles.module.css';
@@ -14,7 +19,7 @@ export default function FullMap({
       defaultState={{
         center: [39.64, 66.97],
         zoom: 11,
-        controls: ['zoomControl', 'fullscreenControl'],
+        controls: ['zoomControl'],
       }}
     >
       {placemarks.map((item) => (
@@ -31,6 +36,8 @@ export default function FullMap({
           }}
         />
       ))}
+      <GeolocationControl options={{ float: 'left' }} />
+      <TypeSelector options={{ float: 'right' } as any} />
     </Map>
   );
 }

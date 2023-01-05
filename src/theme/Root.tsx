@@ -6,7 +6,15 @@ export default function Root({ children }: { children: ReactNode }) {
     <YMaps
       query={{
         ns: 'use-load-option',
-        load: 'Map,Placemark,control.ZoomControl,control.FullscreenControl,geoObject.addon.balloon,geoObject.addon.hint',
+        load: [
+          'Map',
+          'Placemark',
+          'control.GeolocationControl',
+          'control.TypeSelector',
+          'control.ZoomControl',
+          'geoObject.addon.balloon',
+          'geoObject.addon.hint',
+        ].join(','),
       }}
     >
       {children}

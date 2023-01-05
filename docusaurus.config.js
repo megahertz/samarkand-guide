@@ -24,6 +24,8 @@ const config = {
     locales: ['ru'],
   },
 
+  plugins: ['docusaurus-plugin-image-zoom'],
+
   presets: [
     [
       'classic',
@@ -36,6 +38,9 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/megahertz/samarkand-guide/tree/master/',
+        },
+        gtag: {
+          trackingID: 'G-6H7SMT618D',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,8 +80,44 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [],
+        links: [
+          {
+            title: 'Разделы',
+            items: [
+              {
+                label: 'Руководство',
+                to: 'docs/samarkand/',
+              },
+              {
+                label: 'Карта',
+                to: 'map',
+              },
+            ],
+          },
+          {},
+          {
+            title: 'Другое',
+            items: [
+              {
+                label: 'Github',
+                href: 'https://github.com/megahertz/samarkand-guide',
+              },
+              {
+                label: 'Обсуждение',
+                href: 'https://github.com/megahertz/samarkand-guide/discussions',
+              },
+            ],
+          },
+        ],
         copyright: `© ${new Date().getFullYear()} Samarkand: the expat guide`,
+      },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgba(240, 240, 240, 0.9)',
+          dark: 'rgb(50, 50, 50, 0.9)',
+        },
+        config: {},
       },
       prism: {
         theme: lightCodeTheme,

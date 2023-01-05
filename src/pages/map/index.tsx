@@ -24,6 +24,8 @@ export default function Map() {
     return placemarkMatchesUrl(placemark, routePath);
   });
 
+  console.log(selectedPlacemarks);
+
   return (
     <Layout
       noFooter

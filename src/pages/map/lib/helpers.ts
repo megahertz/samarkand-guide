@@ -84,7 +84,7 @@ export function placemarkMatchesUrl(
     return true;
   }
 
-  const [lastPath] = url.split('/');
+  const lastPath = url.split('/').pop();
   if (placemark.tags.includes(lastPath)) {
     return true;
   }

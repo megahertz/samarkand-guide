@@ -13,25 +13,8 @@ const FORMATS = {
   default: '{value} {code}',
 };
 
-const useCurrencyRequest = createUseRequest({
-  cacheName: 'currency',
-  factory({ selectedCurrencies = CURRENCIES } = {}) {
-    return fetch('https://www.floatrates.com/daily/uzs.json')
-      .then((response) => response.json())
-      .then((currencies: Record<string, { rate?: number }>) =>
-        Object.fromEntries(
-          Object.entries(currencies)
-            .map(([code, currency]): [string, number] => [code, currency?.rate])
-            .filter(
-              ([code, rate]) => rate && selectedCurrencies.includes(code),
-            ),
-        ),
-      );
-  },
-});
-
 export default function Price({ children }: { children: string }) {
-  const price = Number.parseInt(children, 10);
+  const price = Number.parseInt(children.replace(/\W+/g, ''), 10);
 
   // Need to use effect, otherwise dom attribute won't be updated
   const currenciesTemporary = useCurrencies({ price });
@@ -53,6 +36,23 @@ export default function Price({ children }: { children: string }) {
     </span>
   );
 }
+
+const useCurrencyRequest = createUseRequest({
+  cacheName: 'currency',
+  factory({ selectedCurrencies = CURRENCIES } = {}) {
+    return fetch('https://www.floatrates.com/daily/uzs.json')
+      .then((response) => response.json())
+      .then((currencies: Record<string, { rate?: number }>) =>
+        Object.fromEntries(
+          Object.entries(currencies)
+            .map(([code, currency]): [string, number] => [code, currency?.rate])
+            .filter(
+              ([code, rate]) => rate && selectedCurrencies.includes(code),
+            ),
+        ),
+      );
+  },
+});
 
 function useCurrencies({ price = 0, selectedCurrencies = CURRENCIES } = {}) {
   const rates = useCurrencyRequest({ selectedCurrencies }) || {};
