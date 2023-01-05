@@ -11,6 +11,7 @@
     "lint:md": "prettier --check blog docs README.md",
     "lint:styles": "eslint src '*.js'",
     "lint:types": "tsc",
+    "postversion": "git push && git push --tags",
     "serve": "docusaurus serve -h 0.0.0.0",
     "start": "docusaurus start -h 0.0.0.0 --no-minify",
     "swizzle": "docusaurus swizzle",
