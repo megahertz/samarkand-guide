@@ -1,15 +1,13 @@
 'use strict';
 
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
-  title: 'Самарканд',
-  tagline: 'руководство для экспатов',
+module.exports = {
+  title: 'Самарканд: справочник релоканта',
   url: 'https://samarkand-guide.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -49,8 +47,8 @@ const config = {
           exclude: [
             '**/_*.{js,jsx,ts,tsx,md,mdx}',
             '**/_*/**',
-            '**/*.test.{js,jsx,ts,tsx}',
-            '**/__tests__/**',
+            '**/*.spec.{js,jsx,ts,tsx}',
+            '**/__specs__/**',
             '**/components/**',
             '**/lib/**',
           ],
@@ -73,7 +71,7 @@ const config = {
             type: 'doc',
             docId: 'samarkand/index',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Guide',
           },
           { to: '/map', label: 'Map', position: 'left' },
         ],
@@ -85,7 +83,7 @@ const config = {
             title: 'Разделы',
             items: [
               {
-                label: 'Руководство',
+                label: 'Справочник',
                 to: 'docs/samarkand/',
               },
               {
@@ -109,7 +107,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Samarkand: the expat guide`,
+        copyright: `© ${new Date().getFullYear()} Самарканд: справочник релоканта`,
       },
       zoom: {
         selector: '.markdown :not(em) > img',
@@ -132,5 +130,3 @@ const config = {
     ],
   ],
 };
-
-module.exports = config;
