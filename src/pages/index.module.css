@@ -3,10 +3,9 @@
 }
 
 .heroBanner {
-  background: url("@site/static/img/background.jpg") #020a2e;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  background: center bottom no-repeat url("@site/static/img/background.jpg") #020a2e;
   background-size: auto 100%;
+  color: #fff;
   flex: 1 auto;
   padding: 4rem 0;
   position: relative;
