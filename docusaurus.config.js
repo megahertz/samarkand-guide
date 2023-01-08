@@ -4,6 +4,10 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const iconPlugin = require('./src/plugins/remark/iconPlugin');
+const pricePlugin = require('./src/plugins/remark/pricePlugin');
+
+const remarkPlugins = [iconPlugin, pricePlugin];
 
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
@@ -17,10 +21,7 @@ module.exports = {
   organizationName: 'megahertz',
   projectName: 'samarkand-guide',
 
-  i18n: {
-    defaultLocale: 'ru',
-    locales: ['ru'],
-  },
+  i18n: { defaultLocale: 'ru', locales: ['ru'] },
 
   plugins: ['docusaurus-plugin-image-zoom'],
 
@@ -32,16 +33,15 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/megahertz/samarkand-guide/tree/master/',
+          remarkPlugins,
         },
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/megahertz/samarkand-guide/tree/master/',
         },
-        gtag: {
-          trackingID: 'G-6H7SMT618D',
-        },
+        gtag: { trackingID: 'G-6H7SMT618D' },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/custom.css')],
         },
         pages: {
           exclude: [
@@ -52,6 +52,7 @@ module.exports = {
             '**/components/**',
             '**/lib/**',
           ],
+          remarkPlugins,
         },
       }),
     ],
@@ -62,18 +63,16 @@ module.exports = {
     ({
       navbar: {
         title: 'SamGuide',
-        logo: {
-          alt: 'Samarkand Guide Logo',
-          src: 'img/logo.svg',
-        },
+        logo: { alt: 'Samarkand Guide Logo', src: 'img/logo.svg' },
         items: [
           {
             type: 'doc',
             docId: 'samarkand/index',
             position: 'left',
-            label: 'Guide',
+            label: 'Справочник',
           },
-          { to: '/map', label: 'Map', position: 'left' },
+          { to: '/map', label: 'Карта', position: 'left' },
+          { to: '/links', label: 'Полезные ссылки', position: 'left' },
         ],
       },
       footer: {
@@ -82,14 +81,9 @@ module.exports = {
           {
             title: 'Разделы',
             items: [
-              {
-                label: 'Справочник',
-                to: 'docs/samarkand/',
-              },
-              {
-                label: 'Карта',
-                to: 'map',
-              },
+              { label: 'Справочник', to: 'docs/samarkand/' },
+              { label: 'Карта', to: 'map' },
+              { label: 'Полезные ссылки', to: 'links' },
             ],
           },
           {},

@@ -32,7 +32,7 @@ export default function Price({ children }: { children: string }) {
       data-title={currencies}
       tabIndex={0}
     >
-      {formatMoney(price)}
+      {formatMoney(price)} сумов
     </span>
   );
 }
