@@ -14,7 +14,7 @@ function iconPlugin() {
       }
 
       node.type = 'jsx';
-      node.value = node.value.replace(/icon-(\w+)/g, '<Icon name="$1" />');
+      node.value = node.value.replace(/icon-([\w-]+)/g, '<Icon name="$1" />');
 
       if (root.children[0]?.value !== importStatement) {
         root.children.unshift({

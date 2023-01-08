@@ -104,7 +104,7 @@ module.exports = {
         copyright: `© ${new Date().getFullYear()} Самарканд: справочник релоканта`,
       },
       zoom: {
-        selector: '.markdown :not(em) > img',
+        selector: '.markdown :not(a) > img',
         background: {
           light: 'rgba(240, 240, 240, 0.9)',
           dark: 'rgb(50, 50, 50, 0.9)',
