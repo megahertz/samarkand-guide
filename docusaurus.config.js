@@ -4,10 +4,10 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const iconPlugin = require('./src/plugins/remark/iconPlugin');
-const pricePlugin = require('./src/plugins/remark/pricePlugin');
+const remarkIconPlugin = require('./src/plugins/remark/iconPlugin');
+const remarkPricePlugin = require('./src/plugins/remark/pricePlugin');
 
-const remarkPlugins = [iconPlugin, pricePlugin];
+const remarkPlugins = [remarkIconPlugin, remarkPricePlugin];
 
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {

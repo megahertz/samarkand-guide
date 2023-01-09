@@ -1,7 +1,3 @@
-import Icon from '@site/src/components/Icon';
-
-import TelegramIcon from '@site/src/components/icons/TelegramIcon';
-
 # Полезные ссылки
 
 ## Самарканд
