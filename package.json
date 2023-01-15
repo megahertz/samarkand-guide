@@ -1,6 +1,6 @@
 {
   "name": "samarkand-guide",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Samarkand: relocating guide",
   "private": true,
   "repository": "megahertz/samarkand-guide",
@@ -33,7 +33,10 @@
     "node": ">=16.14"
   },
   "spech": {
-    "documents": ["docs/**/*.md*", "src/pages/**/*.md*"],
+    "documents": [
+      "docs/**/*.md*",
+      "src/pages/**/*.md*"
+    ],
     "languages": [
       "ru"
     ],
