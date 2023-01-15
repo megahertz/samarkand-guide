@@ -1,10 +1,18 @@
 export interface MapObject {
   description?: string;
+  facebook?: string;
   icon?: MapIcon;
   id?: string;
+  instagram?: string;
   label: string;
   location: [number, number];
+  phones?: string[];
   tags?: string[];
+  telegram?: string;
+  vkontakte?: string;
+  web?: string;
+  yandexMap?: string;
+  youtube?: string;
 }
 
 export interface MapCategory {
@@ -29,6 +37,89 @@ export type MapItem = MapCategory | MapObject;
 export type MapIcon = `islands#${IconColor}${IconBadge}Icon`;
 
 // https://yandex.ru/dev/maps/jsapi/doc/2.1/ref/reference/option.presetStorage.html?lang=ru
-type IconColor = 'orange' | 'darkBlue';
+type IconColor =
+  | 'black'
+  | 'blue'
+  | 'brown'
+  | 'darkBlue'
+  | 'darkGreen'
+  | 'darkOrange'
+  | 'gray'
+  | 'green'
+  | 'lightBlue'
+  | 'night'
+  | 'olive'
+  | 'orange'
+  | 'pink'
+  | 'red'
+  | 'violet'
+  | 'yellow';
 
-type IconBadge = 'Food' | 'Family';
+type IconBadge =
+  | 'Airport'
+  | 'Attention'
+  | 'Auto'
+  | 'Bar'
+  | 'Barber'
+  | 'Beach'
+  | 'Bicycle'
+  | 'Bicycle2'
+  | 'Book'
+  | 'CarWash'
+  | 'Christian'
+  | 'Cinema'
+  | 'Circus'
+  | 'Court'
+  | 'Delivery'
+  | 'Discount'
+  | 'Dog'
+  | 'Education'
+  | 'EntertainmentCenter'
+  | 'Factory'
+  | 'Family'
+  | 'Fashion'
+  | 'Food'
+  | 'FuelStation'
+  | 'Garden'
+  | 'Government'
+  | 'Heart'
+  | 'Home'
+  | 'Hotel'
+  | 'Hydro'
+  | 'Info'
+  | 'Laundry'
+  | 'Leisure'
+  | 'MassTransit'
+  | 'Medical'
+  | 'Money'
+  | 'Mountain'
+  | 'NightClub'
+  | 'Observation'
+  | 'Park'
+  | 'Parking'
+  | 'Person'
+  | 'Pocket'
+  | 'Pool'
+  | 'Post'
+  | 'Railway'
+  | 'RapidTransit'
+  | 'RepairShop'
+  | 'Run'
+  | 'Science'
+  | 'Shopping'
+  | 'Souvenirs'
+  | 'Sport'
+  | 'Star'
+  | 'Theater'
+  | 'Toilet'
+  | 'Underpass'
+  | 'Vegetation'
+  | 'Video'
+  | 'Waste'
+  | 'WaterPark'
+  | 'Waterway'
+  | 'Worship'
+  | 'Zoo'
+
+  // Other
+  | 'Dot';

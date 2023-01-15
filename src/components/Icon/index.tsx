@@ -1,6 +1,5 @@
-/* eslint-disable global-require */
-
 import React from 'react';
+import styles from './styles.module.css';
 
 export default function Icon({
   name,
@@ -10,7 +9,13 @@ export default function Icon({
   size?: number;
 }) {
   return (
-    <img alt={name} height={size} src={`/img/icons/${name}.svg`} width={size} />
+    <img
+      className={styles.root}
+      alt={name}
+      height={size}
+      src={`/img/icons/${name}.svg`}
+      width={size}
+    />
   );
 }
 

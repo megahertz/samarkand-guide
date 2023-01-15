@@ -80,6 +80,16 @@ module.exports = {
         'no-return-assign': ['error', 'except-parens'],
         'no-restricted-syntax': 'off',
         'no-unused-expressions': ['error', { allowShortCircuit: true }],
+        'no-unused-vars': [
+          'error',
+          {
+            argsIgnorePattern: '^_',
+            varsIgnorePattern: '^_',
+            vars: 'all',
+            args: 'after-used',
+            ignoreRestSiblings: true,
+          },
+        ],
         'no-use-before-define': 'off',
         'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
         'prefer-destructuring': 'off',

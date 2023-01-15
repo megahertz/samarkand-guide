@@ -6,6 +6,7 @@
   line-height: 1em;
 }
 
+
 .price:focus:after,
 .price:active:after,
 .price:hover:after {
