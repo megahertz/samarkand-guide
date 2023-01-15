@@ -33,6 +33,7 @@
     "node": ">=16.14"
   },
   "spech": {
+    "documents": ["docs/**/*.md*", "src/pages/**/*.md*"],
     "languages": [
       "ru"
     ],
