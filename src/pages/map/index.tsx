@@ -56,25 +56,34 @@ function useMenuHighlighting() {
   const location = useLocation();
 
   useEffect(() => {
-    const $links = document.querySelectorAll('.menu__link');
     const $menu = document.querySelector('.menu');
 
     $menu?.addEventListener('click', onMenuClick);
-    $links.forEach(($link) => {
+
+    resetActiveClass();
+    document.querySelectorAll('.menu__link').forEach(($link) => {
       if ($link.getAttribute('href') === location.hash) {
         $link.classList.add(ACTIVE_CLASS);
       }
     });
 
     function onMenuClick(e) {
+      if (!e.target.classList?.contains('menu__link')) {
+        return;
+      }
+
+      resetActiveClass();
+      e.target.classList?.add(ACTIVE_CLASS);
+    }
+
+    function resetActiveClass() {
       document
         .querySelectorAll('.menu__link')
         .forEach((l) => l.classList.remove(ACTIVE_CLASS));
-      e.target.classList?.add(ACTIVE_CLASS);
     }
 
     return () => {
       $menu?.removeEventListener('click', onMenuClick);
     };
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  });
 }
