@@ -11,6 +11,7 @@
 - [icon-telegram Чат про домашних животны](https://t.me/petssamarkand)
 - [icon-telegram Чат про банки](https://t.me/samarkandkb), ранее тут была
   самоорганизованная очередь в Капиталбанк
+- [icon-telegram Чат о походах в горы](https://t.me/PogoramSamarkanda)
 - [icon-telegram Чат про футбол](https://t.me/+QUCCGv7Xiz4yNmI6)
 - [icon-telegram Samarkand & Самаркандцы](https://t.me/Samarkand100), для
   местных, половина постов на узбекском

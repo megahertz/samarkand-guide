@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './styles.module.css';
 
 export default function Phone({ number }: { number: string }) {
   const digits = number.replace(/[^\d+]/g, '');
@@ -8,5 +9,9 @@ export default function Phone({ number }: { number: string }) {
     '$1 ($2) $3-$4-$5',
   );
 
-  return <a href={`tel:${digits}`}>{formatted}</a>;
+  return (
+    <a className={styles.link} href={`tel:${digits}`}>
+      {formatted}
+    </a>
+  );
 }
