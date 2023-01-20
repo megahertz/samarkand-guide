@@ -1,0 +1,7 @@
+.container {
+  padding: var(--ifm-pre-padding);
+}
+
+.title {
+  font-weight: var(--ifm-font-weight-bold);
+}

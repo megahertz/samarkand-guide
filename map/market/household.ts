@@ -6,6 +6,7 @@ export default {
   type: 'category',
   items: [
     {
+      id: 'sag-lelit',
       label: 'SAG Express & LELIT',
       location: [39.680088, 66.908295],
       yandexMap: 'https://yandex.uz/maps/org/sag_express/29564550145/',

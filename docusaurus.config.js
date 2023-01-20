@@ -5,11 +5,13 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const remarkIconPlugin = require('./src/plugins/remark/iconPlugin');
+const remarkPlacePlugin = require('./src/plugins/remark/placePlugin');
 const remarkPricePlugin = require('./src/plugins/remark/pricePlugin');
 const remarkTelephonePlugin = require('./src/plugins/remark/telephonePlugin');
 
 const remarkPlugins = [
   remarkIconPlugin,
+  remarkPlacePlugin,
   remarkPricePlugin,
   remarkTelephonePlugin,
 ];

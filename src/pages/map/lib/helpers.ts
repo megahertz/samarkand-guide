@@ -3,9 +3,44 @@ import {
   MapCategory,
   MapIcon,
   MapItem,
-  MapObject,
+  MapPlace,
   PlacemarkItem,
 } from '@site/src/pages/map/lib/types';
+
+export function filterItems(
+  rootItem: MapItem,
+  predicate: (item: MapItem, url: string, ids: string[]) => boolean,
+): MapItem[] {
+  const found: MapItem[] = [];
+
+  traverse(rootItem, (item, url, ids) => {
+    if (predicate(item, url, ids)) {
+      found.push(item);
+    }
+  });
+
+  return found;
+}
+
+export function findItemById(rootItem: MapItem, id: string): MapItem {
+  const [found] = filterItems(rootItem, (i) => i.id === id || i.label === id);
+  return found || null;
+}
+
+export function getChildPlaces(rootItem: MapCategory): MapPlace[] {
+  const places: MapPlace[] = [];
+  traverse(rootItem, (item) => {
+    if (isPlace(item)) {
+      places.push(item);
+    }
+  });
+
+  return places;
+}
+
+export function isPlace(item: MapItem): item is MapPlace {
+  return (item as MapCategory).type !== 'category';
+}
 
 export function mapItemToSidebarItem(
   item: MapItem,
@@ -28,7 +63,7 @@ export function mapItemToSidebarItem(
     };
   }
 
-  const object = item as MapObject;
+  const object = item as MapPlace;
   return {
     href,
     label: object.label,
@@ -63,7 +98,7 @@ export function mapItemToPlacemarkItems(
     return children;
   }
 
-  const object = item as MapObject;
+  const object = item as MapPlace;
   return [
     {
       description: object.description,
@@ -90,4 +125,21 @@ export function placemarkMatchesUrl(
   }
 
   return false;
+}
+
+export function traverse(
+  item: MapItem,
+  callback: (item: MapItem, url: string, ids: string[]) => boolean | void,
+  parentIds = [],
+) {
+  const ids = [...parentIds, item.id ?? encodeURIComponent(item.label)];
+  const url = ids.join('/');
+
+  if (callback(item, url, ids) === false) {
+    return;
+  }
+
+  for (const child of (item as MapCategory).items || []) {
+    traverse(child, callback, ids);
+  }
 }

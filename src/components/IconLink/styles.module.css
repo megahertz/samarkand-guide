@@ -1,0 +1,21 @@
+.link {
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  border-radius: 50%;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  line-height: 0;
+  padding: 8px;
+  transition: background var(--ifm-transition-fast);
+  width: 40px;
+}
+
+.link img {
+  display: block;
+  margin-bottom: 0;
+}
+
+.link:hover {
+  background: var(--ifm-color-emphasis-200);;
+}

@@ -8,6 +8,7 @@
 - [icon-telegram Чат для женщин](https://t.me/+luB2ssBS-C9iYmRi)
 - [icon-telegram Чат про настольные игры](https://t.me/+MLH6vX9i6q4zZWYy)
 - [icon-telegram Чат про IT](https://t.me/+88R9O_KEDekzZTFi)
+- [icon-telegram Чат про домашних животны](https://t.me/petssamarkand)
 - [icon-telegram Чат про банки](https://t.me/samarkandkb), ранее тут была
   самоорганизованная очередь в Капиталбанк
 - [icon-telegram Чат про футбол](https://t.me/+QUCCGv7Xiz4yNmI6)

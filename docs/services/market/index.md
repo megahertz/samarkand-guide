@@ -11,9 +11,9 @@
   а там пусто как в советских гастрономах.
 
 - В Oila Supermarket
-  [Android](https://play.google.com/store/apps/details?id=uz.gigalab.oilasupermarket)
-  [iOS](https://apps.apple.com/us/app/oila-supermarket/id1637385727) ассортимент
-  получше, но пока хромает сервис. Иногда могут про вас забыть.
+  ([Android](https://play.google.com/store/apps/details?id=uz.gigalab.oilasupermarket),
+  [iOS](https://apps.apple.com/us/app/oila-supermarket/id1637385727))
+  ассортимент получше, но пока хромает сервис. Иногда могут про вас забыть.
 
 ## Маркетплейсы
 
@@ -23,3 +23,16 @@
 Есть здесь и [Wildberries](https://www.wildberries.ru/), но пока что везут
 слишком долго. Что-то доходит за пару недель, а что-то задерживается на
 несколько месяцев.
+
+## Товары для дома
+
+В каждом районе есть множество мелких _хозмагов_ где есть вся необходимая
+мелочевка.
+
+Есть и места покрупнее
+
+@@household
+
+## Торговые центы
+
+@@malls

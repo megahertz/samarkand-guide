@@ -19,4 +19,4 @@ export default function Icon({
   );
 }
 
-type IconName = 'instagram' | 'telegram' | 'web' | 'yandex-maps';
+export type IconName = 'instagram' | 'telegram' | 'web' | 'yandex-maps';

@@ -1,9 +1,17 @@
 import { PropSidebarItem } from '@docusaurus/plugin-content-docs';
 import {
+  findItemById,
+  getChildPlaces,
+  isPlace,
   mapItemToPlacemarkItems,
   mapItemToSidebarItem,
 } from '@site/src/pages/map/lib/helpers';
-import { MapCategory, PlacemarkItem } from '@site/src/pages/map/lib/types';
+import {
+  MapCategory,
+  MapItem,
+  MapPlace,
+  PlacemarkItem,
+} from '@site/src/pages/map/lib/types';
 import cafe from './cafe';
 import children from './children';
 import communication from './communication';
@@ -17,6 +25,11 @@ const rootItem: MapCategory = {
   type: 'category',
   items: [cafe, market, finance, communication, transport, children],
 };
+
+export function getPlacesById(id: string): MapPlace[] {
+  const item = findItemById(rootItem, id);
+  return isPlace(item) ? [item as MapPlace] : getChildPlaces(item);
+}
 
 export function getSidebarItems(currentUrl = 'none'): PropSidebarItem[] {
   return rootItem.items.map((child) =>

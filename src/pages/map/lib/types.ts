@@ -1,4 +1,4 @@
-export interface MapObject {
+export interface MapPlace {
   description?: string;
   facebook?: string;
   icon?: MapIcon;
@@ -18,7 +18,7 @@ export interface MapObject {
 export interface MapCategory {
   icon?: MapIcon;
   id: string;
-  items: Array<MapCategory | MapObject>;
+  items: Array<MapCategory | MapPlace>;
   label: string;
   type: 'category';
 }
@@ -32,7 +32,7 @@ export interface PlacemarkItem {
   description: string;
 }
 
-export type MapItem = MapCategory | MapObject;
+export type MapItem = MapCategory | MapPlace;
 
 export type MapIcon = `islands#${IconColor}${IconBadge}Icon`;
 
