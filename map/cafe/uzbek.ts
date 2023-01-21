@@ -16,6 +16,8 @@ export default {
           phones: ['+998 91 536 99 39'],
           yandexMap:
             'https://yandex.uz/maps/org/axmadjon_lux_osh/191720320054/',
+          googleMap:
+            'https://www.google.com/maps/place/Axmadjon+Lux+Osh/@39.642959,66.9258983,17z/data=!3m1!4b1!4m5!3m4!1s0x3f4d1963fefd36ff:0xd5c94b6fc2f60452!8m2!3d39.6430358!4d66.9280468',
           description:
             'Наверное, лучший плов в Самарканде. Люкс-плов с фирменной подачей',
         },
@@ -23,6 +25,8 @@ export default {
           label: 'Mahallaosh',
           location: [39.666694, 66.945986],
           yandexMap: 'https://yandex.uz/maps/org/mahallaosh/69305080656',
+          googleMap:
+            'https://www.google.com/maps/place/Mahallaosh/@39.6664377,66.944956,16.76z/data=!4m5!3m4!1s0x3f4d1949a577bc53:0x670ce4c5f311e86a!8m2!3d39.666687!4d66.9457258',
           description:
             'Одно из немногих мест где плов можно поесть вечером. Готовят 2 раза в день - в 11:30 и 18:00',
         },
@@ -32,6 +36,8 @@ export default {
       label: 'Ismail Sofrasi',
       location: [39.682183, 66.924769],
       yandexMap: 'https://yandex.uz/maps/org/26116258263',
+      googleMap:
+        'https://www.google.com/maps/place/%D0%9A%D0%B0%D1%84%D0%B5+-+Ismail+Sofrasi/@39.6820783,66.9225131,17z/data=!3m1!4b1!4m5!3m4!1s0x3f4d193b98cc0511:0x60bf7cc4bf51213f!8m2!3d39.6820799!4d66.924753',
       description:
         'Лучшее сочетание цены/качества вокруг, все по домашнему. Всегда отличный плов. Самса трех видов.',
       tags: ['osh'],
@@ -40,6 +46,8 @@ export default {
       label: 'Karimbek',
       location: [39.64718, 66.936771],
       yandexMap: 'https://yandex.uz/maps/org/234049585658',
+      googleMap:
+        'https://www.google.com/maps/place/Restaurant+%22KARIMBEK%22/@39.6470808,66.9359243,18.19z/data=!4m5!3m4!1s0x3f4d19305dfeb121:0x61ccc6c919db3bce!8m2!3d39.6471829!4d66.9367347',
       description: 'Вкусно, хорошее обслуживание, уютная веранда',
       phones: ['+998 66 237 77 39'],
       tags: ['beer'],
@@ -56,6 +64,8 @@ export default {
       label: 'Розмарин',
       location: [39.675135, 66.928181],
       yandexMap: 'https://yandex.uz/maps/org/80972462029',
+      googleMap:
+        'https://www.google.com/maps/place/Rozmarin/@39.6749983,66.9260022,17z/data=!3m1!4b1!4m5!3m4!1s0x3f4d1907425399f5:0x6dd77cfd5b0e84c!8m2!3d39.6749983!4d66.9281909',
       description: 'Вкусно и недорого, плов только по будням',
       tags: ['osh', 'beer'],
     },

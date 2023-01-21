@@ -7,6 +7,8 @@ export default {
       label: 'Капиталбанк',
       location: [39.661755, 66.931671],
       yandexMap: 'https://yandex.uz/maps/org/44437340908',
+      googleMap:
+        'https://www.google.com/maps/place/Kapitalbank/@39.6616321,66.9292972,16.81z/data=!4m5!3m4!1s0x3f4d191474642f3f:0x5154c6ac495c16f0!8m2!3d39.6617394!4d66.9315682',
       web: 'https://kapitalbank.uz/ru/',
       facebook: 'https://facebook.com/kapitalbank.uz',
       youtube: 'https://www.youtube.com/channel/UCKC7eEVm_l8NPQcELlJjq4w/',
@@ -21,6 +23,8 @@ export default {
       label: 'Алокабанк',
       location: [39.655918, 66.961566],
       yandexMap: 'https://yandex.uz/maps/org/32297819945/',
+      googleMap:
+        'https://www.google.com/maps/place/Aloqabank/@39.6560029,66.9571565,17z/data=!3m1!4b1!4m5!3m4!1s0x3f4d18db1e2c338f:0x75c74d13c30c1635!8m2!3d39.656003!4d66.9613837',
       web: 'https://aloqabank.uz/',
       phones: ['+998 66 231 10 00', '+998 66 231 59 00'],
       telegram: 'https://t.me/aloqabank',
@@ -54,6 +58,8 @@ export default {
       label: 'Хамкорбанк (Золотая корона)',
       location: [39.646404, 66.929079],
       yandexMap: 'https://yandex.uz/maps/org/160218650277/',
+      googleMap:
+        'https://www.google.com/maps/place/Hamkorbank/@39.6464858,66.924767,17z/data=!3m1!4b1!4m5!3m4!1s0x3f4d19378c98573b:0x27c7669adb4e596e!8m2!3d39.6464859!4d66.9289942',
       web: 'https://hamkorbank.uz/',
       description: 'С собой паспорт, оригинал регистрации и ПИНФЛ',
     },
