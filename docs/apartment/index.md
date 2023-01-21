@@ -10,9 +10,11 @@
 
 Начинать поиск надо с
 [olx.uz](https://www.olx.uz/d/nedvizhimost/kvartiry/samarkand/). Или сразу
-написать [icon-telegram проверенному риелтору](https://t.me/Ilmira_Alievna).
-Квартиры от собственников попадаются не часто, риелтор берет 50% от суммы аренды
-за первый месяц. [Описание районов](districts.md)
+написать проверенным риелторам
+[icon-telegram&#8288;Ilmira_Alievna](https://t.me/Ilmira_Alievna),
+[icon-telegram&#8288;Maykl_Reverson](https://t.me/Maykl_Reverson). Квартиры от
+собственников попадаются не часто, риелтор берет 50% от суммы аренды за первый
+месяц. [Описание районов](districts.md)
 
 Местные особенности аренды:
 
