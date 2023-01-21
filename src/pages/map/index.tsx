@@ -1,7 +1,6 @@
 import { useLocation } from '@docusaurus/router';
 import SidebarStyles from '@docusaurus/theme-classic/lib/theme/DocPage/Layout/Sidebar/styles.module.css';
 import { ThemeClassNames } from '@docusaurus/theme-common';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { getPlacemarkItems, getSidebarItems } from '@site/map';
 import { placemarkMatchesUrl } from '@site/src/pages/map/lib/helpers';
 import DocSidebar from '@theme/DocSidebar';
@@ -14,7 +13,6 @@ import styles from './styles.module.css';
 const placemarks = getPlacemarkItems();
 
 export default function Map() {
-  const { siteConfig } = useDocusaurusContext();
   const location = useLocation();
   useMenuHighlighting();
 
@@ -28,7 +26,7 @@ export default function Map() {
   return (
     <Layout
       noFooter
-      title={`Карта Самарканда | ${siteConfig.title}`}
+      title="Карта Самарканда"
       wrapperClassName={styles.container}
     >
       <main className={styles.main}>
