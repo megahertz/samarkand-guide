@@ -4,6 +4,7 @@ export default {
   id: 'school',
   label: 'Частные школы',
   type: 'category',
+  icon: 'islands#darkBlueEducationIcon',
   items: [
     {
       id: 'redbridge',
