@@ -88,14 +88,14 @@ export function mapItemToPlacemarkItems(
   if ((item as MapCategory).type === 'category') {
     const category = item as MapCategory;
 
-    const children = [];
+    const children: PlacemarkItem[] = [];
     for (const child of category.items) {
       children.push(
         ...mapItemToPlacemarkItems(child, { parentIcon: icon, parentIds: ids }),
       );
     }
 
-    return children;
+    return children.filter((c) => c.location);
   }
 
   const object = item as MapPlace;

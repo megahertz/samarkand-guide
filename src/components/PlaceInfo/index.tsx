@@ -1,6 +1,7 @@
 import IconLink from '@site/src/components/IconLink';
 import Phone from '@site/src/components/Phone';
 import { MapPlace } from '@site/map/lib/types';
+import Price from '@site/src/components/Price';
 import React from 'react';
 import { getPlacesById } from '@site/map';
 import Container from '@theme/CodeBlock/Container';
@@ -19,24 +20,60 @@ export default function PlaceInfo({ id }: { id: string }) {
 function Place({ place }: { place: MapPlace }) {
   return (
     <Container as="div" className={styles.container}>
-      <div className={styles.title}>{place.label}</div>
+      <h3 className={styles.title}>{place.label}</h3>
       <div>{place.description}</div>
-      <div>
-        <IconLink name="yandex-maps" href={place.yandexMap} />
-        <IconLink name="web" href={place.web} />
-        <IconLink name="telegram" href={place.telegram} />
-        <IconLink name="instagram" href={place.instagram} />
-      </div>
-      {place.phones?.length > 0 && (
-        <div>
-          {place.phones.map((phone, index) => (
-            <>
-              <Phone key={phone} number={phone} />
-              {index < place.phones.length - 1 && ', '}
-            </>
-          ))}
-        </div>
-      )}
+      <PlacePrices place={place} />
+      <PlacePhones place={place} />
+      <PlaceLinks place={place} />
     </Container>
+  );
+}
+
+export function PlaceLinks({ place }: { place: MapPlace }) {
+  return (
+    <div>
+      <IconLink name="yandex-maps" href={place.yandexMap} />
+      <IconLink name="web" href={place.web} />
+      <IconLink name="telegram" href={place.telegram} />
+      <IconLink name="instagram" href={place.instagram} />
+    </div>
+  );
+}
+
+function PlacePhones({ place }: { place: MapPlace }) {
+  if (!Array.isArray(place.phones) || place.phones.length === 0) {
+    return null;
+  }
+
+  return (
+    <div>
+      {place.phones.map((phone, index) => (
+        <>
+          <Phone key={phone} number={phone} />
+          {index < place.phones.length - 1 && ', '}
+        </>
+      ))}
+    </div>
+  );
+}
+
+function PlacePrices({ place }: { place: MapPlace }) {
+  if (!Array.isArray(place.price) || place.price.length === 0) {
+    return null;
+  }
+
+  if (place.price.length === 1) {
+    return (
+      <div className={styles.price}>
+        <Price>{place.price[0].toString()}</Price>{' '}
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.price}>
+      <Price>{place.price[0].toString()}</Price> —&nbsp;
+      <Price>{place.price[1].toString()}</Price>
+    </div>
   );
 }

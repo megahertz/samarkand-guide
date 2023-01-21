@@ -2,6 +2,10 @@
   padding: var(--ifm-pre-padding);
 }
 
+.price {
+  margin: var(--ifm-pre-padding) 0;
+}
+
 .title {
-  font-weight: var(--ifm-font-weight-bold);
+  font-weight: normal;
 }
