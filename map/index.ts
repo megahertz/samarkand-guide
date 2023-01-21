@@ -5,13 +5,8 @@ import {
   isPlace,
   mapItemToPlacemarkItems,
   mapItemToSidebarItem,
-} from '@site/src/pages/map/lib/helpers';
-import {
-  MapCategory,
-  MapItem,
-  MapPlace,
-  PlacemarkItem,
-} from '@site/src/pages/map/lib/types';
+} from '@site/map/lib/helpers';
+import { MapCategory, MapPlace, PlacemarkItem } from '@site/map/lib/types';
 import cafe from './cafe';
 import children from './children';
 import communication from './communication';

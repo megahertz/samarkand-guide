@@ -2,7 +2,7 @@ import { useLocation } from '@docusaurus/router';
 import SidebarStyles from '@docusaurus/theme-classic/lib/theme/DocPage/Layout/Sidebar/styles.module.css';
 import { ThemeClassNames } from '@docusaurus/theme-common';
 import { getPlacemarkItems, getSidebarItems } from '@site/map';
-import { placemarkMatchesUrl } from '@site/src/pages/map/lib/helpers';
+import { placemarkMatchesUrl } from '@site/map/lib/helpers';
 import DocSidebar from '@theme/DocSidebar';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';

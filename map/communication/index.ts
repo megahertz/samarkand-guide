@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/src/pages/map/lib/types';
+import { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'communication',

@@ -15,7 +15,9 @@
     "lint:types": "tsc",
     "postversion": "git push --follow-tags",
     "serve": "docusaurus serve -h 0.0.0.0",
-    "start": "docusaurus start -h 0.0.0.0"
+    "start": "docusaurus start -h 0.0.0.0",
+    "test": "vitest run",
+    "test:full": "npm run test && npm run lint"
   },
   "browserslist": {
     "production": [
@@ -74,6 +76,7 @@
     "eslint-plugin-unicorn": "^45.0.2",
     "prettier": "^2.8.1",
     "spech": "^0.2.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "vitest": "^0.27.3"
   }
 }

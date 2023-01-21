@@ -1,6 +1,6 @@
 import IconLink from '@site/src/components/IconLink';
 import Phone from '@site/src/components/Phone';
-import { MapPlace } from '@site/src/pages/map/lib/types';
+import { MapPlace } from '@site/map/lib/types';
 import React from 'react';
 import { getPlacesById } from '@site/map';
 import Container from '@theme/CodeBlock/Container';

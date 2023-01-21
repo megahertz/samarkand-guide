@@ -1,5 +1,5 @@
 import kindergartens from '@site/map/children/kindergartens';
-import { MapCategory } from '@site/src/pages/map/lib/types';
+import { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'children',

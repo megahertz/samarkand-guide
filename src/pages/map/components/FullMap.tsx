@@ -4,7 +4,7 @@ import {
   Placemark,
   TypeSelector,
 } from '@pbe/react-yandex-maps';
-import { PlacemarkItem } from '@site/src/pages/map/lib/types';
+import { PlacemarkItem } from '@site/map/lib/types';
 import React from 'react';
 import styles from './styles.module.css';
 

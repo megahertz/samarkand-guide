@@ -5,7 +5,7 @@ import {
   MapItem,
   MapPlace,
   PlacemarkItem,
-} from '@site/src/pages/map/lib/types';
+} from '@site/map/lib/types';
 
 export function filterItems(
   rootItem: MapItem,
@@ -120,6 +120,7 @@ export function placemarkMatchesUrl(
   }
 
   const lastPath = url.split('/').pop();
+  // noinspection RedundantIfStatementJS
   if (placemark.tags.includes(lastPath)) {
     return true;
   }

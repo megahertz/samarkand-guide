@@ -1,5 +1,5 @@
 import household from '@site/map/market/household';
-import { MapCategory } from '@site/src/pages/map/lib/types';
+import { MapCategory } from '@site/map/lib/types';
 import malls from './malls';
 
 export default {

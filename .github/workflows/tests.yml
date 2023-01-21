@@ -18,4 +18,4 @@ jobs:
           node-version: 16.14
 
       - run: npm ci
-      - run: npm run lint
+      - run: npm run test:full

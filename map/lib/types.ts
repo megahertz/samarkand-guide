@@ -1,12 +1,14 @@
 export interface MapPlace {
   description?: string;
   facebook?: string;
+  googleMap?: string;
   icon?: MapIcon;
   id?: string;
   instagram?: string;
   label: string;
-  location: [number, number];
+  location?: [number, number];
   phones?: string[];
+  price?: number[];
   tags?: string[];
   telegram?: string;
   vkontakte?: string;
