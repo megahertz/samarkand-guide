@@ -31,11 +31,14 @@ function Place({ place }: { place: MapPlace }) {
 
 export function PlaceLinks({ place }: { place: MapPlace }) {
   return (
-    <div>
+    <div className={styles.links}>
       <IconLink name="yandex-maps" href={place.yandexMap} />
+      <IconLink name="google-maps" href={place.googleMap} />
       <IconLink name="web" href={place.web} />
       <IconLink name="telegram" href={place.telegram} />
       <IconLink name="instagram" href={place.instagram} />
+      <IconLink name="youtube" href={place.youtube} />
+      <IconLink name="vkontakte" href={place.vkontakte} />
     </div>
   );
 }

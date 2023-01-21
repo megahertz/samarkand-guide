@@ -8,15 +8,28 @@ export default function Icon({
   name: IconName;
   size?: number;
 }) {
+  const proportion = proportions[name] || 1;
+  const height = Math.round(size / proportion);
   return (
     <img
       className={styles.root}
       alt={name}
-      height={size}
+      height={height}
       src={`/img/icons/${name}.svg`}
       width={size}
     />
   );
 }
 
-export type IconName = 'instagram' | 'telegram' | 'web' | 'yandex-maps';
+const proportions = {
+  youtube: 159 / 110,
+};
+
+export type IconName =
+  | 'google-maps'
+  | 'instagram'
+  | 'telegram'
+  | 'vkontakte'
+  | 'web'
+  | 'yandex-maps'
+  | 'youtube';
