@@ -1,7 +1,7 @@
 import Layout from '@theme/Layout';
 import MDXContent from '@theme/MDXContent';
 import React from 'react';
-import Content from './components/content.md';
+import Content from './content.md';
 import styles from './styles.module.css';
 
 export default function LinksPage() {
