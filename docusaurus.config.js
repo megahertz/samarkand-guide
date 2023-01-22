@@ -102,8 +102,7 @@ module.exports = {
                 href: 'https://github.com/megahertz/samarkand-guide',
               },
               {
-                label: 'Обсуждение',
-                href: 'https://github.com/megahertz/samarkand-guide/discussions',
+                html: `<a class="footer__link-item" href="https://t.me/+siNb3mlgRS1hMDYy" target="_blank" rel="noopener noreferrer"><img class="root_orbT" alt="telegram" height="16" src="/img/icons/telegram.svg" width="16"> Обсуждение</a>`,
               },
             ],
           },
