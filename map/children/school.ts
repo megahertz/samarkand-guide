@@ -61,5 +61,20 @@ export default {
       phones: ['+998 (99) 207-01-17'],
       description: 'С 5 по 11 класс.',
     },
+    {
+      label: 'Oxford International School',
+      location: [39.647376, 66.934152],
+      yandexMap:
+        'https://yandex.com/maps/org/oxford_international_school/107766877240/',
+      googleMap:
+        'https://www.google.com/maps/place/Oxford+International+School/@39.6469708,66.9334618,15z/data=!4m2!3m1!1s0x0:0x6822a0faef8e9dc6?sa=X&ved=2ahUKEwjs_KOK39r8AhVNgf0HHYakAbQQ_BJ6BAhSEAg',
+      web: 'http://www.oischool.uz/',
+      telegram: 'https://t.me/oischooluz',
+      instagram: 'https://www.instagram.com/oischool.uz/',
+      facebook: 'https://www.facebook.com/oischool.uz',
+      price: [3000000],
+      phones: ['+998 95 411 00 22'],
+      description: 'С 9 по 11 класс.',
+    },
   ],
 } as MapCategory;
