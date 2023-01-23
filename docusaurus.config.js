@@ -68,6 +68,13 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {
+          name: 'og:image',
+          content:
+            'https://samarkand-guide.com/assets/images/registan1-37b86e2df0da265624c14400c2940f68.jpg',
+        },
+      ],
       navbar: {
         title: 'SamGuide',
         logo: { alt: 'Samarkand Guide Logo', src: 'img/logo.svg' },
