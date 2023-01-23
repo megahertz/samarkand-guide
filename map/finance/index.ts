@@ -4,6 +4,7 @@ export default {
   id: 'finance',
   items: [
     {
+      id: 'kapitalbank',
       label: 'Капиталбанк',
       location: [39.661755, 66.931671],
       yandexMap: 'https://yandex.uz/maps/org/44437340908',
