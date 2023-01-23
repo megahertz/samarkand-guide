@@ -1,7 +1,7 @@
 import { MapCategory } from '@site/map/lib/types';
 
 export default {
-  id: 'malls',
+  id: 'mall',
   label: 'Торговые центры',
   type: 'category',
   items: [
