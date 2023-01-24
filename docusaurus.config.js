@@ -23,7 +23,6 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
 
   organizationName: 'megahertz',
   projectName: 'samarkand-guide',
@@ -31,6 +30,25 @@ module.exports = {
   i18n: { defaultLocale: 'ru', locales: ['ru'] },
 
   plugins: ['docusaurus-plugin-image-zoom'],
+
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: { href: '/favicon.ico', rel: 'icon', sizes: 'any' },
+    },
+    {
+      tagName: 'link',
+      attributes: { href: '/img/logo.svg', rel: 'icon', type: 'image/svg+xml' },
+    },
+    {
+      tagName: 'link',
+      attributes: { href: '/img/logo-180.png', rel: 'apple-touch-icon' },
+    },
+    {
+      tagName: 'link',
+      attributes: { href: '/manifest.webmanifest', rel: 'manifest' },
+    },
+  ],
 
   presets: [
     [
