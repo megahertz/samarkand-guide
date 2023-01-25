@@ -29,3 +29,15 @@
 .medium-zoom-overlay {
   z-index: 200;
 }
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+}
+
+.markdown>h2 {
+  --ifm-h2-font-size: 1.6rem;
+}
+
+.markdown>h3 {
+  --ifm-h3-font-size: 1.2rem;
+}
