@@ -2,12 +2,14 @@
 
 const visit = require('unist-util-visit');
 
-module.exports = placePlugin;
+module.exports = mapPlugin;
 
 const importStatement =
+  "import { InlineMap } from '@site/src/components/map';" +
+  '\n' +
   "import PlaceInfo from '@site/src/components/PlaceInfo';";
 
-function placePlugin() {
+function mapPlugin() {
   return (root) => {
     visit(root, null, (node) => {
       if (!node.value?.includes('@@')) {
@@ -15,7 +17,10 @@ function placePlugin() {
       }
 
       node.type = 'jsx';
-      node.value = node.value.replace(/@@([\w-]+)/g, '<PlaceInfo id="$1" />');
+
+      node.value = node.value
+        .replace(/@@@([\w-]+)/g, '<InlineMap itemId="$1" />')
+        .replace(/@@([\w-]+)/g, '<PlaceInfo id="$1" />');
 
       if (root.children[0]?.value !== importStatement) {
         root.children.unshift({

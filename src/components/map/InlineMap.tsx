@@ -6,9 +6,9 @@ import styles from './InlineMap.module.css';
 
 export default function InlineMap({
   itemId,
-  location = [39.683059, 66.949177],
+  location,
   showLabels = true,
-  zoom = 12,
+  zoom,
 }: {
   itemId: string;
   location?: [number, number];

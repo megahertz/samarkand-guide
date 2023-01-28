@@ -1,5 +1,3 @@
-import { InlineMap } from '@site/src/components/map';
-
 # Топонимы
 
 Местные жители не привыкли ориентироваться в городе по адресам. Вместо этого
@@ -55,4 +53,4 @@ import { InlineMap } from '@site/src/components/map';
 
 ## Топонимы на карте
 
-<InlineMap itemId="toponyms" location={[39.662047, 66.95272]} zoom={13} />
+@@@toponyms
