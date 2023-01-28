@@ -1,3 +1,5 @@
+import { IconName } from '@site/src/components/Icon';
+
 export interface MapPlace {
   description?: string;
   facebook?: string;
@@ -9,6 +11,7 @@ export interface MapPlace {
   location?: [number, number];
   phones?: string[];
   price?: number[];
+  showLabel?: boolean;
   tags?: string[];
   telegram?: string;
   vkontakte?: string;
@@ -26,12 +29,13 @@ export interface MapCategory {
 }
 
 export interface PlacemarkItem {
+  body: string;
   id: string;
   icon: MapIcon;
   label: string;
   location: [number, number];
+  showLabel: boolean;
   tags: string[];
-  description: string;
 }
 
 export type MapItem = MapCategory | MapPlace;
@@ -124,4 +128,5 @@ type IconBadge =
   | 'Zoo'
 
   // Other
+  | 'CircleDot'
   | 'Dot';

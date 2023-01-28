@@ -1,4 +1,5 @@
 import { PropSidebarItem } from '@docusaurus/plugin-content-docs';
+import city from '@site/map/city';
 import {
   findItemById,
   getChildPlaces,
@@ -6,7 +7,12 @@ import {
   mapItemToPlacemarkItems,
   mapItemToSidebarItem,
 } from '@site/map/lib/helpers';
-import { MapCategory, MapPlace, PlacemarkItem } from '@site/map/lib/types';
+import {
+  MapCategory,
+  MapItem,
+  MapPlace,
+  PlacemarkItem,
+} from '@site/map/lib/types';
 import cafe from './cafe';
 import children from './children';
 import communication from './communication';
@@ -18,11 +24,15 @@ const rootItem: MapCategory = {
   id: '',
   label: 'Карта Самарканда',
   type: 'category',
-  items: [cafe, market, finance, communication, transport, children],
+  items: [cafe, market, finance, communication, transport, children, city],
 };
 
+export function getItemById(id: string): MapItem | null {
+  return findItemById(rootItem, id);
+}
+
 export function getPlacesById(id: string): MapPlace[] {
-  const item = findItemById(rootItem, id);
+  const item = getItemById(id);
   return isPlace(item) ? [item as MapPlace] : getChildPlaces(item);
 }
 

@@ -26,6 +26,7 @@ const proportions = {
 };
 
 export type IconName =
+  | 'facebook'
   | 'google-maps'
   | 'instagram'
   | 'telegram'

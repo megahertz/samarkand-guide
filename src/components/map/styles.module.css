@@ -1,0 +1,5 @@
+.mapBody {
+  display: flex;
+  flex: 1 auto;
+  overflow: hidden;
+}

@@ -6,6 +6,7 @@ import {
   MapPlace,
   PlacemarkItem,
 } from '@site/map/lib/types';
+import { renderPlace } from '@site/src/components/PlaceInfo/PlaceBody';
 
 export function filterItems(
   rootItem: MapItem,
@@ -22,7 +23,11 @@ export function filterItems(
   return found;
 }
 
-export function findItemById(rootItem: MapItem, id: string): MapItem {
+export function findItemById(rootItem: MapItem, id: string): MapItem | null {
+  if (!id) {
+    throw new Error('findItemById requires a non empty id to be set');
+  }
+
   const [found] = filterItems(rootItem, (i) => i.id === id || i.label === id);
   return found || null;
 }
@@ -98,15 +103,16 @@ export function mapItemToPlacemarkItems(
     return children.filter((c) => c.location);
   }
 
-  const object = item as MapPlace;
+  const place = item as MapPlace;
   return [
     {
-      description: object.description,
+      body: renderPlace(place),
       icon,
       id: ids.join('/'),
-      label: object.label,
-      location: object.location,
-      tags: [...ids, ...(object.tags || [])],
+      label: place.label,
+      location: place.location,
+      showLabel: Boolean(place.showLabel),
+      tags: [...ids, ...(place.tags || [])],
     },
   ];
 }

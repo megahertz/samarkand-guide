@@ -7,12 +7,12 @@ import DocSidebar from '@theme/DocSidebar';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import React, { useEffect } from 'react';
-import FullMap from './components/FullMap';
+import { Map } from '../../components/map';
 import styles from './styles.module.css';
 
 const placemarks = getPlacemarkItems();
 
-export default function Map() {
+export default function MapPage() {
   const location = useLocation();
   useMenuHighlighting();
 
@@ -43,7 +43,7 @@ export default function Map() {
             path="/map"
           />
         </aside>
-        <FullMap placemarks={selectedPlacemarks} />
+        <Map placemarks={selectedPlacemarks} />
       </main>
     </Layout>
   );
