@@ -14,6 +14,8 @@
 - [icon-telegram Чат про D&D и Warhammer](https://t.me/+AjIYeJdKNkc3ZjUy)
 - [icon-telegram Чат о походах в горы](https://t.me/PogoramSamarkanda)
 - [icon-telegram Чат про футбол](https://t.me/+QUCCGv7Xiz4yNmI6)
+- [icon-telegram Добрые сердца](https://t.me/dobryeserca) - чат волонтеров
+  помогающих нуждающимся
 - [icon-telegram Samarkand & Самаркандцы](https://t.me/Samarkand100), для
   местных, половина постов на узбекском
 
@@ -30,6 +32,7 @@
 - [icon-telegram Чат Барахолка](https://t.me/+97S8OehBAeRkYzM6)
 - [icon-telegram Чат про Бухару](https://t.me/relocationuzbukhara)
 - [icon-telegram Чат про деньги](https://t.me/+ZwEXOUVdhE40MGUy)
+- [icon-telegram Чат про бизнес](https://t.me/relocationuzbusiness)
 - [icon-telegram Чат про IT](https://t.me/+HnxP0Ru23jMzM2Iy)
 - [icon-telegram Чат для бегунов](https://t.me/relocationuzrun)
 - [icon-telegram Чат для любителей горнолыжных видов спорта](https://t.me/relocationuzriders)
