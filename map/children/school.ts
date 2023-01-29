@@ -76,5 +76,18 @@ export default {
       phones: ['+998 95 411 00 22'],
       description: 'С 9 по 11 класс.',
     },
+    {
+      id: 'tymur-fayz',
+      label: 'Tymur Fayz',
+      location: [39.650247, 66.940067],
+      yandexMap: 'https://yandex.uz/maps/org/4375381747/',
+      googleMap:
+        "https://www.google.com/maps/place/%22Timur+Fayz%22+nodavlat+maktabgacha+va+umumta'lim+muassasasi/@39.6502183,66.9398805,15z/data=!4m2!3m1!1s0x0:0xb26a8e95294b497c?sa=X&ved=2ahUKEwiA9bq7xuz8AhXRt6QKHbuOAEgQ_BJ6BAhGEAg",
+      telegram: 'https://t.me/timurfayzscholl',
+      instagram: 'https://www.instagram.com/timurfayz.uz/',
+      phones: ['+998 (93) 035-41-50'],
+      description:
+        'Школа и детский сад. Хвалят за то что нагрузка не такая тяжелая как в других частных школах.',
+    },
   ],
 } as MapCategory;
