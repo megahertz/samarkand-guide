@@ -33,15 +33,21 @@ export default {
       description:
         'Трехразовое питание, кормят, с памперсом помогают, ' +
         'переодевают и вообще очень нежное отношение к детям, полностью ' +
-        'русскоговорящий персонал, видеонаблюдение.',
-      phones: ['+998 (90) 466-66-63'],
-      yandexMap: 'https://yandex.uz/maps/org/17687080372/',
+        'русскоговорящий персонал, видеонаблюдение. Так-же подготовка к ' +
+        'школе и начальная школа с 1 по 4 класс.',
+      phones: ['+998 (91) 229-09-92'],
+      yandexMap: 'https://yandex.uz/maps/org/76320782472/',
+      telegram: 'https://t.me/+yT1d51nK0PU5ZDAy',
+      instagram: 'https://www.instagram.com/glc.company/',
+      facebook: 'https://www.facebook.com/groups/891478632049789',
+      youtube: 'https://www.youtube.com/@glc147/about',
     },
     {
       label: 'Golden Kids',
       location: [39.657199, 66.933438],
       description:
-        'Садик полностью заполнен, поэтому попасть в него сложно. Набирают только в филиал в Саттепо.',
+        'Садик полностью заполнен, поэтому попасть в него сложно. Набирают ' +
+        'только в филиал в Саттепо.',
       yandexMap: 'https://yandex.uz/maps/org/sam_golden_kids/155836620224/',
       googleMap:
         'https://www.google.com/maps/place/Golden+kids/@39.6572441,66.9335268,15z/data=!4m5!3m4!1s0x0:0xdb8a435d17ebeda9!8m2!3d39.6572441!4d66.9335268',

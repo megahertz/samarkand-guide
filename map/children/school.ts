@@ -77,6 +77,22 @@ export default {
       description: 'С 9 по 11 класс.',
     },
     {
+      label: 'GLC',
+      location: [39.670234, 66.92951],
+      price: [1800000],
+      description:
+        'С 1 по 4 класс. Также учебный центр и садик. Основной ' +
+        'офис на Рудаки, дополнительный на Беруни',
+      phones: ['+998 (91) 229-09-92'],
+      yandexMap: 'https://yandex.uz/maps/-/CCU7mHhOxC',
+      googleMap:
+        'https://www.google.com/maps/place/Global+language+center/@39.6792315,66.9388802,19.19z/data=!4m5!3m4!1s0x0:0xc662b216a098b3d5!8m2!3d39.6793642!4d66.9391772',
+      telegram: 'https://t.me/+yT1d51nK0PU5ZDAy',
+      instagram: 'https://www.instagram.com/glc.company/',
+      facebook: 'https://www.facebook.com/groups/891478632049789',
+      youtube: 'https://www.youtube.com/@glc147/about',
+    },
+    {
       id: 'tymur-fayz',
       label: 'Tymur Fayz',
       location: [39.650247, 66.940067],
@@ -87,7 +103,8 @@ export default {
       instagram: 'https://www.instagram.com/timurfayz.uz/',
       phones: ['+998 (93) 035-41-50'],
       description:
-        'Школа и детский сад. Хвалят за то что нагрузка не такая тяжелая как в других частных школах.',
+        'Школа и детский сад. Хвалят за то что нагрузка не такая тяжелая как ' +
+        'в других частных школах.',
     },
   ],
 } as MapCategory;
