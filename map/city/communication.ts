@@ -2,6 +2,9 @@ import { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'communication',
+  icon: 'islands#redPostIcon',
+  label: 'Связь',
+  type: 'category',
   items: [
     {
       label: 'Главпочтамт',
@@ -20,7 +23,4 @@ export default {
       description: 'Центральный офис, симку лучше делать здесь.',
     },
   ],
-  icon: 'islands#redPostIcon',
-  label: 'Связь',
-  type: 'category',
 } as MapCategory;

@@ -15,7 +15,6 @@ import {
 } from '@site/map/lib/types';
 import cafe from './cafe';
 import children from './children';
-import communication from './communication';
 import finance from './finance';
 import market from './market';
 import transport from './transport';
@@ -24,7 +23,7 @@ const rootItem: MapCategory = {
   id: '',
   label: 'Карта Самарканда',
   type: 'category',
-  items: [cafe, market, finance, communication, transport, children, city],
+  items: [cafe, market, finance, transport, children, city],
 };
 
 export function getItemById(id: string): MapItem | null {

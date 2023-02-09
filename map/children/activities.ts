@@ -51,5 +51,64 @@ export default {
         'выходного дня здесь достаточно шумно. Тем не менее, стоит сходить ' +
         'на колесо обозрения. С утра здесь относительно тихо и немноголюдно.',
     },
+    {
+      label: 'Центр развития ребенка Станция юных техников',
+      location: [39.656288, 66.923384],
+      yandexMap:
+        'https://yandex.uz/maps/org/tsentr_razvitiya_rebyonka/52375842411/',
+      description:
+        'Множество различных детских секций собранных в одном ' +
+        'месте. Очень демократичные цены.',
+    },
+    {
+      label: 'Бассейн Дельфин',
+      location: [39.655831, 66.923915],
+      yandexMap: 'https://yandex.uz/maps/org/243700447513/',
+      googleMap:
+        'https://www.google.com/maps/place/DELFIN/@39.6561153,66.9234573,18.42z/data=!4m6!3m5!1s0x3f4d196a7dc2b8b1:0xeb1376151e343507!8m2!3d39.6559469!4d66.924248!16s%2Fg%2F1hdzmstp8',
+      description:
+        'Бассейн для взрослых и детей. Можно брать занятия у тренера. ' +
+        'Правда, не очень хорошо отзываются о чистоте воды.',
+    },
+    {
+      label: 'Детская футбольная секция',
+      location: [39.682856, 66.925868],
+      telegram: 'https://t.me/samarkand_football_school',
+      yandexMap: 'https://yandex.uz/maps/-/CCUC4SwkwD',
+      description:
+        'Тренер: Харейдинов Азат Алиевич. Идёт набор в возрастные ' +
+        'группы: 4-6 лет, 7-9 лет, ️10-13 лет, 14 лет и старше',
+    },
+    {
+      label: 'Familyschool учебный центр',
+      location: [39.649494, 66.934873],
+      yandexMap: 'https://yandex.uz/maps/-/CCUC4Ss6pB',
+      telegram: 'https://t.me/familyschoolsamarkand',
+      phones: ['+998930393000', '+998930393999'],
+      description: 'Мастер-классы, уроки рисования и т.п.',
+    },
+    {
+      label: 'Интересная суббота',
+      location: [39.656027, 66.957766],
+      yandexMap: 'https://yandex.uz/maps/-/CCUC4WGM-B',
+      telegram: 'https://t.me/interesnayasubbota',
+      phones: ['+998901960880'],
+      description:
+        'Для всех, кто любит творить, предлагает мастер классы ' +
+        'в различных направлениях: декупаж, свечи, уф смола, живопись ' +
+        'и многое другое.',
+    },
+    {
+      label: 'Детская библиотека',
+      location: [39.65098, 66.95217],
+      yandexMap: 'https://yandex.uz/maps/org/111109499805/',
+      googleMap:
+        'https://www.google.com/maps/place/Samarqand+viloyat+bolalar+kutubxonasi/@39.6515348,66.9518127,18.16z/data=!4m6!3m5!1s0x3f4d19d9d026f2d7:0x8c9069e20207e401!8m2!3d39.6510074!4d66.9522772!16s%2Fg%2F11ptvdm6ss',
+      phones: ['+998 66 233 17 81'],
+      description:
+        'Книг на русском немного, но есть из чего выбрать. ' +
+        'Регистрация делается быстро, нужен только загран паспорт. Книги ' +
+        'выдают на 10 дней, можно продлевать по телефону.',
+    },
   ],
 } as MapCategory;

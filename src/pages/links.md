@@ -17,8 +17,10 @@
 - [icon-telegram Чат о походах в горы](https://t.me/PogoramSamarkanda)
 - [icon-telegram Чат про футбол](https://t.me/+QUCCGv7Xiz4yNmI6)
 - [icon-telegram Чат футбольной секции для детей](https://t.me/samarkand_football_school)
-- [icon-telegram Добрые сердца](https://t.me/dobryeserca) - чат волонтеров
+- [icon-telegram Добрые сердца](https://t.me/dobryeserca), чат волонтеров
   помогающих нуждающимся
+- [icon-telegram Чат Лечу, 🛫 захвачу, Самарканд](https://t.me/samarkandlechu)
+  если надо что-то срочно передать в/из Самарканда
 - [icon-telegram Канал Samarkand & Самаркандцы](https://t.me/Samarkand100), для
   местных, половина постов на узбекском
 - [icon-telegram Чат TravelAsk Самарканд](https://t.me/+8sGIAkzoVAM5MGUy)
