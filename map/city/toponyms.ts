@@ -56,10 +56,21 @@ export default {
     },
     {
       label: 'Аэропорт',
-      location: [39.683595, 66.986118],
+      location: [39.691658, 66.989574],
       icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/10334/samarkand/geo/1522495016/',
+      yandexMap: 'https://yandex.uz/maps/-/CCUCUWQG3A',
       description: 'Район вокруг улицы Ибн Сины, которая упирается в аэропорт.',
+    },
+    {
+      label: 'За линией',
+      location: [39.688565, 66.929397],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUCUKHkgD',
+      description:
+        'Имеется ввиду пространство за железнодорожной линией к северу от ЖД ' +
+        'вокзала. По большей части, здесь находятся махалли. Попасть туда ' +
+        'можно не только на машине через автомобильный мост, но и через ' +
+        'пешеходный мост справа от вокзала.',
     },
     {
       label: 'Поворот',
@@ -86,8 +97,8 @@ export default {
       icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/10334/samarkand/stops/1543142585/',
       description:
-        'Не знаю историю топонима, но сейчас это одноименный ресторан и ' +
-        'остановка по улице Буюк Ипак Йули.',
+        'Назван в честь одноименного ресторана, так-же здесь находится ' +
+        'одноименная остановка по улице Буюк Ипак Йули.',
     },
     {
       label: 'Панджаб',
@@ -97,12 +108,12 @@ export default {
       description: 'Иранский квартал вокруг иранского медресе.',
     },
     {
-      label: 'Азиз бараз / Строительная',
+      label: 'Азиз базар / Строительная',
       location: [39.669959, 66.937447],
       icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCU7E2B0xA',
       description:
-        'Перекресток Гагарина - проспекта Навои. Раньше здесь был ' +
+        'Перекресток Гагарина - проспекта Навои Шох. Раньше здесь был ' +
         'одноименный рынок, сейчас на его месте строится торговый центр.',
     },
     {
@@ -135,6 +146,22 @@ export default {
       icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCU7IAgI9B',
       description: 'Раньше здесь был спиртзавод, сейчас сквер возле Гур-Эмира.',
+    },
+    {
+      label: 'Оби Рахмат',
+      location: [39.674159, 67.000102],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUCUWbSxA',
+      description: 'Ориентир по названию ресторана.',
+    },
+    {
+      label: 'Еврейская махалля',
+      location: [39.658467, 66.987169],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/223384751825/',
+      description:
+        'Махалля бухарских евреев. Большая часть евреев уже покинула ' +
+        'Самарканд, тем не менее, синагога все еще действует.',
     },
   ],
 } as MapCategory;
