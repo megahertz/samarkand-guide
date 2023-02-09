@@ -155,7 +155,7 @@ export default {
       description: 'Ориентир по названию ресторана.',
     },
     {
-      label: 'Еврейская махалля',
+      label: 'Джувутон / Еврейская махалля',
       location: [39.658467, 66.987169],
       icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/org/223384751825/',
