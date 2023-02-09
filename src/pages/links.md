@@ -1,5 +1,7 @@
 # Полезные ссылки
 
+- [icon-telegram Чат этого сайта](https://t.me/+siNb3mlgRS1hMDYy)
+
 ## Самарканд
 
 - [icon-telegram Чат Релокейшен Самарканд](https://t.me/+7MDLGBy89ZVkNDZi) -
