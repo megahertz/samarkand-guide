@@ -41,3 +41,10 @@
 .markdown>h3 {
   --ifm-h3-font-size: 1.2rem;
 }
+
+.markdown label {
+  display: block;
+  font-size: 90%;
+  margin: -5px 0 var(--ifm-leading);
+  text-align: center;
+}
