@@ -1,4 +1,5 @@
 import { MapCategory } from '@site/map/lib/types';
+import playground from './playground';
 
 export default {
   id: 'activities',
@@ -6,6 +7,7 @@ export default {
   label: 'Детские активности',
   type: 'category',
   items: [
+    playground,
     {
       label: 'Театр Чехова',
       location: [39.652138, 66.924288],
@@ -20,25 +22,6 @@ export default {
       description:
         'Выступления проходят по воскресениям: в 11 детские, в 17 ' +
         'взрослые. Афиша и цены в группе на facebook.',
-    },
-    {
-      label: 'Happy Land',
-      icon: 'islands#darkBlueFoodIcon',
-      location: [39.677479, 66.931349],
-      yandexMap: 'https://yandex.uz/maps/-/CCU7mXQ~lD',
-      instagram: 'https://www.instagram.com/happyland_samarkand/',
-      facebook: 'https://www.facebook.com/happylandsamarkand/',
-      phones: ['+998 (91) 700-33-23'],
-      description:
-        'Огромный комплекс лазилок. Очень вкусная пицца и ' +
-        'цезарь. Могут дополнительно сделать фруктовую тарелку. Режим работы:' +
-        'С 10 до 22 без выходных.',
-    },
-    {
-      label: 'Детская площадка возле SAG',
-      location: [39.679291, 66.90837],
-      yandexMap: 'https://yandex.uz/maps/-/CCU7mLQTTA',
-      description: 'Лучшая детская площадка в Самарканде',
     },
     {
       label: 'Железнодорожный парк (Ёшлик)',

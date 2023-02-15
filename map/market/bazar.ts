@@ -19,7 +19,10 @@ export default {
       yandexMap: 'https://yandex.uz/maps/org/235666538486/',
       googleMap:
         'https://www.google.com/maps/place/Railway+District+Market,+54+Rudakiy+St,+Samarkand+140100,+Uzbekistan/@39.682728,66.9280726,17z/data=!4m5!3m4!1s0x3f4d19a235860f75:0x83f538aab227c67f!8m2!3d39.6825491!4d66.9297392',
-      description: 'Второй по величине рынок.',
+      description:
+        'Второй по величине рынок. Много хозмагов. Самые интересные цены у ' +
+        'продавцов в ближайшем к Беруни ряду, а так-же у тех кто за ' +
+        'пределами рынка, на самой улице Беруни.',
     },
     {
       label: 'ДСК Базар (Damariq)',
@@ -45,7 +48,7 @@ export default {
         'https://yandex.com/web-maps/10334/samarkand/?ll=66.996111%2C39.662310&mode=poi&poi%5Bpoint%5D=66.996225%2C39.662713&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D29763532774&z=17.24',
       googleMap:
         'https://www.google.com/maps/place/Yangi+bozor/@39.6632446,66.9955844,269m/data=!3m1!1e3!4m5!3m4!1s0x3f4d18a7080f0803:0xddc1269f95d57edd!8m2!3d39.6635338!4d66.9963326',
-      description: 'Крупнейший вещевой рынок',
+      description: 'Крупнейший вещевой рынок.',
     },
     {
       label: 'Первая остановка микрорайона',
@@ -60,6 +63,14 @@ export default {
       yandexMap: 'https://yandex.uz/maps/-/CCUzNUHecC',
       description:
         'Не путать с железнодорожным. Он находится слева от вокзала. Недорогая одежда, особенно детская.',
+    },
+    {
+      label: 'Крытый рынок',
+      location: [39.655012, 66.958813],
+      yandexMap:
+        'https://yandex.uz/maps/org/kryty_rynok_bazar_bozori_central_market/191042139990/',
+      description:
+        'Небольшой рынок в центре города. Цены средние. Можно поменять валюту.',
     },
   ],
 } as MapCategory;

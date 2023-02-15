@@ -32,7 +32,14 @@ export function getItemById(id: string): MapItem | null {
 
 export function getPlacesById(id: string): MapPlace[] {
   const item = getItemById(id);
-  return isPlace(item) ? [item as MapPlace] : getChildPlaces(item);
+
+  if (isPlace(item)) {
+    return [item as MapPlace];
+  }
+
+  return (item as MapCategory).items.filter(
+    (child: MapCategory) => child.type !== 'category',
+  );
 }
 
 export function getSidebarItems(currentUrl = 'none'): PropSidebarItem[] {
