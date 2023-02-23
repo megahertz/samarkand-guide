@@ -9,52 +9,20 @@ export default {
   type: 'category',
   items: [
     {
-      label: 'Микрорайон',
-      location: [39.661406, 66.92145],
-      icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7ALrDGC',
-      description: 'Район советских пятиэтажек вокруг улицы Буюк Ипак Йули.',
-    },
-    {
-      label: 'Вокзал',
-      location: [39.682079, 66.928764],
-      icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7ALfHkB',
+      label: 'Азиз базар / Строительная',
+      location: [39.669959, 66.937447],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7E2B0xA',
       description:
-        'Все пространство вокруг железнодорожного вокзала, исключая ' +
-        'территорию за железнодорожной линией.',
+        'Перекресток Гагарина — проспекта Навои Шох. Раньше здесь был ' +
+        'одноименный рынок, сейчас на его месте строится торговый центр.',
     },
     {
-      label: 'Бульвар',
-      location: [39.646514, 66.961418],
-      icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7APgFhC',
-      description:
-        'Прежние названия — Абрамовский Бульвар, Бульвар имени Горького. ' +
-        'Университетский бульвар находится в центральной части Самарканда. ' +
-        'В середине Университетского бульвара расположена аллея из высоких ' +
-        'деревьев, благодаря этой аллее улица разделена на две части.',
-    },
-    {
-      label: 'Согдиана',
-      location: [39.659879, 66.910328],
-      icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7ATq5TA',
-      description: 'Жилой массив к западу от Микрорайона.',
-    },
-    {
-      label: 'Саттепо',
-      location: [39.638453, 66.920034],
-      icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7ATbdPC',
-      description: 'Жилой массив к югу от Микрорайона.',
-    },
-    {
-      label: 'Мотрид/Карасу',
-      location: [39.726768, 66.914152],
-      icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7AXFOKC',
-      description: 'Массив новостроек к северу от вокзала.',
+      label: 'Арак завод',
+      location: [39.651619, 66.969682],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7IAgI9B',
+      description: 'Раньше здесь был спиртзавод, сейчас сквер возле Гур-Эмира.',
     },
     {
       label: 'Аэропорт',
@@ -62,36 +30,6 @@ export default {
       icon: DISTRICT_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCUCUWQG3A',
       description: 'Район вокруг улицы Ибн Сины, которая упирается в аэропорт.',
-    },
-    {
-      label: 'За линией',
-      location: [39.688565, 66.929397],
-      icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCUCUKHkgD',
-      description:
-        'Имеется ввиду пространство за железнодорожной линией к северу от ЖД ' +
-        'вокзала. По большей части, здесь находятся махалли. Попасть туда ' +
-        'можно не только на машине через автомобильный мост, но и через ' +
-        'пешеходный мост справа от вокзала.',
-    },
-    {
-      label: 'Джугутон / Джувутон / Еврейская махалля',
-      location: [39.658467, 66.987169],
-      icon: DISTRICT_ICON,
-      yandexMap: 'https://yandex.uz/maps/org/223384751825/',
-      description:
-        'Махалля бухарских евреев. Большая часть евреев уже покинула ' +
-        'Самарканд, тем не менее, синагога все еще действует. От таджикского ' +
-        '«Джугут», «Джуут» — еврей, "-тон" означает место. В советское ' +
-        'время — квартал "Восток".',
-    },
-    {
-      label: 'Поворот',
-      location: [39.667057, 66.926532],
-      icon: PLACE_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7ETdZOB',
-      description:
-        'Перекресток 4 улиц: Буюк Ипак Йули, Спитамена, Беруни, Улугбека.',
     },
     {
       label: 'Богишамол',
@@ -105,29 +43,54 @@ export default {
         'Но по умолчанию подразумевается именно перекресток.',
     },
     {
-      label: 'Мархабо',
-      location: [39.652536, 66.923094],
-      icon: PLACE_ICON,
-      yandexMap: 'https://yandex.uz/maps/10334/samarkand/stops/1543142585/',
+      label: 'Бульвар',
+      location: [39.646514, 66.961418],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7APgFhC',
       description:
-        'Назван в честь одноименного ресторана, так-же здесь находится ' +
-        'одноименная остановка по улице Буюк Ипак Йули.',
+        'Прежние названия — Абрамовский Бульвар, Бульвар имени Горького. ' +
+        'Университетский бульвар находится в центральной части Самарканда. ' +
+        'В середине Университетского бульвара расположена аллея из высоких ' +
+        'деревьев, благодаря этой аллее улица разделена на две части.',
     },
     {
-      label: 'Панджаб',
-      location: [39.643447, 66.929132],
-      icon: PLACE_ICON,
-      yandexMap: 'https://yandex.uz/maps/org/68385142160/',
-      description: 'Иранский квартал вокруг иранского медресе.',
+      label: 'Вокзал',
+      location: [39.682079, 66.928764],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7ALfHkB',
+      description:
+        'Все пространство вокруг железнодорожного вокзала, исключая ' +
+        'территорию за железнодорожной линией.',
     },
     {
-      label: 'Азиз базар / Строительная',
-      location: [39.669959, 66.937447],
-      icon: PLACE_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7E2B0xA',
+      label: 'Джугутон / Джувутон / Еврейская махалля',
+      location: [39.658467, 66.987169],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/223384751825/',
       description:
-        'Перекресток Гагарина — проспекта Навои Шох. Раньше здесь был ' +
-        'одноименный рынок, сейчас на его месте строится торговый центр.',
+        'Махалля бухарских евреев. Большая часть евреев уже покинула ' +
+        'Самарканд, тем не менее, синагога все еще действует. От таджикского ' +
+        '«Джугут», «Джуут» — еврей, "-тон" означает место. В советское ' +
+        'время — квартал "Восток".',
+    },
+    {
+      label: 'За линией',
+      location: [39.688565, 66.929397],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUCUKHkgD',
+      description:
+        'Имеется ввиду пространство за железнодорожной линией к северу от ЖД ' +
+        'вокзала. По большей части, здесь находятся махалли. Попасть туда ' +
+        'можно не только на машине через автомобильный мост, но и через ' +
+        'пешеходный мост справа от вокзала.',
+    },
+    {
+      label: 'Зоологический',
+      location: [39.653229, 66.973237],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/10334/samarkand/stops/4229125179/',
+      description:
+        'От названия автобусной остановки у зоомагазина, старейшего в городе. От Регистана до поворота на Дагбитскую.',
     },
     {
       label: 'Кишмишка',
@@ -139,26 +102,34 @@ export default {
         'завода когда-то находившегося здесь.',
     },
     {
-      label: 'Старый Билайн / Большой арык',
-      location: [39.673955, 66.926007],
+      label: 'Макаронка',
+      location: [39.664666, 66.952549],
       icon: PLACE_ICON,
-      yandexMap:
-        'https://yandex.uz/maps/10334/samarkand/house/Yk8YfwVmSUUAQF1jfXp2cnVmYQ==/',
-      description: 'Когда-то здесь был офис Билайна, теперь Корзинка Анжир.',
+      yandexMap: 'https://yandex.uz/maps/-/CCUCU8rAcB',
+      description: 'Топоним назван в честь макаронной фабрики.',
     },
     {
-      label: 'Саодат',
-      location: [39.680959, 66.932529],
+      label: 'Мархабо',
+      location: [39.652536, 66.923094],
       icon: PLACE_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7IAE6GD',
-      description: 'По названию ресторана.',
+      yandexMap: 'https://yandex.uz/maps/10334/samarkand/stops/1543142585/',
+      description:
+        'Назван в честь одноименного ресторана, так-же здесь находится ' +
+        'одноименная остановка по улице Буюк Ипак Йули.',
     },
     {
-      label: 'Арак завод',
-      location: [39.651619, 66.969682],
-      icon: PLACE_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCU7IAgI9B',
-      description: 'Раньше здесь был спиртзавод, сейчас сквер возле Гур-Эмира.',
+      label: 'Микрорайон',
+      location: [39.661406, 66.92145],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7ALrDGC',
+      description: 'Район советских пятиэтажек вокруг улицы Буюк Ипак Йули.',
+    },
+    {
+      label: 'Мотрид/Карасу',
+      location: [39.726768, 66.914152],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7AXFOKC',
+      description: 'Массив новостроек к северу от вокзала.',
     },
     {
       label: 'Оби Рахмат',
@@ -168,11 +139,19 @@ export default {
       description: 'Ориентир по названию ресторана.',
     },
     {
-      label: 'Макаронка',
-      location: [39.664666, 66.952549],
+      label: 'Панджаб',
+      location: [39.643447, 66.929132],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/68385142160/',
+      description: 'Иранский квартал вокруг иранского медресе.',
+    },
+    {
+      label: 'Поворот',
+      location: [39.667057, 66.926532],
       icon: PLACE_ICON,
-      yandexMap: 'https://yandex.uz/maps/-/CCUCU8rAcB',
-      description: 'Топоним назван в честь макаронной фабрики.',
+      yandexMap: 'https://yandex.uz/maps/-/CCU7ETdZOB',
+      description:
+        'Перекресток 4 улиц: Буюк Ипак Йули, Спитамена, Беруни, Улугбека.',
     },
     {
       label: 'Сам-Коч',
@@ -182,6 +161,35 @@ export default {
       description:
         'Назван в честь расположенного рядом завод по производству ' +
         'автотранспорта SamKochAvto',
+    },
+    {
+      label: 'Саодат',
+      location: [39.680959, 66.932529],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7IAE6GD',
+      description: 'По названию ресторана.',
+    },
+    {
+      label: 'Саттепо',
+      location: [39.638453, 66.920034],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7ATbdPC',
+      description: 'Жилой массив к югу от Микрорайона.',
+    },
+    {
+      label: 'Согдиана',
+      location: [39.659879, 66.910328],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCU7ATq5TA',
+      description: 'Жилой массив к западу от Микрорайона.',
+    },
+    {
+      label: 'Старый Билайн / Большой арык',
+      location: [39.673955, 66.926007],
+      icon: PLACE_ICON,
+      yandexMap:
+        'https://yandex.uz/maps/10334/samarkand/house/Yk8YfwVmSUUAQF1jfXp2cnVmYQ==/',
+      description: 'Когда-то здесь был офис Билайна, теперь Корзинка Анжир.',
     },
   ],
 } as MapCategory;
