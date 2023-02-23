@@ -111,16 +111,26 @@ module.exports = {
         style: 'dark',
         links: [
           {
-            title: 'Разделы',
+            title: 'Справочник',
             items: [
-              { label: 'Справочник', to: 'docs/samarkand/' },
+              { label: 'Самарканд и Узбекистан', to: 'docs/samarkand/' },
+              { label: 'Виза и регистрация', to: 'docs/visa/' },
+              { label: 'Жилье', to: 'docs/apartment/' },
+              { label: 'Услуги', to: 'docs/services/communication' },
+              { label: 'Покупки', to: 'docs/purchases/' },
+              { label: 'Работа и бизнес', to: 'docs/occupation/' },
+              { label: 'Дети', to: 'docs/children/' },
+            ],
+          },
+          {
+            title: 'Другое',
+            items: [
               { label: 'Карта', to: 'map' },
               { label: 'Полезные ссылки', to: 'links' },
             ],
           },
-          {},
           {
-            title: 'Другое',
+            title: 'Проект',
             items: [
               {
                 label: 'Github',
