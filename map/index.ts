@@ -1,8 +1,9 @@
 import { PropSidebarItem } from '@docusaurus/plugin-content-docs';
 import city from '@site/map/city';
 import {
+  filterItems,
   findItemById,
-  getChildPlaces,
+  getItemIcon,
   isPlace,
   mapItemToPlacemarkItems,
   mapItemToSidebarItem,
@@ -30,6 +31,10 @@ export function getItemById(id: string): MapItem | null {
   return findItemById(rootItem, id);
 }
 
+export function getItemsByTag(tag: string): MapItem[] {
+  return filterItems(rootItem, (item: MapPlace) => item.tags?.includes(tag));
+}
+
 export function getPlacesById(id: string): MapPlace[] {
   const item = getItemById(id);
 
@@ -40,6 +45,18 @@ export function getPlacesById(id: string): MapPlace[] {
   return (item as MapCategory).items.filter(
     (child: MapCategory) => child.type !== 'category',
   );
+}
+
+export function getPlacemarksByIdOrTag(idOrTag): PlacemarkItem[] {
+  const parentIcon = getItemIcon(rootItem, idOrTag);
+
+  const placemarks = [];
+  const places = [...getPlacesById(idOrTag), ...getItemsByTag(idOrTag)];
+  for (const place of places) {
+    placemarks.push(...mapItemToPlacemarkItems(place, { parentIcon }));
+  }
+
+  return placemarks;
 }
 
 export function getSidebarItems(currentUrl = 'none'): PropSidebarItem[] {

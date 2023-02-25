@@ -10,6 +10,7 @@ export default {
       id: 'redbridge',
       label: 'RedBridge',
       location: [39.64435, 66.940187],
+      tags: ['kindergarten'],
       yandexMap: 'https://yandex.uz/maps/org/190271767898/',
       googleMap:
         'https://www.google.com/maps/place/Redbridge+Schools/@39.6547785,66.9538489,15z/data=!4m2!3m1!1s0x0:0x80f99e934e570d29?sa=X&ved=2ahUKEwj03MuKxdn8AhX8_rsIHbmhCbQQ_BJ6BAhlEAg',
@@ -27,6 +28,7 @@ export default {
       id: 'istiqbolli-talim',
       label: "Istiqbolli Ta'lim",
       location: [39.64273, 66.941251],
+      tags: ['kindergarten'],
       yandexMap: 'https://yandex.uz/maps/org/239135647020/',
       googleMap:
         "https://www.google.com/maps/place/%22Istiqbolli+ta'lim%22+private+school/@39.6426137,66.9414677,15z/data=!4m2!3m1!1s0x0:0x5027229ceb5b48fc?sa=X&ved=2ahUKEwjlor660Nn8AhWAhP0HHQasALQQ_BJ6BAhyEAg",
@@ -79,6 +81,7 @@ export default {
     {
       label: 'GLC',
       location: [39.670234, 66.92951],
+      tags: ['kindergarten'],
       price: [1800000],
       description:
         'С 1 по 4 класс. Также учебный центр и садик. Основной ' +
@@ -96,6 +99,7 @@ export default {
       id: 'tymur-fayz',
       label: 'Tymur Fayz',
       location: [39.650247, 66.940067],
+      tags: ['kindergarten'],
       yandexMap: 'https://yandex.uz/maps/org/4375381747/',
       googleMap:
         "https://www.google.com/maps/place/%22Timur+Fayz%22+nodavlat+maktabgacha+va+umumta'lim+muassasasi/@39.6502183,66.9398805,15z/data=!4m2!3m1!1s0x0:0xb26a8e95294b497c?sa=X&ved=2ahUKEwiA9bq7xuz8AhXRt6QKHbuOAEgQ_BJ6BAhGEAg",
@@ -110,6 +114,7 @@ export default {
       id: 'al-xorazmiy-school',
       label: 'Al-Xorazmiy school',
       location: [39.657778, 66.939625],
+      tags: ['kindergarten'],
       price: [1900000, 2400000],
       yandexMap: 'https://yandex.uz/maps/org/224650435166/',
       googleMap:
@@ -124,6 +129,7 @@ export default {
       id: 'steam-school',
       label: 'Steam School',
       location: [39.657758, 66.937379],
+      tags: ['kindergarten'],
       yandexMap:
         'https://yandex.uz/maps/10334/samarkand/house/Yk8YfwRnSkIOQF1jfXp0dntmbA==/',
       instagram: 'https://www.instagram.com/steam_school_for_kids/',

@@ -1,5 +1,4 @@
-import { getItemById } from '@site/map';
-import { mapItemToPlacemarkItems } from '@site/map/lib/helpers';
+import { getPlacemarksByIdOrTag } from '@site/map';
 import React from 'react';
 import Map from './Map';
 import styles from './InlineMap.module.css';
@@ -15,13 +14,11 @@ export default function InlineMap({
   showLabels?: boolean;
   zoom?: number;
 }) {
-  const item = getItemById(itemId);
+  const placemarks = getPlacemarksByIdOrTag(itemId);
 
-  if (item === null) {
+  if (placemarks.length < 1) {
     return <div>Map item not found</div>;
   }
-
-  const placemarks = mapItemToPlacemarkItems(item);
 
   return (
     <div className={styles.container}>
