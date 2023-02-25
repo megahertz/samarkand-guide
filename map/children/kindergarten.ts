@@ -53,5 +53,38 @@ export default {
         'https://www.google.com/maps/place/Golden+kids/@39.6572441,66.9335268,15z/data=!4m5!3m4!1s0x0:0xdb8a435d17ebeda9!8m2!3d39.6572441!4d66.9335268',
       instagram: 'https://www.instagram.com/golden_kids_samarkand/',
     },
+    {
+      label: "Ko'zmunchoq",
+      location: [39.656376, 66.960152],
+      yandexMap: 'https://yandex.uz/maps/org/198802123147/',
+      instagram: 'https://www.instagram.com/kuzmunchoq07770/',
+      phones: ['+998 (66) 231-07-77'],
+      description: 'Отзываются хорошо, но мест мало',
+    },
+    {
+      label: 'Kinder city',
+      location: [39.658889, 66.930242],
+      yandexMap: 'https://yandex.uz/maps/org/155755092380/',
+      instagram: 'https://www.instagram.com/kinder_city_uz/',
+      phones: ['+998 (97) 288-60-60', '+998 (93) 236-51-15'],
+      description:
+        'Сам садик неплохой, но к приходящим преподавателям, которые ' +
+        'ведут занятия есть вопросы.',
+    },
+    {
+      label: 'Лунтик',
+      price: [1000000],
+      description:
+        'Новый садик на Узбекистанской. Обещают группы до 18 человек. ' +
+        'Видеонаблюдение, за дополнительную плату можно оставить ребенка в ' +
+        'садике на ночь.',
+    },
+    {
+      label: 'Baby Angels',
+      price: [1000000],
+      description:
+        'Маленький садик, с детьми гуляют, занятиями не нагружают, ' +
+        'помещение проветривают. ул. Фирдоуси, 4/6.',
+    },
   ],
 } as MapCategory;

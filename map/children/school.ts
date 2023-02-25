@@ -106,5 +106,32 @@ export default {
         'Школа и детский сад. Хвалят за то что нагрузка не такая тяжелая как ' +
         'в других частных школах.',
     },
+    {
+      id: 'al-xorazmiy-school',
+      label: 'Al-Xorazmiy school',
+      location: [39.657778, 66.939625],
+      price: [1900000, 2400000],
+      yandexMap: 'https://yandex.uz/maps/org/224650435166/',
+      googleMap:
+        'https://www.google.com/maps/place/School+of+Al+Xorazmiy/@39.6585211,66.899195,13z/data=!4m10!1m2!2m1!1sSchool+of+Al+Xorazmiy!3m6!1s0x3f4d196091c205eb:0xa218b52f151e3b15!8m2!3d39.6585211!4d66.9387548!15sChVTY2hvb2wgb2YgQWwgWG9yYXptaXmSAQ5wcml2YXRlX3NjaG9vbOABAA!16s%2Fg%2F11rn0r9q2k',
+      telegram: 'https://t.me/AlXorazmiy_school',
+      facebook: 'https://www.facebook.com/alxorazmiy.uz',
+      instagram: 'https://www.instagram.com/alxorazmiy.uz/',
+      phones: ['+998 (94) 531-99-99', '+998 (94) 530-99-99'],
+      description: 'Школа с физико-математическим уклоном. С 1 по 4 класс.',
+    },
+    {
+      id: 'steam-school',
+      label: 'Steam School',
+      location: [39.657758, 66.937379],
+      yandexMap:
+        'https://yandex.uz/maps/10334/samarkand/house/Yk8YfwRnSkIOQF1jfXp0dntmbA==/',
+      instagram: 'https://www.instagram.com/steam_school_for_kids/',
+      phones: ['+998 (97) 924-21-25'],
+      description:
+        'Школа (пока 1 класс) и садик (включая ясли). Так-же подготовка к школе ' +
+        'и продленка для 1-9 класса. Хвалят подготовку к школе, но пока ' +
+        'отзывов мало.',
+    },
   ],
 } as MapCategory;
