@@ -18,7 +18,7 @@ export default {
       youtube: 'https://www.youtube.com/channel/UCyh_xqaAIKjZ_0Qk7P8YKSg',
     },
     {
-      label: 'Makon Mall',
+      label: 'Makon Mall (ГУМ)',
       location: [39.65523, 66.956999],
       yandexMap: 'https://yandex.uz/maps/org/50823680342/',
       googleMap:

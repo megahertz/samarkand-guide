@@ -28,6 +28,18 @@ export default {
         'Провести здесь 5 часов — не проблема.',
     },
     {
+      label: 'Crazy Park «SHAXONYA»',
+      location: [39.654555, 66.956592],
+      yandexMap: 'https://yandex.uz/maps/org/shaxonya/17957482993/',
+      googleMap:
+        'https://www.google.com/maps/place/Crazy+Park+%E2%80%9CSHAXONYA%E2%80%9D/@39.6546736,66.9565768,119m/data=!3m1!1e3!4m6!3m5!1s0x3f4d19e426a7db53:0xf9359f009a0e1440!8m2!3d39.6545864!4d66.9567193!16s%2Fg%2F11rzhcc7yj',
+      instagram: 'https://www.instagram.com/crazy_park_shaxonya/',
+      facebook: 'https://www.facebook.com/profile.php?id=100063889126329',
+      description:
+        'Самая большая и разнообразная игровая в городе. Работает ' +
+        'с 10 до 22. Зимой может быть прохладно.',
+    },
+    {
       label: 'Игровая площадка в M.Baraka',
       location: [39.658147, 66.944444],
       yandexMap: 'https://yandex.uz/maps/org/101179618695/',

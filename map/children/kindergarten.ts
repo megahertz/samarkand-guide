@@ -84,7 +84,7 @@ export default {
       label: 'Baby Angels',
       location: [39.648645, 66.952844],
       yandexMap: 'https://yandex.uz/maps/-/CCUG6YUUHA',
-      price: [1000000],
+      price: [1200000],
       phones: ['+998 (93) 864-77-79'],
       description:
         'Маленький садик, с детьми гуляют, занятиями не нагружают, ' +
