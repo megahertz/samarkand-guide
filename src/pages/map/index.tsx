@@ -1,3 +1,4 @@
+import Head from '@docusaurus/Head';
 import { useLocation } from '@docusaurus/router';
 import SidebarStyles from '@docusaurus/theme-classic/lib/theme/DocPage/Layout/Sidebar/styles.module.css';
 import { ThemeClassNames } from '@docusaurus/theme-common';
@@ -27,8 +28,13 @@ export default function MapPage() {
     <Layout
       noFooter
       title="Карта Самарканда"
+      description="Карта районов, ресторанов, магазинов и других мест Самарканда"
       wrapperClassName={styles.container}
     >
+      <Head>
+        <title>Карта Самарканда</title>
+      </Head>
+
       <main className={styles.main}>
         <aside
           className={clsx(

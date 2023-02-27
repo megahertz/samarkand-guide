@@ -1,6 +1,10 @@
+---
+title: Полезные сайты, чаты и телеграм каналы про Самарканд и Узбекистан
+---
+
 # Полезные ссылки
 
-- [icon-telegram Чат этого сайта](https://t.me/+siNb3mlgRS1hMDYy)
+- [icon-telegram Чат этого сайта](https://t.me/samarkand_guide)
 
 ## Самарканд
 
@@ -14,6 +18,7 @@
   самоорганизованная очередь в Капиталбанк
 - [icon-telegram Чат про настольные игры](https://t.me/+MLH6vX9i6q4zZWYy)
 - [icon-telegram Чат про D&D и Warhammer](https://t.me/+AjIYeJdKNkc3ZjUy)
+- [icon-telegram Дискуссионный клуб](https://t.me/+GC7lERfGiw5mMjJi)
 - [icon-telegram Чат о походах в горы](https://t.me/PogoramSamarkanda)
 - [icon-telegram Чат про футбол](https://t.me/+QUCCGv7Xiz4yNmI6)
 - [icon-telegram Чат футбольной секции для детей](https://t.me/samarkand_football_school)

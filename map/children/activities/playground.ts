@@ -73,15 +73,6 @@ export default {
         'негде, только если дойти до фудкорта.',
     },
     {
-      label: 'Игровая площадка в Family Park',
-      location: [39.663462, 66.907895],
-      yandexMap: 'https://yandex.uz/maps/org/104778732221/',
-      description:
-        'Площадка побольше чем в Makon Mall. Неплохой выбор ' +
-        'игровых автоматов. В выходные душно и народу прессом. Ждать ребенка ' +
-        'негде, только если дойти до фудкорта.',
-    },
-    {
       label: 'Игровая площадка в Pepperonis',
       location: [39.647643, 66.950059],
       yandexMap: 'https://yandex.uz/maps/org/pepperonis/71750904111/',

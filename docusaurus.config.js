@@ -18,7 +18,8 @@ const remarkPlugins = [
 
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
-  title: 'Самарканд: справочник релоканта',
+  title: 'в Самарканде',
+  titleDelimiter: ' ',
   url: 'https://samarkand-guide.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -137,7 +138,7 @@ module.exports = {
                 href: 'https://github.com/megahertz/samarkand-guide',
               },
               {
-                html: `<a class="footer__link-item" href="https://t.me/+siNb3mlgRS1hMDYy" target="_blank" rel="noopener noreferrer"><img class="root_orbT" alt="telegram" height="16" src="/img/icons/telegram.svg" width="16"> Обсуждение</a>`,
+                html: `<a class="footer__link-item" href="https://t.me/samarkand_guide" target="_blank" rel="noopener noreferrer"><img class="root_orbT" alt="telegram" height="16" src="/img/icons/telegram.svg" width="16"> Обсуждение</a>`,
               },
             ],
           },
