@@ -149,10 +149,9 @@ module.exports = {
                   '<a ' +
                   'class="footer__link-item" ' +
                   'href="https://t.me/samarkand_guide" ' +
-                  'target="_blank" rel="noopener noreferrer"' +
+                  'target="_blank"' +
                   '>' +
                   '<img ' +
-                  'class="root_orbT" ' +
                   'alt="telegram" ' +
                   'height="16" ' +
                   'src="/img/icons/telegram.svg" ' +
