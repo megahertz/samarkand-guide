@@ -8,7 +8,10 @@ description:
 image: ./img/registan1.jpg
 ---
 
-<head><title>Самарканд и Узбекистан</title></head>
+<head>
+  <title>Самарканд и Узбекистан</title>
+  <meta property="og:title" content="Самарканд и Узбекистан" />
+</head>
 
 ![Регистан](./img/registan1.jpg)
 

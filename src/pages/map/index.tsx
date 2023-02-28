@@ -33,6 +33,7 @@ export default function MapPage() {
     >
       <Head>
         <title>Карта Самарканда</title>
+        <meta property="og:title" content="Карта Самарканда" />
       </Head>
 
       <main className={styles.main}>

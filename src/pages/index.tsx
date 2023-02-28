@@ -1,3 +1,4 @@
+import Head from '@docusaurus/Head';
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -26,6 +27,16 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   return (
     <Layout wrapperClassName={styles.container}>
+      <Head>
+        <title>
+          Самарканд: справочник релоканта. О том подходит ли Самарканд для
+          работы и жизни
+        </title>
+        <meta
+          property="og:title"
+          content="Самарканд: справочник релоканта. О том подходит ли Самарканд для работы и жизни"
+        />
+      </Head>
       <HomepageHeader />
     </Layout>
   );
