@@ -93,6 +93,13 @@ module.exports = {
           content:
             'https://samarkand-guide.com/assets/images/registan1-37b86e2df0da265624c14400c2940f68.jpg',
         },
+        {
+          name: 'description',
+          content:
+            'Вся информация о Самарканде и Узбекистане для релокантов и ' +
+            'экспатов в одном месте. Виза, аренда, регистрация, работа, ' +
+            'медицина, детский сад и другая информация о Самарканде',
+        },
       ],
       navbar: {
         title: 'SamGuide',
@@ -138,7 +145,20 @@ module.exports = {
                 href: 'https://github.com/megahertz/samarkand-guide',
               },
               {
-                html: `<a class="footer__link-item" href="https://t.me/samarkand_guide" target="_blank" rel="noopener noreferrer"><img class="root_orbT" alt="telegram" height="16" src="/img/icons/telegram.svg" width="16"> Обсуждение</a>`,
+                html:
+                  '<a ' +
+                  'class="footer__link-item" ' +
+                  'href="https://t.me/samarkand_guide" ' +
+                  'target="_blank" rel="noopener noreferrer"' +
+                  '>' +
+                  '<img ' +
+                  'class="root_orbT" ' +
+                  'alt="telegram" ' +
+                  'height="16" ' +
+                  'src="/img/icons/telegram.svg" ' +
+                  'width="16"> ' +
+                  'Обсуждение' +
+                  '</a>',
               },
             ],
           },

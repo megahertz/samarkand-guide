@@ -26,7 +26,7 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
   return (
-    <Layout wrapperClassName={styles.container}>
+    <Layout wrapperClassName={styles.container} description="">
       <Head>
         <title>
           Самарканд: справочник релоканта. О том подходит ли Самарканд для
