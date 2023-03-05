@@ -93,6 +93,26 @@ export default {
         'От названия автобусной остановки у зоомагазина, старейшего в городе. От Регистана до поворота на Дагбитскую.',
     },
     {
+      label: 'Каримбек / Истыклол / Фрунзе',
+      location: [39.647621, 66.936833],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUKy-GADD',
+      description:
+        'Перекресток Амира Тимура / Гагарина. Первые два названия относятся ' +
+        'к ресторанам на перекрестке. Фрунзе может подразумевать и саму улицу' +
+        '(переименованную в Амира Тимура) и конкретно этот перекресток.',
+    },
+    {
+      label: 'Кирпичка',
+      location: [39.672364, 66.956686],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUKy2Di0B',
+      description:
+        'По названию ранее существовавшего завода. От перекрестка' +
+        'Рудаки/Ибн Сины (Академический лицей) до перекрестка' +
+        'Рудаки/Курчатова (газовая заправка).',
+    },
+    {
       label: 'Кишмишка',
       location: [39.682285, 66.923761],
       icon: PLACE_ICON,
@@ -100,6 +120,14 @@ export default {
       description:
         'Улица Ибн Холдуна. Топоним получил название из-за виноградного ' +
         'завода когда-то находившегося здесь.',
+    },
+    {
+      label: 'Лимонадка',
+      location: [39.644825, 66.969493],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUK5Ug6kD',
+      description:
+        'Раньше здесь был лимонадный цех. Сейчас множество интересных кафе.',
     },
     {
       label: 'Макаронка',
@@ -130,6 +158,25 @@ export default {
       icon: DISTRICT_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCU7AXFOKC',
       description: 'Массив новостроек к северу от вокзала.',
+    },
+    {
+      label: 'Музыкальный мост',
+      location: [39.663217, 66.92301],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUK5YWekD',
+      description:
+        'Когда-то здесь был железный мост. Когда по нему проезжала араба, ' +
+        'получался красивый музыкальный звук. Моста уже давно нет, но ' +
+        'название осталось.',
+    },
+    {
+      label: 'Новый Билайн',
+      location: [39.66354, 66.937571],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUKyTcFoA',
+      description:
+        'Один офис Билайна закрылся, второй открылся. Так получился' +
+        'Старый Билайн и Новый Билайн',
     },
     {
       label: 'Оби Рахмат',
@@ -177,6 +224,14 @@ export default {
       description: 'Жилой массив к югу от Микрорайона.',
     },
     {
+      label: 'Сибирские пельмени',
+      location: [39.645836, 66.9538],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUK5Ex-KD',
+      description:
+        'В 90е здесь было несколько кафе в которых готовили пельмени.',
+    },
+    {
       label: 'Согдиана',
       location: [39.659879, 66.910328],
       icon: DISTRICT_ICON,
@@ -190,6 +245,13 @@ export default {
       yandexMap:
         'https://yandex.uz/maps/10334/samarkand/house/Yk8YfwVmSUUAQF1jfXp2cnVmYQ==/',
       description: 'Когда-то здесь был офис Билайна, теперь Корзинка Анжир.',
+    },
+    {
+      label: 'Ургутский базарчик',
+      location: [39.64013, 66.942942],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/-/CCUK5EcetA',
+      description: 'Когда-то здесь был базар.',
     },
   ],
 } as MapCategory;
