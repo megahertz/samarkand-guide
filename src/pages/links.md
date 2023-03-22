@@ -80,3 +80,13 @@ description:
 - [icon-web Весна Туркестана](https://varandej.livejournal.com/737615.html),
   наиболее полное описание быта и культуры Узбекистана (и не только) из того что
   я встречал.
+
+## Соседние релокации
+
+- [Таджикистан](https://t.me/relocation_tj)
+- [Кыргызстан](https://t.me/WelcomeToKG)
+- [Казахстан](https://t.me/relocation_kaz), [2](https://t.me/forum_kazakhstan)
+- [Азербайджан](https://t.me/relocate_azerbaijan)
+- [Армения](https://t.me/relocatearmenia), [2](https://t.me/+szFNNJqf1J42Zjhi),
+  [3](https://dashing-meeting-94e.notion.site/f0151aaa7cb64880abaf0d7db36bf651)
+- [Грузия](https://t.me/forum_georgia)
