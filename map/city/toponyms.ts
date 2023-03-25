@@ -262,5 +262,13 @@ export default {
       yandexMap: 'https://yandex.uz/maps/-/CCUK5EcetA',
       description: 'Когда-то здесь был базар.',
     },
+    {
+      label: 'Холодильник / Бывший холодильник',
+      location: [39.639308, 66.93885],
+      yandexMap: 'https://yandex.uz/maps/-/CCUSV0hBdA',
+      description:
+        'Раньше недалеко от пересечения Гагарина/Узбекистанской ' +
+        'располагался завод холодильников.',
+    },
   ],
 } as MapCategory;
