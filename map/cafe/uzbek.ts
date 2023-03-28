@@ -11,17 +11,6 @@ export default {
       type: 'category',
       items: [
         {
-          label: 'Axmadjon Lux Osh',
-          location: [39.643081, 66.928084],
-          phones: ['+998 91 536 99 39'],
-          yandexMap:
-            'https://yandex.uz/maps/org/axmadjon_lux_osh/191720320054/',
-          googleMap:
-            'https://www.google.com/maps/place/Axmadjon+Lux+Osh/@39.642959,66.9258983,17z/data=!3m1!4b1!4m5!3m4!1s0x3f4d1963fefd36ff:0xd5c94b6fc2f60452!8m2!3d39.6430358!4d66.9280468',
-          description:
-            'Наверное, лучший плов в Самарканде. Люкс-плов с фирменной подачей',
-        },
-        {
           label: 'Mahallaosh',
           location: [39.666694, 66.945986],
           yandexMap: 'https://yandex.uz/maps/org/mahallaosh/69305080656',
