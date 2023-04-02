@@ -13,6 +13,12 @@ export default {
       instagram: 'https://www.instagram.com/happyland_samarkand/',
       facebook: 'https://www.facebook.com/happylandsamarkand/',
       phones: ['+998 (91) 700-33-23'],
+      images: [
+        require('./img/happy-land1.jpg'),
+        require('./img/happy-land2.jpg'),
+        require('./img/happy-land3.jpg'),
+        require('./img/happy-land4.jpg'),
+      ],
       description:
         'Игровая площадка № 1 в Самарканде. Садишься на диванчик. ' +
         'Заказываешь чай и спокойно занимаешься своими ' +
@@ -38,6 +44,22 @@ export default {
       description:
         'Самая большая и разнообразная игровая в городе. Работает ' +
         'с 10 до 22. Зимой может быть прохладно.',
+    },
+    {
+      label: 'Xan Zade Happy Baby',
+      location: [39.680524, 66.932195],
+      yandexMap: 'https://yandex.uz/maps/-/CCUWVMQD2B',
+      images: [
+        require('./img/xanzade1.jpg'),
+        require('./img/xanzade2.jpg'),
+        require('./img/xanzade3.jpg'),
+        require('./img/xanzade4.jpg'),
+        require('./img/xanzade5.jpg'),
+      ],
+      instagram: 'https://www.instagram.com/happy_baby_xanzade/',
+      description:
+        'Небольшая игровая площадка, особенно подойдет для малышей. ' +
+        'Есть стульчики для родителей, но еды нет.',
     },
     {
       label: 'Игровая площадка в M.Baraka',
