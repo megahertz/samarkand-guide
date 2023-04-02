@@ -3,7 +3,6 @@ import { PlaceBody } from '@site/src/components/PlaceInfo/PlaceBody';
 import React from 'react';
 import { getPlacesById } from '@site/map';
 import Container from '@theme/CodeBlock/Container';
-import styles from './styles.module.css';
 
 export default function PlaceInfo({ id }: { id: string }) {
   const places = getPlacesById(id);
@@ -19,7 +18,7 @@ export default function PlaceInfo({ id }: { id: string }) {
 
 export function Place({ place }: { place: MapPlace }) {
   return (
-    <Container as="div" className={styles.container}>
+    <Container as="div">
       <PlaceBody place={place} />
     </Container>
   );

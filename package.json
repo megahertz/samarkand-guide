@@ -9,13 +9,14 @@
   "homepage": "https://samarkand-guide.com",
   "scripts": {
     "build": "docusaurus build",
-    "lint": "npm run lint:types && npm run lint:styles && npm run lint:md -- --check",
-    "lint:md": "prettier --check docs README.md",
+    "lint": "npm run lint:types && npm run lint:styles && npm run lint:prettier -- --check",
+    "lint:prettier": "prettier docs README.md src",
     "lint:styles": "eslint src '*.js'",
     "lint:types": "tsc",
     "postversion": "git push --follow-tags",
     "serve": "docusaurus serve -h 0.0.0.0",
     "start": "docusaurus start -h 0.0.0.0",
+    "start:serve": "npm run build && npm run serve",
     "test": "vitest run",
     "test:full": "npm run test && npm run lint"
   },

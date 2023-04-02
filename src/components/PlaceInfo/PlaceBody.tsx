@@ -2,24 +2,36 @@ import { MapPlace } from '@site/map/lib/types';
 import { IconName } from '@site/src/components/Icon';
 import IconLink from '@site/src/components/IconLink';
 import Phone from '@site/src/components/Phone';
+import Gallery from '@site/src/components/PlaceInfo/Gallery';
 import Price from '@site/src/components/Price';
 import React, { Fragment } from 'react';
 import { renderToString } from 'react-dom/server';
-import styles from './styles.module.css';
+import styles from './PlaceBody.module.css';
 
-export function renderPlace(place: MapPlace): string {
-  return renderToString(<PlaceBody place={place} />);
+export function renderPlace(place: MapPlace, noPadding = true): string {
+  return renderToString(<PlaceBody place={place} noPadding={noPadding} />);
 }
 
-export function PlaceBody({ place }: { place: MapPlace }) {
+export function PlaceBody({
+  place,
+  noPadding = false,
+}: {
+  place: MapPlace;
+  noPadding?: boolean;
+}) {
   return (
-    <>
-      <h3 className={styles.title}>{place.label}</h3>
-      <div>{place.description}</div>
-      <PlacePrices place={place} />
-      <PlacePhones place={place} />
-      <PlaceLinks place={place} />
-    </>
+    <div className={styles.container}>
+      {place.images?.length > 0 && (
+        <Gallery images={place.images} title={place.label} />
+      )}
+      <div className={noPadding ? styles.contentNoPadding : styles.content}>
+        <h3 className={styles.title}>{place.label}</h3>
+        <div>{place.description}</div>
+        <PlacePrices place={place} />
+        <PlacePhones place={place} />
+        <PlaceLinks place={place} />
+      </div>
+    </div>
   );
 }
 

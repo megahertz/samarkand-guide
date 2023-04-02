@@ -1,5 +1,3 @@
-import { IconName } from '@site/src/components/Icon';
-
 export interface MapPlace {
   description?: string;
   facebook?: string;
@@ -7,6 +5,7 @@ export interface MapPlace {
   icon?: MapIcon;
   id?: string;
   instagram?: string;
+  images?: Array<{ default: string }>;
   label: string;
   location?: [number, number];
   phones?: string[];
