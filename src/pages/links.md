@@ -84,12 +84,16 @@ description:
 ## Соседние релокации
 
 - [icon-telegram Таджикистан](https://t.me/relocation_tj),
-  [гайд icon-web](https://teletype.in/@theferrum/tajikistan)
+  [icon-web гайд](https://teletype.in/@theferrum/tajikistan)
 - [icon-telegram Кыргызстан](https://t.me/WelcomeToKG)
 - [icon-telegram Казахстан](https://t.me/relocation_kaz),
-  [2 icon-telegram](https://t.me/forum_kazakhstan)
+  [icon-telegram 2](https://t.me/forum_kazakhstan),
+  [icon-telegram Алматы](https://t.me/rent_almaty/),
+  [icon-telegram Алматы2](https://t.me/ata_rlct),
+  [icon-telegram Астана](https://t.me/ast_rlct),
+  [icon-web гайд](https://mashinka.notion.site/mashinka/KZ-3e434bdc513449cea2028fc001bb17d5)
 - [icon-telegram Азербайджан](https://t.me/relocate_azerbaijan)
 - [icon-telegram Армения](https://t.me/relocatearmenia),
-  [2 icon-telegram](https://t.me/+szFNNJqf1J42Zjhi),
-  [гайд icon-web](https://dashing-meeting-94e.notion.site/f0151aaa7cb64880abaf0d7db36bf651)
+  [icon-telegram 2](https://t.me/+szFNNJqf1J42Zjhi),
+  [icon-web гайд](https://dashing-meeting-94e.notion.site/f0151aaa7cb64880abaf0d7db36bf651)
 - [icon-telegram Грузия](https://t.me/forum_georgia)
