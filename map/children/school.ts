@@ -14,7 +14,7 @@ export default {
       yandexMap: 'https://yandex.uz/maps/org/190271767898/',
       googleMap:
         'https://www.google.com/maps/place/Redbridge+Schools/@39.6547785,66.9538489,15z/data=!4m2!3m1!1s0x0:0x80f99e934e570d29?sa=X&ved=2ahUKEwj03MuKxdn8AhX8_rsIHbmhCbQQ_BJ6BAhlEAg',
-      price: [2200000],
+      price: [2_550_000],
       web: 'https://redbridge.uz/',
       instagram: 'https://instagram.com/redbridgeschools',
       facebook: 'https://facebook.com/redbridgeschools.sam',
@@ -32,7 +32,7 @@ export default {
       yandexMap: 'https://yandex.uz/maps/org/239135647020/',
       googleMap:
         "https://www.google.com/maps/place/%22Istiqbolli+ta'lim%22+private+school/@39.6426137,66.9414677,15z/data=!4m2!3m1!1s0x0:0x5027229ceb5b48fc?sa=X&ved=2ahUKEwjlor660Nn8AhWAhP0HHQasALQQ_BJ6BAhyEAg",
-      price: [2100000],
+      price: [2_700_000, 2_900_000],
       web: 'https://istiqbollitalim.uz/',
       telegram: 'https://t.me/istiqbolli_talim',
       instagram: 'https://www.instagram.com/istiqbolli_talim/',
@@ -47,13 +47,14 @@ export default {
       telegram: 'https://t.me/intellekt_sam',
       instagram: 'https://www.instagram.com/samarkandintellekt/',
       facebook: 'https://www.facebook.com/samarkandintellekt',
-      price: [2000000],
+      price: [2_400_000],
       phones: ['+998 (97) 391-52-53', '+998 (90) 270-98-37'],
     },
     {
       label: 'Cambridge International College',
       location: [39.663125, 66.948048],
       yandexMap: 'https://yandex.uz/maps/org/cic_school/149404516890/',
+      price: [3_000_000, 3_400_000],
       googleMap:
         'https://www.google.com/maps/place/CIC+International+School/@39.6609088,66.9469788,21z/data=!4m12!1m6!3m5!1s0x3f4d197160c13865:0x3a91e3868487896!2sCIC+International+School!8m2!3d39.6609741!4d66.9470968!3m4!1s0x3f4d197160c13865:0x3a91e3868487896!8m2!3d39.6609741!4d66.9470968',
       web: 'https://college.cambridge.uz/',
@@ -74,7 +75,7 @@ export default {
       telegram: 'https://t.me/oischooluz',
       instagram: 'https://www.instagram.com/oischool.uz/',
       facebook: 'https://www.facebook.com/oischool.uz',
-      price: [3000000],
+      price: [3_000_000],
       phones: ['+998 95 411 00 22'],
       description: 'С 9 по 11 класс.',
     },
@@ -82,7 +83,7 @@ export default {
       label: 'GLC',
       location: [39.670234, 66.92951],
       tags: ['kindergarten'],
-      price: [1800000],
+      price: [1_800_000],
       description:
         'С 1 по 4 класс. Также учебный центр и садик. Основной ' +
         'офис на Рудаки, дополнительный на Беруни',
@@ -100,6 +101,7 @@ export default {
       label: 'Tymur Fayz',
       location: [39.650247, 66.940067],
       tags: ['kindergarten'],
+      price: [2_600_000],
       yandexMap: 'https://yandex.uz/maps/org/4375381747/',
       googleMap:
         "https://www.google.com/maps/place/%22Timur+Fayz%22+nodavlat+maktabgacha+va+umumta'lim+muassasasi/@39.6502183,66.9398805,15z/data=!4m2!3m1!1s0x0:0xb26a8e95294b497c?sa=X&ved=2ahUKEwiA9bq7xuz8AhXRt6QKHbuOAEgQ_BJ6BAhGEAg",
@@ -115,7 +117,7 @@ export default {
       label: 'Al-Xorazmiy school',
       location: [39.657778, 66.939625],
       tags: ['kindergarten'],
-      price: [1900000, 2400000],
+      price: [1_900_000, 2_400_000],
       yandexMap: 'https://yandex.uz/maps/org/224650435166/',
       googleMap:
         'https://www.google.com/maps/place/School+of+Al+Xorazmiy/@39.6585211,66.899195,13z/data=!4m10!1m2!2m1!1sSchool+of+Al+Xorazmiy!3m6!1s0x3f4d196091c205eb:0xa218b52f151e3b15!8m2!3d39.6585211!4d66.9387548!15sChVTY2hvb2wgb2YgQWwgWG9yYXptaXmSAQ5wcml2YXRlX3NjaG9vbOABAA!16s%2Fg%2F11rn0r9q2k',
@@ -136,8 +138,9 @@ export default {
       phones: ['+998 (97) 924-21-25'],
       description:
         'Школа (пока 1 класс) и садик (включая ясли). Так-же подготовка к школе ' +
-        'и продленка для 1-9 класса. Хвалят подготовку к школе, но пока ' +
-        'отзывов мало.',
+        'и продленка для 1-9 класса. Хвалят подготовку к школе. ' +
+        'Видеонаблюдение только без удаленного доступа. Перерасчет ' +
+        'по болезни делают неохотно',
     },
   ],
 } as MapCategory;

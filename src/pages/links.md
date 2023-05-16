@@ -33,7 +33,8 @@ description:
 - [icon-telegram Дискуссионный клуб](https://t.me/+GC7lERfGiw5mMjJi)
 - [icon-telegram Чат о походах в горы](https://t.me/PogoramSamarkanda)
 - [icon-telegram Чат про футбол](https://t.me/+QUCCGv7Xiz4yNmI6)
-- [icon-telegram Чат футбольной секции для детей](https://t.me/samarkand_football_school)
+- [icon-telegram Чат футбольной секции для детей]
+  (https://t.me/samarkand_football_school)
 
 ### Другое
 
@@ -52,6 +53,8 @@ description:
 - [icon-telegram Канал Релокейшн в Узбекистан](https://t.me/relocationuz)
 - [icon-telegram Чат для общих вопросов](https://t.me/relocateuz)
 - [icon-telegram Чат для родителей](https://t.me/relocationfamily)
+- [icon-telegram Чат для родителей (дети 10-13 лет)]
+  (https://t.me/+IaWTv3i5SrtmZmRi)
 - [icon-telegram Чат про здоровье](https://t.me/relocationuzhealth)
 - [icon-telegram Чат для женщин](https://t.me/relocationuzwomen)
 - [icon-telegram Чат про недвижимость](https://t.me/relocationuzrent)
@@ -62,7 +65,8 @@ description:
 ### Деньги, работа, бизнес
 
 - [icon-telegram Чат про деньги](https://t.me/+ZwEXOUVdhE40MGUy)
-- [icon-telegram Чат TravelAsk Узбекистан — обмен денег, карты, крипта](https://t.me/+4M5Shn9aLuIyMTk6)
+- [icon-telegram Чат TravelAsk Узбекистан — обмен денег, карты, крипта]
+  (https://t.me/+4M5Shn9aLuIyMTk6)
 - [icon-telegram Чат Капитал Банк для россиян](https://t.me/kapitalbank_uz_rus)
 - [icon-telegram Чат про бизнес](https://t.me/relocationuzbusiness)
 - [icon-telegram Чат про ИП](https://t.me/YATT_UZ)
@@ -73,7 +77,8 @@ description:
 ### Спорт и развлечения
 
 - [icon-telegram Чат для бегунов](https://t.me/relocationuzrun)
-- [icon-telegram Чат для любителей горнолыжных видов спорта](https://t.me/relocationuzriders)
+- [icon-telegram Чат для любителей горнолыжных видов спорта
+  (https://t.me/relocationuzriders)
 
 ### Другое
 

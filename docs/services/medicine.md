@@ -31,8 +31,8 @@ image: ./img/medicine.jpg
 [icon-yandex-maps&#8288;Asia&nbsp;Medic](https://yandex.uz/maps/org/azia_medik/173357161088/)&nbsp;
 Фуфломицины не назначает, да и вообще строго придерживается доказательной
 медицины. Ведет канал
-[icon-telegramМедСоветПроДети](https://t.me/medsovetprodeti). Ее телефон для
-записи: +998 (93) 720-02-22.
+[icon-telegramМедСоветПроДети](https://t.me/medsovetprodeti). Чат для записи:
+[icon-telegram&#8288;assist_khakimova](https://t.me/assist_khakimova).
 
 ### Государственные поликлиники
 

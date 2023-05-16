@@ -8,7 +8,7 @@ export default {
     {
       label: 'Golden Kids Sattepo',
       location: [39.642423, 66.915968],
-      price: [2000000],
+      price: [2_000_000],
       phones: ['+998915510505', '+998979142444'],
       description:
         'Основной филиал переполнен, поэтому новых детей берут во ' +
@@ -23,14 +23,14 @@ export default {
     },
     {
       label: 'Wunderkind',
-      price: [1800000],
+      price: [1_800_000],
       description: 'Большая территория, хорошее питание, логопед.',
       instagram: 'https://www.instagram.com/wunderkind_samarkand/',
     },
     {
       label: 'GLC',
       location: [39.670303, 66.929526],
-      price: [1500000],
+      price: [1_500_000],
       description:
         'Трехразовое питание, кормят, с памперсом помогают, ' +
         'переодевают и вообще очень нежное отношение к детям, полностью ' +
@@ -74,7 +74,7 @@ export default {
     },
     {
       label: 'Лунтик',
-      price: [1000000],
+      price: [1_000_000],
       description:
         'Новый садик на Узбекистанской. Обещают группы до 18 человек. ' +
         'Видеонаблюдение, за дополнительную плату можно оставить ребенка в ' +
@@ -84,7 +84,7 @@ export default {
       label: 'Baby Angels',
       location: [39.648645, 66.952844],
       yandexMap: 'https://yandex.uz/maps/-/CCUG6YUUHA',
-      price: [1200000],
+      price: [1_200_000],
       phones: ['+998 (93) 864-77-79'],
       description:
         'Маленький садик, с детьми гуляют, занятиями не нагружают, ' +
@@ -111,6 +111,16 @@ export default {
       description:
         'Большая игровая зона, хвалят питание и преподавателей. Из минусов — ' +
         'зимой внутри очень сухо и жарко. Практически нет своей территории.',
+    },
+    {
+      label: 'Ziyoda',
+      location: [39.683527, 66.945195],
+      instagram: 'https://www.instagram.com/detskiysad_ziyoda/',
+      yandexMap: 'https://yandex.uz/maps/-/CCUoMVd81A',
+      price: [2_000_000],
+      phones: ['+998 (91) 525-44-06'],
+      description:
+        'Открылся в 2023, есть видеонаблюдение, делают перерасчет по болезни.',
     },
   ],
 } as MapCategory;
