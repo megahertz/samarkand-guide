@@ -131,7 +131,7 @@ export default {
         'завода когда-то находившегося здесь.',
     },
     {
-      label: 'Лимонадка/Лимонадный базарчик',
+      label: 'Лимонадка / Лимонадный базарчик',
       location: [39.644825, 66.969493],
       icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCUK5Ug6kD',
@@ -162,7 +162,7 @@ export default {
       description: 'Район советских пятиэтажек вокруг улицы Буюк Ипак Йули.',
     },
     {
-      label: 'Мотрид/Карасу',
+      label: 'Мотрид / Карасу',
       location: [39.726768, 66.914152],
       icon: DISTRICT_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCU7AXFOKC',
@@ -265,6 +265,7 @@ export default {
     {
       label: 'Холодильник / Бывший холодильник',
       location: [39.639308, 66.93885],
+      icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCUSV0hBdA',
       description:
         'Раньше недалеко от пересечения Гагарина/Узбекистанской ' +
@@ -273,6 +274,7 @@ export default {
     {
       label: 'Чайная фабрика',
       location: [39.669858, 66.926989],
+      icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/org/52791769061/',
       description:
         'Самаркандская чаеразвесочная фабрика была одной из крупнейших' +
