@@ -1,7 +1,7 @@
 import { MapCategory } from '@site/map/lib/types';
 
 export default {
-  id: 'hookahBar',
+  id: 'hookah',
   label: 'Кальянные',
   type: 'category',
   items: [
@@ -14,8 +14,10 @@ export default {
       instagram: 'https://www.instagram.com/barlionwise/',
       phones: ['+998 90 213 22 00'],
       description:
-        'Табаки от местных дистрибьюторов (MastHave, Burn, Darkside...), хороший сервис, playstation, можно со своим алкоголем и едой, можно поработать с ноутбуком',
-      tags: ['work', 'hooka'],
+        'Табаки от местных дистрибьюторов (MastHave, Burn, Darkside...), ' +
+        'хороший сервис, playstation, можно со своим алкоголем и едой, ' +
+        'можно поработать с ноутбуком.',
+      tags: ['work'],
     },
   ],
 } as MapCategory;
