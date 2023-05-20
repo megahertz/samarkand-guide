@@ -38,13 +38,22 @@ export function getItemsByTag(tag: string): MapItem[] {
 export function getPlacesById(id: string): MapPlace[] {
   const item = getItemById(id);
 
-  if (isPlace(item)) {
-    return [item as MapPlace];
+  if (item) {
+    if (isPlace(item)) {
+      return [item as MapPlace];
+    }
+
+    return (item as MapCategory).items.filter(
+      (child: MapCategory) => child.type !== 'category',
+    );
   }
 
-  return (item as MapCategory).items.filter(
-    (child: MapCategory) => child.type !== 'category',
-  );
+  const taggedItems = getItemsByTag(id);
+  if (taggedItems.length > 0) {
+    return taggedItems;
+  }
+
+  throw new Error(`Can't find place #${id}`);
 }
 
 export function getPlacemarksByIdOrTag(idOrTag): PlacemarkItem[] {

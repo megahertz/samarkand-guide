@@ -28,12 +28,35 @@ export default {
       youtube: 'https://www.youtube.com/channel/UCeY51gW0ALT_9xR_fyB7xlg',
     },
     {
-      label: 'Такси до Ташкента',
+      label: 'Ташкентский пятак',
+      id: 'tashkent-pyatok',
       location: [39.675929, 67.006052],
       icon: 'islands#blueAutoIcon',
       yandexMap: 'https://yandex.uz/maps/10334/samarkand/stops/1829361501/',
       description:
-        'Стоянка Такси до Ташкента. От 400,000 сумов машина, от 100,000 с человека',
+        'Стоянка такси до Ташкента. 400,000-500,000 сумов машина,' +
+        '100,000-130,000 c человека. Также, отсюда могут отвезти в Бухару.',
+      tags: ['pyatok'],
+    },
+    {
+      label: 'Шахрисабский пятак',
+      location: [39.65315, 66.976097],
+      icon: 'islands#blueAutoIcon',
+      yandexMap: 'https://yandex.uz/maps/-/CCUoRWGpPD',
+      description:
+        'Стоянка такси до Шахрисабза. Прямо через дорогу от Регистана.',
+      tags: ['pyatok'],
+    },
+    {
+      label: 'Автостанция Кафтархона',
+      location: [39.644007, 66.999194],
+      icon: 'islands#blueMassTransitIcon',
+      yandexMap: 'https://yandex.uz/maps/org/224734011015/',
+      description:
+        'Стоянка пригородных автобусов, Дамасов и таксистов. Отсюда можно ' +
+        'доехать до Ургута, Джартепа (поселок возле пограничного пункта с ' +
+        'Таджикистаном).',
+      tags: ['pyatok'],
     },
   ],
   icon: 'islands#blueMassTransitIcon',

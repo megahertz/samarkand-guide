@@ -1,7 +1,7 @@
 ---
 title: Получение ПИНФЛ, ЭЦП и госуслуги для нерезидента
 sidebar_label: Госуслуги
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Госуслуги
