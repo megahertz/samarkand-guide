@@ -9,6 +9,7 @@ env:
 
 jobs:
   main:
+    name: Tests
     runs-on: ubuntu-latest
 
     steps:
