@@ -1,4 +1,4 @@
-import { PropSidebarItem } from '@docusaurus/plugin-content-docs';
+import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
 import city from '@site/map/city';
 import {
   filterItems,
@@ -8,7 +8,7 @@ import {
   mapItemToPlacemarkItems,
   mapItemToSidebarItem,
 } from '@site/map/lib/helpers';
-import {
+import type {
   MapCategory,
   MapItem,
   MapPlace,

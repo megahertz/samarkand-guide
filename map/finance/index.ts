@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'finance',
@@ -73,4 +73,4 @@ export default {
   icon: 'islands#violetMoneyIcon',
   label: 'Финансы',
   type: 'category',
-} as MapCategory;
+} satisfies MapCategory;

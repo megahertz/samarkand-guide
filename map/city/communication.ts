@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'communication',
@@ -23,4 +23,4 @@ export default {
       description: 'Центральный офис, симку лучше делать здесь.',
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

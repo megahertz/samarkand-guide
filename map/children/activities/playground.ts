@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'playground',
@@ -117,4 +117,4 @@ export default {
         'больше нет ничего, скорее всего придется туда ехать специально.',
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'mall',
@@ -37,4 +37,4 @@ export default {
       phones: ['+998 93 330 14 13', '+998 94 478 14 14', '+998 782 10 14 14'],
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

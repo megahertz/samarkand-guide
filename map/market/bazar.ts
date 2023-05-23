@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'bazar',
@@ -73,4 +73,4 @@ export default {
         'Небольшой рынок в центре города. Цены средние. Можно поменять валюту.',
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

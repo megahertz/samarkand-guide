@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'uzbek',
@@ -59,4 +59,4 @@ export default {
       tags: ['osh', 'beer'],
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'desserts',
@@ -18,4 +18,4 @@ export default {
       tags: ['euro', 'coffee', 'work'],
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

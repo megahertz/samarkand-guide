@@ -1,5 +1,5 @@
-import { PropSidebarItem } from '@docusaurus/plugin-content-docs';
-import {
+import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
+import type {
   MapCategory,
   MapIcon,
   MapItem,

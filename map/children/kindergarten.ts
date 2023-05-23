@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'kindergarten',
@@ -123,4 +123,4 @@ export default {
         'Открылся в 2023, есть видеонаблюдение, делают перерасчет по болезни.',
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

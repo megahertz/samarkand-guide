@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 import playground from './playground';
 
 export default {
@@ -110,4 +110,4 @@ export default {
         'технологиям. Проводятся всевозможные мастер-классы.',
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

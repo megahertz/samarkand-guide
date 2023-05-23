@@ -1,6 +1,6 @@
 import bazar from '@site/map/market/bazar';
 import household from '@site/map/market/household';
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 import malls from './mall';
 
 export default {
@@ -9,4 +9,4 @@ export default {
   icon: 'islands#blueShoppingIcon',
   label: 'Торговля',
   type: 'category',
-} as MapCategory;
+} satisfies MapCategory;

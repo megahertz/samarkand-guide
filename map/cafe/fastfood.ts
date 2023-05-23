@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'fastfood',
@@ -14,4 +14,4 @@ export default {
       phones: ['+998 557 01 09 09'],
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

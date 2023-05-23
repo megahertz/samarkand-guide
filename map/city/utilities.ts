@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'utilities',
@@ -62,4 +62,4 @@ export default {
       ],
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

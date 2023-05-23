@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 import desserts from './desserts';
 import euro from './euro';
 import fastfood from './fastfood';
@@ -11,4 +11,4 @@ export default {
   icon: 'islands#orangeFoodIcon',
   label: 'Кафе и рестораны',
   type: 'category',
-} as MapCategory;
+} satisfies MapCategory;

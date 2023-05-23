@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'household',
@@ -47,4 +47,4 @@ export default {
         'Дороговато, но можно разом купить много мелочевки в одном месте',
     },
   ],
-} as MapCategory;
+} satisfies MapCategory;

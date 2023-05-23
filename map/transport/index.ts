@@ -1,4 +1,4 @@
-import { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'transport',
@@ -62,4 +62,4 @@ export default {
   icon: 'islands#blueMassTransitIcon',
   label: 'Транспорт',
   type: 'category',
-} as MapCategory;
+} satisfies MapCategory;
