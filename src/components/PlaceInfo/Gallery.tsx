@@ -13,7 +13,9 @@ export default function Gallery({
   images: { default?: string }[];
   title?: string;
 }) {
-  const imageUrls = images.map((img) => img.default);
+  const imageUrls = images
+    .map((img) => img.default)
+    .filter(Boolean) as string[];
   const [isOpened, setIsOpened] = useState(false);
 
   function showGallery() {

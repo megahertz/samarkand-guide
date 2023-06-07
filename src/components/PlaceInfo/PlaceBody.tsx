@@ -21,7 +21,7 @@ export function PlaceBody({
 }) {
   return (
     <div className={styles.container}>
-      {place.images?.length > 0 && (
+      {place.images?.length && place.images.length > 0 && (
         <Gallery images={place.images} title={place.label} />
       )}
       <div className={noPadding ? styles.contentNoPadding : styles.content}>
@@ -50,12 +50,14 @@ function PlacePhones({ place }: { place: MapPlace }) {
     return null;
   }
 
+  const phones = place.phones as string[];
+
   return (
     <div>
-      {place.phones.map((phone, index) => (
+      {phones.map((phone, index) => (
         <Fragment key={phone}>
           <Phone number={phone} />
-          {index < place.phones.length - 1 && ', '}
+          {index < phones.length - 1 && ', '}
         </Fragment>
       ))}
     </div>
@@ -93,7 +95,7 @@ function getMapPlaceLinks(place: MapPlace): IconLinkData[] {
     place.facebook && { href: place.facebook, icon: 'facebook' },
     place.youtube && { href: place.youtube, icon: 'youtube' },
     place.vkontakte && { href: place.vkontakte, icon: 'vkontakte' },
-  ].filter(Boolean);
+  ].filter(Boolean) as IconLinkData[];
 }
 
 type IconLinkData = { href: string; icon: IconName };

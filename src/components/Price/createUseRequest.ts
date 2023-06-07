@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 
 export default function createUseRequest<
-  T extends (...arguments_: any[]) => any,
+  Result extends object,
+  Args extends any[],
 >({
   cacheName,
   cacheLifeTime = 60 * 60 * 24,
@@ -9,11 +10,11 @@ export default function createUseRequest<
 }: {
   cacheName: string;
   cacheLifeTime?: number;
-  factory: T;
-}): (...arguments_: Parameters<T>) => ReturnType<T> {
-  let promise;
+  factory: (...args: Args) => Promise<Result>;
+}): (...args: Args) => Result | null {
+  let promise: Promise<Result> | null = null;
 
-  return (...arguments_: Parameters<T>): ReturnType<T> => {
+  return (...args: Args): Result => {
     const [cache, setCache] = useCache(cacheName, cacheLifeTime);
     const [response, setResponse] = useState(cache);
 
@@ -22,7 +23,7 @@ export default function createUseRequest<
         return;
       }
 
-      promise = promise || factory(...arguments_);
+      promise = promise || factory(...args);
       promise
         .then((resp) => {
           setCache(resp);
@@ -35,7 +36,11 @@ export default function createUseRequest<
   };
 }
 
-function useCache(name, lifeTimeSec = 60 * 60 * 24, defaultValue = null) {
+function useCache(
+  name: string,
+  lifeTimeSec = 60 * 60 * 24,
+  defaultValue = null,
+) {
   const storage = useLocalStorage();
   let cachedData;
 
@@ -47,7 +52,7 @@ function useCache(name, lifeTimeSec = 60 * 60 * 24, defaultValue = null) {
 
   return [
     cachedData || defaultValue,
-    (updatedData) => {
+    (updatedData: object) => {
       if (storage) {
         storage.setItem(
           name,
@@ -62,6 +67,7 @@ function useCache(name, lifeTimeSec = 60 * 60 * 24, defaultValue = null) {
 }
 
 function useLocalStorage(): Storage | null {
-  const storage = typeof window === 'object' && window && window.localStorage;
-  return storage.getItem && (storage as any);
+  const storage = (typeof window === 'object' &&
+    window?.localStorage) as Storage | null;
+  return storage?.getItem && (storage as any);
 }

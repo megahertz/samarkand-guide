@@ -1,7 +1,8 @@
 {
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    "strict": true
   },
   "import": ["src/**/*.ts"]
 }

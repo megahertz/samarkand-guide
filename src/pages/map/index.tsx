@@ -72,13 +72,13 @@ function useMenuHighlighting() {
       }
     });
 
-    function onMenuClick(e) {
-      if (!e.target.classList?.contains('menu__link')) {
+    function onMenuClick(e: Event) {
+      if (!(e.target as HTMLElement)?.classList?.contains('menu__link')) {
         return;
       }
 
       resetActiveClass();
-      e.target.classList?.add(ACTIVE_CLASS);
+      (e.target as HTMLElement)?.classList?.add(ACTIVE_CLASS);
     }
 
     function resetActiveClass() {

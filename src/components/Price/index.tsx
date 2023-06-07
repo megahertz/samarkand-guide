@@ -4,7 +4,7 @@ import createUseRequest from '@site/src/components/Price/createUseRequest';
 import React, { useEffect, useState } from 'react';
 import styles from './styles.module.css';
 
-const CURRENCIES = ['usd', 'rub', 'uah', 'byn'];
+const CURRENCIES = ['usd', 'rub', 'uah', 'byn'] as const;
 const FORMATS = {
   byn: '{value} б.р.',
   rub: '{value} ₽',
@@ -39,13 +39,18 @@ export default function Price({ children }: { children: string }) {
 
 const useCurrencyRequest = createUseRequest({
   cacheName: 'currency',
-  factory({ selectedCurrencies = CURRENCIES } = {}) {
+  factory({ selectedCurrencies = CURRENCIES } = {}): Promise<
+    Record<string, number>
+  > {
     return fetch('https://www.floatrates.com/daily/uzs.json')
       .then((response) => response.json())
       .then((currencies: Record<string, { rate?: number }>) =>
         Object.fromEntries(
           Object.entries(currencies)
-            .map(([code, currency]): [string, number] => [code, currency?.rate])
+            .map(([code, currency]): [string, number] => [
+              code,
+              currency?.rate ?? 0,
+            ])
             .filter(
               ([code, rate]) => rate && selectedCurrencies.includes(code),
             ),
@@ -57,7 +62,7 @@ const useCurrencyRequest = createUseRequest({
 function useCurrencies({ price = 0, selectedCurrencies = CURRENCIES } = {}) {
   const rates = useCurrencyRequest({ selectedCurrencies }) || {};
   return selectedCurrencies
-    .map((currencyCode) => {
+    .map((currencyCode: Currency) => {
       const rate = rates[currencyCode];
       if (!rate || !price) {
         return '';
@@ -78,3 +83,5 @@ function formatMoney(amount: number) {
     .replace(/\d(?=(\d{3})+\.)/g, '$&,')
     .replace(/\.00$/, '');
 }
+
+type Currency = typeof CURRENCIES[number];

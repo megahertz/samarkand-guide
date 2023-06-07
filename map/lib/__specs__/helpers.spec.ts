@@ -8,7 +8,7 @@ import {
   mapItemToSidebarItem,
   placemarkMatchesUrl,
 } from '../helpers';
-import { MapCategory } from '../types';
+import { MapCategory, MapItem } from '../types';
 
 describe('map helpers', () => {
   describe('filterItems', () => {
@@ -48,7 +48,7 @@ describe('map helpers', () => {
 
   describe('mapItemToSidebarItem', () => {
     it('should return hierarchy', () => {
-      const osh = findItemById(rootItem, 'osh');
+      const osh = findItemById(rootItem, 'osh') as MapItem;
       const sidebar = mapItemToSidebarItem(osh);
       expect(sidebar).toMatchObject({
         type: 'category',
@@ -60,7 +60,7 @@ describe('map helpers', () => {
 
   describe('mapItemToPlacemarkItems', () => {
     it('should return hierarchy', () => {
-      const osh = findItemById(rootItem, 'osh');
+      const osh = findItemById(rootItem, 'osh') as MapItem;
       const placemarks = mapItemToPlacemarkItems(osh);
       expect(placemarks).toMatchObject([
         { label: 'Axmadjon Lux Osh' },
@@ -70,7 +70,7 @@ describe('map helpers', () => {
   });
 
   describe('placemarkMatchesUrl', () => {
-    const item = findItemById(rootItem, 'osh');
+    const item = findItemById(rootItem, 'osh') as MapItem;
     const [axmadjon] = mapItemToPlacemarkItems(item);
 
     it('returns true when id matches url', () => {

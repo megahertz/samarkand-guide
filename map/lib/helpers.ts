@@ -43,8 +43,11 @@ export function getChildPlaces(rootItem: MapCategory): MapPlace[] {
   return places;
 }
 
-export function getItemIcon(rootItem: MapCategory, itemId: string): MapIcon {
-  let selectedIcon: MapIcon = null;
+export function getItemIcon(
+  rootItem: MapCategory,
+  itemId: string,
+): MapIcon | undefined {
+  let selectedIcon: MapIcon | undefined;
   traverse(rootItem, (item, { icon }) => {
     if (item.id === itemId) {
       selectedIcon = icon;
@@ -99,7 +102,7 @@ export function mapItemToPlacemarkItems(
     item.id ?? encodeURIComponent(item.label),
   ].filter(Boolean);
 
-  const icon = item.icon || parentIcon;
+  const icon = (item.icon || parentIcon) as MapIcon;
 
   if ((item as MapCategory).type === 'category') {
     const category = item as MapCategory;
@@ -121,7 +124,7 @@ export function mapItemToPlacemarkItems(
       icon,
       id: ids.join('/'),
       label: place.label,
-      location: place.location,
+      location: place.location as [number, number],
       showLabel: Boolean(place.showLabel),
       tags: [...ids, ...(place.tags || [])],
     },
@@ -138,7 +141,7 @@ export function placemarkMatchesUrl(
 
   const lastPath = url.split('/').pop();
   // noinspection RedundantIfStatementJS
-  if (placemark.tags.includes(lastPath)) {
+  if (placemark.tags.includes(lastPath as string)) {
     return true;
   }
 
@@ -149,12 +152,9 @@ export function traverse(
   item: MapItem,
   callback: (
     item: MapItem,
-    props: { icon: MapIcon; ids: string[]; url: string },
+    props: { icon?: MapIcon; ids: string[]; url: string },
   ) => boolean | void,
-  {
-    parentIds = [],
-    icon = null,
-  }: { parentIds?: string[]; icon?: MapIcon } = {},
+  { parentIds = [], icon }: { parentIds?: string[]; icon?: MapIcon } = {},
 ) {
   const ids = [...parentIds, item.id ?? encodeURIComponent(item.label)];
   const url = ids.join('/');

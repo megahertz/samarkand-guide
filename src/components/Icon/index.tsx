@@ -21,7 +21,7 @@ export default function Icon({
   );
 }
 
-const proportions = {
+const proportions: Record<string, number> = {
   youtube: 159 / 110,
 };
 

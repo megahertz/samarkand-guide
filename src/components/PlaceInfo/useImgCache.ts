@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const globalCache = [];
+const globalCache: string[] = [];
 
 export default function useImgCache(images: string[]) {
   useEffect(() => {

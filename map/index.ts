@@ -32,7 +32,9 @@ export function getItemById(id: string): MapItem | null {
 }
 
 export function getItemsByTag(tag: string): MapItem[] {
-  return filterItems(rootItem, (item: MapPlace) => item.tags?.includes(tag));
+  return filterItems(rootItem, (item: MapPlace) =>
+    Boolean(item.tags?.includes(tag)),
+  );
 }
 
 export function getPlacesById(id: string): MapPlace[] {
@@ -44,7 +46,7 @@ export function getPlacesById(id: string): MapPlace[] {
     }
 
     return (item as MapCategory).items.filter(
-      (child: MapCategory) => child.type !== 'category',
+      (child: MapItem) => (child as MapCategory).type !== 'category',
     );
   }
 
@@ -56,7 +58,7 @@ export function getPlacesById(id: string): MapPlace[] {
   throw new Error(`Can't find place #${id}`);
 }
 
-export function getPlacemarksByIdOrTag(idOrTag): PlacemarkItem[] {
+export function getPlacemarksByIdOrTag(idOrTag: string): PlacemarkItem[] {
   const parentIcon = getItemIcon(rootItem, idOrTag);
 
   const placemarks = [];
