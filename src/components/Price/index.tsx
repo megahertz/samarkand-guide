@@ -4,24 +4,33 @@ import createUseRequest from '@site/src/components/Price/createUseRequest';
 import React, { useEffect, useState } from 'react';
 import styles from './styles.module.css';
 
-const CURRENCIES = ['usd', 'rub', 'uah', 'byn'] as const;
+const CURRENCIES = ['uzs', 'usd', 'rub', 'uah', 'byn'] as const;
 const FORMATS = {
+  brv: '{value} БРВ',
   byn: '{value} б.р.',
   rub: '{value} ₽',
   uah: '{value} ₴',
   usd: '${value}', // eslint-disable-line no-template-curly-in-string
+  uzs: '{value} сумов',
   default: '{value} {code}',
-};
+} as const;
+const BRV = 330_000;
 
-export default function Price({ children }: { children: string }) {
-  const price = Number.parseInt(children.replace(/\W+/g, ''), 10);
+export default function Price({
+  children,
+  currency = 'uzs',
+}: {
+  children: string;
+  currency?: Currency;
+}) {
+  const price = Number.parseFloat(children.replace(/[^\d.]+/g, ''));
 
   // Need to use effect, otherwise dom attribute won't be updated
-  const currenciesTemporary = useCurrencies({ price });
-  const [currencies, setCurrencies] = useState('');
+  const tempExchangeRates = useExchangeRates({ currency, price });
+  const [exchangeRates, setExchangeRates] = useState('');
   useEffect(
-    () => setCurrencies(currenciesTemporary),
-    [currenciesTemporary, setCurrencies],
+    () => setExchangeRates(tempExchangeRates),
+    [tempExchangeRates, setExchangeRates],
   );
 
   return (
@@ -29,10 +38,10 @@ export default function Price({ children }: { children: string }) {
       aria-label="Price"
       role="tooltip"
       className={styles.price}
-      data-title={currencies}
+      data-title={exchangeRates}
       tabIndex={0}
     >
-      {formatMoney(price)} сумов
+      {formatCurrency(price, currency)}
     </span>
   );
 }
@@ -59,19 +68,30 @@ const useCurrencyRequest = createUseRequest({
   },
 });
 
-function useCurrencies({ price = 0, selectedCurrencies = CURRENCIES } = {}) {
-  const rates = useCurrencyRequest({ selectedCurrencies }) || {};
+function useExchangeRates({
+  currency = 'uzs',
+  price = 0,
+  selectedCurrencies = CURRENCIES,
+}: {
+  currency?: Currency;
+  price?: number;
+  selectedCurrencies?: Readonly<Currency[]>;
+} = {}) {
+  const rates: Record<Currency, number> = {
+    ...(useCurrencyRequest({ selectedCurrencies }) as Record<Currency, number>),
+    brv: 1 / BRV,
+    uzs: 1,
+  };
+
+  const uzsPrice = currency === 'uzs' ? price : price / rates[currency];
+
   return selectedCurrencies
+    .filter((currencyCode) => currencyCode !== currency)
     .map((currencyCode: Currency) => {
       const rate = rates[currencyCode];
-      if (!rate || !price) {
-        return '';
-      }
-
-      const format = FORMATS[currencyCode] || FORMATS.default;
-      return format
-        .replace('{value}', formatMoney(price * rate))
-        .replace('{code}', currencyCode.toUpperCase());
+      return uzsPrice && rate
+        ? formatCurrency(uzsPrice * rate, currencyCode)
+        : '';
     })
     .filter(Boolean)
     .join('\n');
@@ -84,4 +104,11 @@ function formatMoney(amount: number) {
     .replace(/\.00$/, '');
 }
 
-type Currency = typeof CURRENCIES[number];
+function formatCurrency(amount: number, currency: Currency): string {
+  const format = FORMATS[currency] || FORMATS.default;
+  return format
+    .replace('{value}', formatMoney(amount))
+    .replace('{code}', currency.toUpperCase());
+}
+
+type Currency = Exclude<keyof typeof FORMATS, 'default'>;

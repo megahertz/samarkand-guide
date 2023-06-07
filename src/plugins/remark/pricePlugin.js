@@ -9,12 +9,16 @@ const importStatement = "import Price from '@site/src/components/Price';";
 function pricePlugin() {
   return (root) => {
     visit(root, 'text', (node) => {
-      if (!node.value?.includes('UZS')) {
+      if (!node.value?.includes('UZS') && !node.value?.includes('БРВ')) {
         return;
       }
 
       node.type = 'jsx';
-      node.value = node.value.replace(/([\d,.]+)UZS/g, '<Price>$1</Price>');
+      node.value = node.value.replace(/([\d,.]+)UZS/g, ' <Price>$1</Price>');
+      node.value = node.value.replace(
+        /([\d,.]+)БРВ/g,
+        ' <Price currency="brv">$1</Price>',
+      );
 
       if (root.children[0]?.value !== importStatement) {
         root.children.unshift({

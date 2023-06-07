@@ -150,7 +150,7 @@ image: ./img/airport.jpg
 Здесь строго с пропиской, не так давно за повторное нарушение могли дать срок.
 При Мирзиёеве закон смягчили и
 [уменьшили максимальный штраф](https://www.norma.uz/novoe_v_zakonodatelstve/sankcii_za_narusheniya_pravil_prebyvaniya_peresmotreli)
-до 20 БРВ (6,000,000UZS на начало 2023).&nbsp;
+{' '}до 20БРВ.{' '}
 [Официальное положение о регистрации](https://lex.uz/ru/docs/4015759).
 
 :::caution Срок регистрации
