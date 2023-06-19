@@ -26,11 +26,13 @@ description:
 - [icon-telegram Чат про банки](https://t.me/samarkandkb), ранее тут была
   самоорганизованная очередь в Капиталбанк
 
-### Спорт и развлечения
+### Спорт, досуг и развлечения
 
 - [icon-telegram Чат про настольные игры](https://t.me/+MLH6vX9i6q4zZWYy)
 - [icon-telegram Чат про D&D и Warhammer](https://t.me/+AjIYeJdKNkc3ZjUy)
 - [icon-telegram Дискуссионный клуб](https://t.me/+GC7lERfGiw5mMjJi)
+- [icon-telegram English Speaking Club](https://t.me/ESCSamarkand)
+- [icon-telegram Club Español en Samarcanda](https://t.me/+bWAfujZyPIg1YmE6)
 - [icon-telegram Чат о походах в горы](https://t.me/PogoramSamarkanda)
 - [icon-telegram Чат про футбол](https://t.me/+QUCCGv7Xiz4yNmI6)
 - [icon-telegram Чат футбольной секции для детей](https://t.me/samarkand_football_school)
@@ -71,7 +73,7 @@ description:
 - [icon-telegram Чат для поиска работы](https://t.me/+hpVi2hLJkaUxN2Fi)
 - [icon-telegram Чат про IT](https://t.me/+HnxP0Ru23jMzM2Iy)
 
-### Спорт и развлечения
+### Спорт, досуг и развлечения
 
 - [icon-telegram Чат для бегунов](https://t.me/relocationuzrun)
 - [icon-telegram Чат для любителей горнолыжных видов спорта](https://t.me/relocationuzriders)
