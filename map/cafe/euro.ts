@@ -23,14 +23,5 @@ export default {
       instagram: 'https://www.instagram.com/laesmeralda.uz/',
       phones: ['+998 33 235 00 20'],
     },
-    {
-      label: 'Mozzarella',
-      yandexMap: 'https://yandex.uz/maps/org/mozzarella/196027580034',
-      location: [39.680636, 66.93079],
-      phones: ['+998 66 229 22 76'],
-      telegram: 'https://t.me/mozzarellaclub',
-      description: 'Крафт, постоянное место мероприятий релокантов',
-      tags: ['bar', 'beer'],
-    },
   ],
 } satisfies MapCategory;
