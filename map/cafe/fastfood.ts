@@ -2,7 +2,7 @@ import type { MapCategory } from '@site/map/lib/types';
 
 export default {
   id: 'fastfood',
-  label: 'Fastfood',
+  label: 'Фастфуд',
   type: 'category',
   items: [
     {
