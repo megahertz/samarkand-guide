@@ -38,7 +38,25 @@ export default {
       location: [39.646877, 66.922152],
       yandexMap: 'https://yandex.uz/maps/org/anorbank/186260071927',
       web: 'https://anorbank.uz/',
-      phones: ['+998 55 503 00 00'],
+      phones: ['+998 (55) 503-00-00'],
+    },
+    {
+      label: 'Asia Alliance',
+      location: [39.650611, 66.959582],
+      yandexMap: 'https://yandex.uz/maps/org/218150937091/',
+      googleMap:
+        'https://www.google.com/maps/place/Asia+Alliance+Bank+Samarkand/@39.6505632,66.9596397,15z/data=!4m2!3m1!1s0x0:0x6662802d68d2b9b4?sa=X&ved=2ahUKEwjv7IjnlY6BAxVTYPEDHQXNBeMQ_BJ6BAhDEAA&ved=2ahUKEwjv7IjnlY6BAxVTYPEDHQXNBeMQ_BJ6BAhREAg',
+      web: 'https://aab.uz/ru',
+      phones: [
+        '+998 (66) 231-18-30',
+        '+998 (71) 231-60-00',
+        '+998 (66) 231-18-55',
+      ],
+      description:
+        'Стали открывать карты нерезидентам, но делают это долго ' +
+        'и неохотно. Проще и быстрее сделать в Ташкенте. Тем не менее, ' +
+        'этот банк очень хвалят те кто получает зарубежные валютные платежи ' +
+        'как самозанятый.',
     },
     {
       label: 'InfinBANK',
