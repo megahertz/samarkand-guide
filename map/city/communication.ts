@@ -10,8 +10,7 @@ export default {
       label: 'Главпочтамт',
       location: [39.654729, 66.959505],
       yandexMap: 'https://yandex.uz/maps/org/9410107127',
-      googleMap:
-        'https://www.google.com/maps/place/Post+Office/@39.6546787,66.9573393,18z/data=!3m1!4b1!4m5!3m4!1s0x3f4d18da44ad43fd:0x1d0007e17ba9d0a3!8m2!3d39.6546787!4d66.9594529',
+      googleMap: 'https://goo.gl/maps/gQYSxpVn4Pj4tNWe8',
       web: 'https://pochta.uz/ru/',
     },
     {

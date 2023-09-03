@@ -35,6 +35,9 @@ image: ./img/communications.jpg
 - Команда [\*115#](tel:*115#) отключает все платные подписки
 - На некоторых тарифах включен Beeline TV, можно смотреть TV (а на более дорогих
   еще и фильмы) бесплатно и без расхода трафика.
+- Можно поменять обычную SIM карту на eSIM онлайн
+  [без посещения офиса](https://nomer.beeline.uz/order-esim).
+  [Инструкция](https://beeline.uz/binaries/content/assets/other-documents/registrasionniy-blank/instruksiya-rus.pdf).
 
 ## Интернет
 
