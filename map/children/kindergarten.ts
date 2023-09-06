@@ -97,7 +97,8 @@ export default {
     {
       label: 'Wunderkind',
       price: [2_000_000],
-      description: 'Большая территория, хорошее питание, логопед, новая мебель.',
+      description:
+        'Большая территория, хорошее питание, логопед, новая мебель.',
       instagram: 'https://www.instagram.com/wunderkind_samarkand/',
     },
     {
