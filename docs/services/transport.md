@@ -118,8 +118,9 @@ sidebar_position: 5
 доплату. Пятаков много, я знаю не про все из них. Но всегда можно спросить у
 таксиста, где находится нужный. Если экономить нет необходимости, то всегда
 можно заказать междугороднюю поездку на такси. Цена выйдет на 15% — 50% дороже,
-чем машина целиком с пятака. Еще есть чат таксистов
-[icon-telegram&#8288;Toshkent_Samarqand_taksis](https://t.me/Toshkent_Samarqand_taksis).
+чем машина целиком с пятака. Еще есть чаты таксистов
+[icon-telegram&#8288;Toshkent_Samarqand_taksis](https://t.me/Toshkent_Samarqand_taksis)
+и [icon-telegram&#8288;toshkentsamarkand](https://t.me/toshkentsamarkand).
 
 Для поездки в горы и другие интересные места, вроде Шахрисабза можно обратиться
 к [Эркину icon-telegram&#8288;@erkinmavlyanov13](https://t.me/erkinmavlyanov13).
