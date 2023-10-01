@@ -20,8 +20,9 @@ image: ./img/apartment.jpg
 признать, ситуация постепенно улучшается. Не испугались? Тогда читайте дальше.
 
 Начинать поиск надо с
-[olx.uz](https://www.olx.uz/d/nedvizhimost/kvartiry/samarkand/). Или сразу
-написать проверенным риелторам
+[olx.uz](https://www.olx.uz/d/nedvizhimost/kvartiry/samarkand/) и чата
+[icon-telegram&#8288;NedvijmostiSamarkand](https://t.me/NedvijmostiSamarkand).
+Или сразу написать проверенным риелторам
 [icon-telegram&#8288;Ilmira_Alievna](https://t.me/Ilmira_Alievna),
 [icon-telegram&#8288;Maykl_Reverson](https://t.me/Maykl_Reverson). Квартиры от
 собственников попадаются не часто, риелтор берет 50% от суммы аренды за первый

@@ -64,7 +64,7 @@ description:
 
 ### Деньги, работа, бизнес
 
-- [icon-telegram Чат про деньги](https://t.me/+ZwEXOUVdhE40MGUy)
+- [icon-telegram Чат про деньги](https://t.me/+LibgGc_uy3c0OGU6)
 - [icon-telegram Чат TravelAsk Узбекистан — обмен денег, карты, крипта](https://t.me/+4M5Shn9aLuIyMTk6)
 - [icon-telegram Чат Капитал Банк для россиян](https://t.me/kapitalbank_uz_rus)
 - [icon-telegram Чат про бизнес](https://t.me/relocationuzbusiness)

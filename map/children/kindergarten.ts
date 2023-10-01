@@ -63,6 +63,7 @@ export default {
       yandexMap: 'https://yandex.uz/maps/-/CCUG6UAKOA',
       googleMap: 'https://goo.gl/maps/XLCAkQ23hAe8JLSq5',
       instagram: 'https://www.instagram.com/happychild_uz/',
+      price: [2_000_000],
       phones: ['+998 (91) 530-23-23', '+998 (90) 603-50-05'],
       description:
         'Большая игровая зона, хвалят питание и преподавателей. Из минусов — ' +
@@ -97,6 +98,8 @@ export default {
     {
       label: 'Wunderkind',
       price: [2_000_000],
+      location: [39.671565, 66.92388],
+      yandexMap: 'https://yandex.uz/maps/-/CDUDfQKx',
       description:
         'Большая территория, хорошее питание, логопед, новая мебель.',
       instagram: 'https://www.instagram.com/wunderkind_samarkand/',
