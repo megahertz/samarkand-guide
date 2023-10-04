@@ -23,6 +23,17 @@
 }
 /* colors-end */
 
+.hidden {
+  display: none !important;
+}
+
+.navbar-sidebar__to-guide {
+  padding: 0.3rem 0.6rem;
+}
+.navbar-sidebar__to-guide a {
+  color: ButtonText;
+}
+
 .medium-zoom-image {
   z-index: 200;
 }

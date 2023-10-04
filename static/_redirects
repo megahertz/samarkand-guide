@@ -1,0 +1,28 @@
+# v1.0.58 -> v1.1.0
+/docs/samarkand/ /samarkand/about 302
+/docs/samarkand/weather/ /samarkand/weather 302
+/docs/samarkand/people /samarkand/people 302
+/docs/samarkand/toponyms /samarkand/toponyms 302
+/docs/visa/ /samarkand/visa 302
+/docs/apartment/ /apartment/find 302
+/docs/apartment/districts /apartment/districts 302
+/docs/apartment/utilities /apartment/utilities 302
+/docs/services/communication /services/communication 302
+/docs/services/finance /services/finance 302
+/docs/services/medicine /services/medicine 302
+/docs/services/government /services/government 302
+/docs/services/transport /services/transport 302
+/docs/services/post /services/post 302
+/docs/purchases/ /purchases/grocery 302
+/docs/purchases/household /purchases/household 302
+/docs/purchases/malls /purchases/malls 302
+/docs/purchases/bazar /purchases/bazar 302
+/docs/occupation/ /occupation 302
+/docs/children/ /samarkand/people 302
+/docs/children/kindergarten /children/kindergarten 302
+/docs/children/school /children/school 302
+/docs/children/activities/ /children/activities 302
+/docs/children/activities/playground /children/playground 302
+/docs/children/activities/feast /children/feast 302
+/links /other/links 302
+

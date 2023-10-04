@@ -1,4 +1,5 @@
 import Head from '@docusaurus/Head';
+import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
 import { useLocation } from '@docusaurus/router';
 import SidebarStyles from '@docusaurus/theme-classic/lib/theme/DocPage/Layout/Sidebar/styles.module.css';
 import { ThemeClassNames } from '@docusaurus/theme-common';
@@ -17,7 +18,15 @@ export default function MapPage() {
   const location = useLocation();
   useMenuHighlighting();
 
-  const sidebarItems = getSidebarItems(location.hash);
+  const sidebarItems: PropSidebarItem[] = [
+    {
+      type: 'link',
+      label: '← Назад в Справочник',
+      href: '/',
+      className: 'navbar-sidebar__back navbar-sidebar__to-guide',
+    },
+    ...getSidebarItems(location.hash),
+  ];
 
   const routePath = location.hash.slice(2);
   const selectedPlacemarks = placemarks.filter((placemark) => {

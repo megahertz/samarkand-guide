@@ -2,8 +2,7 @@
 
 // @ts-check
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const prism = require('prism-react-renderer');
 const remarkIconPlugin = require('./src/plugins/remark/iconPlugin');
 const remarkMapPlugin = require('./src/plugins/remark/mapPlugin');
 const remarkPricePlugin = require('./src/plugins/remark/pricePlugin');
@@ -22,6 +21,7 @@ module.exports = {
   titleDelimiter: ' ',
   url: 'https://samarkand-guide.com',
   baseUrl: '/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -60,11 +60,9 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/megahertz/samarkand-guide/tree/master/',
           remarkPlugins,
+          routeBasePath: '/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/megahertz/samarkand-guide/tree/master/',
-        },
+        blog: false,
         gtag: { trackingID: 'G-6H7SMT618D' },
         theme: {
           customCss: [require.resolve('./src/css/custom.css')],
@@ -104,16 +102,6 @@ module.exports = {
       navbar: {
         title: 'SamGuide',
         logo: { alt: 'Samarkand Guide Logo', src: 'img/logo.svg' },
-        items: [
-          {
-            type: 'doc',
-            docId: 'samarkand/index',
-            position: 'left',
-            label: 'Справочник',
-          },
-          { to: '/map', label: 'Карта', position: 'left' },
-          { to: '/links', label: 'Полезные ссылки', position: 'left' },
-        ],
       },
       footer: {
         style: 'dark',
@@ -121,29 +109,24 @@ module.exports = {
           {
             title: 'Справочник',
             items: [
-              { label: 'Самарканд и Узбекистан', to: 'docs/samarkand/' },
-              { label: 'Виза и регистрация', to: 'docs/visa/' },
-              { label: 'Жилье', to: 'docs/apartment/' },
-              { label: 'Услуги', to: 'docs/services/communication' },
-              { label: 'Покупки', to: 'docs/purchases/' },
-              { label: 'Работа и бизнес', to: 'docs/occupation/' },
-              { label: 'Дети', to: 'docs/children/' },
+              { label: 'Самарканд и Узбекистан', to: 'samarkand/about' },
+              { label: 'Жилье', to: 'apartment/find' },
+              { label: 'Услуги', to: 'services/communication' },
+              { label: 'Покупки', to: 'purchases/grocery' },
+              { label: 'Работа и бизнес', to: 'occupation/' },
+              { label: 'Дети', to: 'children/kindergarten' },
             ],
           },
           {
             title: 'Другое',
             items: [
               { label: 'Карта', to: 'map' },
-              { label: 'Полезные ссылки', to: 'links' },
+              { label: 'Полезные ссылки', to: 'other/links' },
             ],
           },
           {
             title: 'Проект',
             items: [
-              {
-                label: 'Github',
-                href: 'https://github.com/megahertz/samarkand-guide',
-              },
               {
                 html:
                   '<a ' +
@@ -156,13 +139,21 @@ module.exports = {
                   'height="16" ' +
                   'src="/img/icons/telegram.svg" ' +
                   'width="16"> ' +
-                  'Обсуждение' +
+                  'Чат' +
                   '</a>',
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/megahertz/samarkand-guide',
               },
             ],
           },
         ],
         copyright: `© ${new Date().getFullYear()} Самарканд: справочник релоканта`,
+      },
+      prism: {
+        theme: prism.themes.github,
+        darkTheme: prism.themes.vsDark,
       },
       zoom: {
         selector: '.markdown :not(a) > img:not(.no-zoom)',
@@ -171,10 +162,6 @@ module.exports = {
           dark: 'rgb(50, 50, 50, 0.9)',
         },
         config: {},
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
     }),
 

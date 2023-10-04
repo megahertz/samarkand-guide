@@ -1,10 +1,11 @@
 ---
 title: Районы Самарканда
 sidebar_label: Районы
+sidebar_position: 2
+image: ./img/qorasuv.jpg
 description:
   Какой район Самарканда выбрать. Где живут релоканты в Самарканде. Где в
   Самарканде реже выключают свет и воду. Лучший район Самарканда.
-image: ./img/qorasuv.jpg
 ---
 
 <head>
