@@ -19,8 +19,8 @@ function mapPlugin() {
       node.type = 'jsx';
 
       node.value = node.value
-        .replace(/@@@([\w-]+)/g, '<InlineMap itemId="$1" />')
-        .replace(/@@([\w-]+)/g, '<PlaceInfo id="$1" />');
+        .replaceAll(/@@@([\w-]+)/g, '<InlineMap itemId="$1" />')
+        .replaceAll(/@@([\w-]+)/g, '<PlaceInfo id="$1" />');
 
       if (root.children[0]?.value !== importStatement) {
         root.children.unshift({

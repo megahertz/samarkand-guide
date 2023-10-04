@@ -14,8 +14,8 @@ function pricePlugin() {
       }
 
       node.type = 'jsx';
-      node.value = node.value.replace(/([\d,.]+)UZS/g, ' <Price>$1</Price>');
-      node.value = node.value.replace(
+      node.value = node.value.replaceAll(/([\d,.]+)UZS/g, ' <Price>$1</Price>');
+      node.value = node.value.replaceAll(
         /([\d,.]+)БРВ/g,
         ' <Price currency="brv">$1</Price>',
       );

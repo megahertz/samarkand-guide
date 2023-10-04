@@ -12,10 +12,10 @@ function telephonePlugin() {
       }
 
       node.type = 'jsx';
-      node.value = node.value.replace(
+      node.value = node.value.replaceAll(
         /\+998 \(\d\d\) \d\d\d-\d\d-\d\d/g,
         (match) => {
-          const link = match.replace(/[^\d+]+/g, '');
+          const link = match.replaceAll(/[^\d+]+/g, '');
           return `<a href="tel:${link}">${match}</a>`;
         },
       );
