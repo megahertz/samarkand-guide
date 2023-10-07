@@ -1,11 +1,12 @@
-import bazar from '@site/map/market/bazar';
-import household from '@site/map/market/household';
-import type { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '../lib/types';
+import bazar from './bazar';
+import grocery from './grocery';
+import household from './household';
 import malls from './mall';
 
 export default {
   id: 'market',
-  items: [malls, household, bazar],
+  items: [grocery, malls, household, bazar],
   icon: 'islands#blueShoppingIcon',
   label: 'Торговля',
   type: 'category',
