@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - '*'
+    branches:
+      - '*'
 
 env:
   CI: 1
@@ -14,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    if: |
+      contains(github.event.head_commit.message, '#dev')
+        || contains(github.event.ref, 'refs/tags')
 
     steps:
       - uses: actions/checkout@v3
