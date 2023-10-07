@@ -4,6 +4,11 @@ pagination_prev: null
 pagination_next: samarkand/visa
 ---
 
+<head>
+  <title>Самарканд: справочник релоканта</title>
+  <meta property="og:title" content="Самарканд: справочник релоканта" />
+</head>
+
 # Самарканд: справочник релоканта
 
 Сайт создан, чтобы собрать всю информацию о жизни в Самарканде в одном месте.
