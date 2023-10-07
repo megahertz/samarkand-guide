@@ -1,12 +1,12 @@
 import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
+import { renderPlace } from '../../src/components/PlaceInfo/PlaceBody';
 import type {
   MapCategory,
   MapIcon,
   MapItem,
   MapPlace,
   PlacemarkItem,
-} from '@site/map/lib/types';
-import { renderPlace } from '@site/src/components/PlaceInfo/PlaceBody';
+} from './types';
 
 export function filterItems(
   rootItem: MapItem,

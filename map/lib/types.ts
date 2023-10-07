@@ -1,4 +1,5 @@
 export interface MapPlace {
+  address?: string;
   description?: string;
   facebook?: string;
   googleMap?: string;
@@ -8,6 +9,7 @@ export interface MapPlace {
   images?: Array<{ default: string }>;
   label: string;
   location?: [number, number];
+  openHours?: Array<{ daysOfWeek?: string; time: string }>;
   phones?: string[];
   price?: number[];
   showLabel?: boolean;
@@ -20,11 +22,16 @@ export interface MapPlace {
 }
 
 export interface MapCategory {
+  facebook?: string;
   icon?: MapIcon;
   id: string;
+  instagram?: string;
   items: Array<MapCategory | MapPlace>;
   label: string;
+  telegram?: string;
   type: 'category';
+  web?: string;
+  youtube?: string;
 }
 
 export interface PlacemarkItem {

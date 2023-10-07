@@ -1,5 +1,5 @@
-import Icon, { IconName } from '@site/src/components/Icon';
 import React from 'react';
+import Icon, { IconName } from '../Icon';
 import styles from './styles.module.css';
 
 export default function IconLink({

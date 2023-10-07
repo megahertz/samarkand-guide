@@ -1,4 +1,4 @@
-import type { MapCategory, MapIcon } from '@site/map/lib/types';
+import type { MapCategory, MapIcon } from '../lib/types';
 
 const DISTRICT_ICON: MapIcon = 'islands#pinkCircleDotIcon';
 const PLACE_ICON: MapIcon = 'islands#darkBlueCircleDotIcon';

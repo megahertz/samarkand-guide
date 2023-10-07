@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 
-import createUseRequest from '@site/src/components/Price/createUseRequest';
 import React, { useEffect, useState } from 'react';
+import createUseRequest from './createUseRequest';
 import styles from './styles.module.css';
 
 const CURRENCIES = ['uzs', 'usd', 'rub', 'uah', 'byn'] as const;

@@ -1,4 +1,4 @@
-import type { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '../lib/types';
 import bar from './bar';
 import desserts from './desserts';
 import euro from './euro';

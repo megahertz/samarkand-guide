@@ -1,0 +1,7 @@
+.viewParagraph {
+  padding-bottom: var(--ifm-pre-padding);
+
+  & h3 {
+    font-size: 1.1em;
+  }
+}

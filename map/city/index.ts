@@ -1,4 +1,4 @@
-import type { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '../lib/types';
 import communication from './communication';
 import toponyms from './toponyms';
 import utilities from './utilities';

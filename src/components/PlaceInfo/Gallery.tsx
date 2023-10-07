@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events,jsx-a11y/no-noninteractive-element-interactions */
 
-import Loader from '@site/src/components/PlaceInfo/Loader';
-import useImgCache from '@site/src/components/PlaceInfo/useImgCache';
-import useSwipe from '@site/src/components/PlaceInfo/useSwipe';
 import React, { useEffect, useState } from 'react';
+import Loader from './Loader';
+import useImgCache from './useImgCache';
+import useSwipe from './useSwipe';
 import styles from './Gallery.module.css';
 
 export default function Gallery({

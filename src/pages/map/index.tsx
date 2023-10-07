@@ -3,7 +3,7 @@ import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
 import { useLocation } from '@docusaurus/router';
 import SidebarStyles from '@docusaurus/theme-classic/lib/theme/DocPage/Layout/Sidebar/styles.module.css';
 import { ThemeClassNames } from '@docusaurus/theme-common';
-import { getPlacemarkItems, getSidebarItems } from '@site/map';
+import map from '@site/map';
 import { placemarkMatchesUrl } from '@site/map/lib/helpers';
 import DocSidebar from '@theme/DocSidebar';
 import Layout from '@theme/Layout';
@@ -12,7 +12,7 @@ import React, { useEffect } from 'react';
 import { Map } from '../../components/map';
 import styles from './styles.module.css';
 
-const placemarks = getPlacemarkItems();
+const placemarks = map.getPlacemarkItems();
 
 export default function MapPage() {
   const location = useLocation();
@@ -25,7 +25,7 @@ export default function MapPage() {
       href: '/',
       className: 'navbar-sidebar__back navbar-sidebar__to-guide',
     },
-    ...getSidebarItems(location.hash),
+    ...map.getSidebarItems(location.hash),
   ];
 
   const routePath = location.hash.slice(2);

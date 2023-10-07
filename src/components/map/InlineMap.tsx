@@ -1,4 +1,4 @@
-import { getPlacemarksByIdOrTag } from '@site/map';
+import map from '@site/map';
 import React from 'react';
 import Map from './Map';
 import styles from './InlineMap.module.css';
@@ -14,7 +14,7 @@ export default function InlineMap({
   showLabels?: boolean;
   zoom?: number;
 }) {
-  const placemarks = getPlacemarksByIdOrTag(itemId);
+  const placemarks = map.getPlacemarksByIdOrTag(itemId);
 
   if (placemarks.length < 1) {
     return <div>Map item not found</div>;

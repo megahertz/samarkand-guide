@@ -52,6 +52,7 @@ module.exports = {
           },
         ],
         '@typescript-eslint/no-use-before-define': 'off',
+        'no-restricted-exports': 'off',
         'react/function-component-definition': [
           'error',
           {

@@ -20,7 +20,10 @@ function mapPlugin() {
 
       node.value = node.value
         .replaceAll(/@@@([\w-]+)/g, '<InlineMap itemId="$1" />')
-        .replaceAll(/@@([\w-]+)/g, '<PlaceInfo id="$1" />');
+        .replaceAll(
+          /@@([\w-]+)(\?[\w&=]+)?/g,
+          '<PlaceInfo id="$1" options="$2" />',
+        );
 
       if (root.children[0]?.value !== importStatement) {
         root.children.unshift({

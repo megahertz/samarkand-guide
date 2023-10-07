@@ -1,7 +1,7 @@
-import activities from '@site/map/children/activities';
-import kindergarten from '@site/map/children/kindergarten';
-import school from '@site/map/children/school';
-import type { MapCategory } from '@site/map/lib/types';
+import activities from './activities';
+import kindergarten from './kindergarten';
+import school from './school';
+import type { MapCategory } from '../lib/types';
 
 export default {
   id: 'children',

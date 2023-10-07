@@ -1,4 +1,4 @@
-import type { MapCategory } from '@site/map/lib/types';
+import type { MapCategory } from '../../lib/types';
 import playground from './playground';
 
 export default {
