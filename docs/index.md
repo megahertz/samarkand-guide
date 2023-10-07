@@ -16,15 +16,15 @@ pagination_next: samarkand/visa
 [узбекском менталитете](samarkand/people), о [визовых вопросах](samarkand/visa)
 и [топонимах Самарканда](samarkand/toponyms).
 
-Следующий раздел описывает [районы Самарканда](appartment/districts), содержит
-[рекомендации по поиску квартир](appartment/find) и все что касается
-[коммунальных услуг](appartment/utilities).
+Следующий раздел описывает [районы Самарканда](apartment/districts), содержит
+[рекомендации по поиску квартир](apartment/find) и все что касается
+[коммунальных услуг](apartment/utilities).
 
 Все виды услуг собраны в одном разделе:
 
 - [Мобильная связь и Интернет](services/communication)
 - [Банки, обмен валют и денежные переводы](services/finance)
-- [Медицина, врачи и аптеки](medicine)
+- [Медицина, врачи и аптеки](services/medicine)
 - [Получение ПИНФЛ, ЭЦП и госуслуги для нерезидента](services/government)
 - [Городской, пригородный, междугородний и международный транспорт](services/transport)
 - [Почта и отправления](services/post)

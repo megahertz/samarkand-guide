@@ -33,6 +33,8 @@ jobs:
         with:
           accountId: ${{ secrets.cloudflare_account_id }}
           apiToken: ${{ secrets.cloudflare_api_token }}
-          branch: contains(github.event.head_commit.message, '#dev') && 'master' || 'dev'
+          branch:
+            contains(github.event.head_commit.message, '#dev') && 'master' ||
+            'dev'
           directory: build
           projectName: samarkand-guide
