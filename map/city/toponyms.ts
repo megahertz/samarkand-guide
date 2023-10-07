@@ -171,7 +171,7 @@ export default {
     },
     {
       label: 'Мотрид / Карасу',
-      location: [39.726768, 66.914152],
+      location: [39.718722, 66.933323],
       icon: DISTRICT_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCU7AXFOKC',
       description: 'Массив новостроек к северу от вокзала.',
