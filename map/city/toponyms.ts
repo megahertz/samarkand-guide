@@ -72,6 +72,15 @@ export default {
         'предприятие поселка Самаркандгеология сохранилось до наших дней.',
     },
     {
+      label: 'Гор. ГАИ',
+      location: [39.658467, 66.987169],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/36766274484/',
+      description:
+        'Госавтоинспекция города Самарканд. Не путать с Обл. ГАИ. ' +
+        'Варианты: Городское ГАИ, Горгаи.',
+    },
+    {
       label: 'Джугутон / Джувутон / Еврейская махалля',
       location: [39.658467, 66.987169],
       icon: DISTRICT_ICON,
@@ -203,6 +212,16 @@ export default {
       description: 'Ориентир по названию ресторана.',
     },
     {
+      label: 'Обл. ГАИ',
+      location: [39.676519, 66.912516],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/213939596730/',
+      description:
+        'Управление безопасности дорожного движения Самаркандской области, в ' +
+        'прошлом Областная государственная автоинспекция Самаркандской области. ' +
+        'Не путать с Гор ГАИ. Варианты: Облгаи, Областное ГАИ.',
+    },
+    {
       label: 'Панджаб',
       location: [39.643447, 66.929132],
       icon: DISTRICT_ICON,
@@ -227,6 +246,15 @@ export default {
         'автотранспорта SamKochAvto',
     },
     {
+      label: 'СамГАСИ / SamDAQI',
+      location: [39.627126, 66.943078],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/46031549259/',
+      description:
+        'Самаркандский Государственный Архитектурно-Строительный университет ' +
+        '(институт).',
+    },
+    {
       label: 'Саодат',
       location: [39.680959, 66.932529],
       icon: PLACE_ICON,
@@ -239,6 +267,16 @@ export default {
       icon: DISTRICT_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCU7ATbdPC',
       description: 'Жилой массив к югу от Микрорайона.',
+    },
+    {
+      label: 'Сельхоз институт',
+      location: [39.659935, 66.93234],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/95428374466/',
+      description:
+        'Иногда просто Сельхоз. Самаркандский государственный университет ' +
+        'ветеринарной медицины, животноводства и биотехнологий. Раньше ' +
+        'назывался Самаркандский сельскохозяйственный институт (СамСХИ).',
     },
     {
       label: 'Сибирские пельмени',
@@ -262,6 +300,14 @@ export default {
       yandexMap:
         'https://yandex.uz/maps/10334/samarkand/house/Yk8YfwVmSUUAQF1jfXp2cnVmYQ==/',
       description: 'Когда-то здесь был офис Билайна, теперь Корзинка Анжир.',
+    },
+    {
+      label: 'UzGazOil / Uzbekneftegaz',
+      location: [39.680189, 66.938295],
+      yandexMap: 'https://yandex.uz/maps/org/159142842034/',
+      description:
+        'Заправка. До 2017 называлась Узгазоил, позже компания ' +
+        'переименовалась в Узбекнефтгаз. Но ориентир сохранил старое название.',
     },
     {
       label: 'Ургутский базарчик',
