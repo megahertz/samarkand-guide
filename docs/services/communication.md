@@ -7,7 +7,7 @@ description:
 image: ./img/communications.jpg
 ---
 
-## Мобильная связь
+## Мобильная связь {#mobile}
 
 С сотовой все хорошо. Берите симку Beeline или Uztelecom - не прогадаете. Если
 нужен роуминг — лучше Beeline, у Uztelectom есть ограничения на роуминг для
@@ -40,7 +40,7 @@ image: ./img/communications.jpg
   [без посещения офиса](https://nomer.beeline.uz/order-esim).
   [Инструкция](https://beeline.uz/binaries/content/assets/other-documents/registrasionniy-blank/instruksiya-rus.pdf).
 
-## Интернет
+## Интернет {#internet}
 
 Не до каждого дома дошла цивилизация, где-то все-еще довольствуются ADSL. Из
 него больше 8 Мбит на загрузку / пол мегабита на отдачу не вытянуть.

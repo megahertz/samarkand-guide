@@ -13,7 +13,7 @@ description:
 
 - [icon-telegram Чат этого сайта](https://t.me/samarkand_guide)
 
-## Самарканд
+## Самарканд {#samarkand}
 
 ### Общие темы
 
@@ -34,7 +34,6 @@ description:
 - [icon-telegram English Speaking Club](https://t.me/ESCSamarkand)
 - [icon-telegram Club Español en Samarcanda](https://t.me/+bWAfujZyPIg1YmE6)
 - [icon-telegram Чат о походах в горы](https://t.me/PogoramSamarkanda)
-- [icon-telegram Чат про футбол](https://t.me/+QUCCGv7Xiz4yNmI6)
 - [icon-telegram Чат футбольной секции для детей](https://t.me/samarkand_football_school)
 
 ### Другое
@@ -47,7 +46,7 @@ description:
   местных, половина постов на узбекском
 - [icon-telegram Чат TravelAsk Самарканд](https://t.me/+8sGIAkzoVAM5MGUy)
 
-## Узбекистан
+## Узбекистан {#uzbekistan}
 
 ### Общие темы
 
@@ -84,7 +83,7 @@ description:
   наиболее полное описание быта и культуры Узбекистана (и не только) из того что
   я встречал.
 
-## Соседние релокации
+## Соседние релокации {#near}
 
 - [icon-telegram Таджикистан](https://t.me/relocation_tj),
   [icon-web гайд](https://teletype.in/@theferrum/tajikistan)
