@@ -36,6 +36,7 @@ export default {
       location: [39.687412, 66.896273],
       yandexMap: 'https://yandex.uz/maps/org/104467559050/',
       googleMap: 'https://goo.gl/maps/pFj2E472B89JYCX96',
+      video: 'lpsDaI6a1M0',
       description:
         'Работает по средам и выходным. Крупная барахолка, попадается ' +
         'антиквар. В глубине находится рынок подержаной мебели.',

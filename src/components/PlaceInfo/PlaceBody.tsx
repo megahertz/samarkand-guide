@@ -35,6 +35,7 @@ export function PlaceBody({
         <PlaceHours place={place} />
         <PlacePrices place={place} />
         <PlacePhones place={place} />
+        <PlaceVideo place={place} />
         <PlaceLinks place={place} />
       </div>
     </div>
@@ -128,6 +129,24 @@ function PlaceHours({ place }: { place: MapPlace }) {
         ))}
       </ul>
     </div>
+  );
+}
+
+function PlaceVideo({ place }: { place: MapPlace }) {
+  if (!place.video) {
+    return null;
+  }
+
+  return (
+    <iframe
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      frameBorder="0"
+      height="315"
+      src={`https://www.youtube.com/embed/${place.video}`}
+      title={`${place.label} video`}
+      width="560"
+    />
   );
 }
 

@@ -76,16 +76,16 @@ description:
 [специальный портал налоговой ijara.soliq.uz](https://ijara.soliq.uz/). Я делал
 через второй вариант, вроде бы он чуть удобнее.
 
-<iframe 
-  width="100%"
-  height="315" 
-  src="https://www.youtube.com/embed/RNE3fFSfQyA" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen=""></iframe>
-
-<label>Видеоруководство для арендодателя и арендатора</label>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/RNE3fFSfQyA" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen=""></iframe>
+  
+  <label>Видеоруководство для арендодателя и арендатора</label>
 
 Судя по рассказам, в большинство случаев владелец квартиры предлагает обратиться
 к помогаторам, которые все сделают, нужно только ЭЦП передать. Постарайтесь

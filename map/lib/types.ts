@@ -18,6 +18,7 @@ export interface MapPlace {
   telegram?: string;
   telegram2?: string;
   twoGis?: string;
+  video?: string;
   vkontakte?: string;
   web?: string;
   yandexMap?: string;

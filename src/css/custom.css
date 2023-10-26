@@ -23,6 +23,20 @@
 }
 /* colors-end */
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.resource-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.resource-container > * {
+  max-width: 600px;
+}
+
 .index-pattern {
   background: url(/img/index-pattern.png) repeat-x;
   height: 50px;
