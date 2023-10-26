@@ -83,3 +83,7 @@ iframe {
   margin: -5px 0 var(--ifm-leading);
   text-align: center;
 }
+
+img[alt="Оплата социального налога на самозанятого"] {
+  width: 400px;
+}
