@@ -135,8 +135,10 @@ function getMapPlaceLinks(place: MapPlace): IconLinkData[] {
   return [
     place.yandexMap && { href: place.yandexMap, icon: 'yandex-maps' as any },
     place.googleMap && { href: place.googleMap, icon: 'google-maps' },
+    place.twoGis && { href: place.twoGis, icon: 'two-gis' },
     place.web && { href: place.web, icon: 'web' },
     place.telegram && { href: place.telegram, icon: 'telegram' },
+    place.telegram2 && { href: place.telegram2, icon: 'telegram' },
     place.instagram && { href: place.instagram, icon: 'instagram' },
     place.facebook && { href: place.facebook, icon: 'facebook' },
     place.youtube && { href: place.youtube, icon: 'youtube' },

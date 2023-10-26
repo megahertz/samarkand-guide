@@ -15,6 +15,8 @@ export interface MapPlace {
   showLabel?: boolean;
   tags?: string[];
   telegram?: string;
+  telegram2?: string;
+  twoGis?: string;
   vkontakte?: string;
   web?: string;
   yandexMap?: string;

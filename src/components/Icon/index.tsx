@@ -30,6 +30,7 @@ export type IconName =
   | 'google-maps'
   | 'instagram'
   | 'telegram'
+  | 'twogis'
   | 'vkontakte'
   | 'web'
   | 'yandex-maps'
