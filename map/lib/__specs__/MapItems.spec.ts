@@ -23,6 +23,12 @@ describe(MapItems.name, () => {
       const placemarks = map.getPlacesById('grocery');
       expect(placemarks).toMatchObject([{ id: 'korzinka-motrid' }]);
     });
+
+    it('should find direct item', () => {
+      const map = new MapItems(rootItem);
+      const placemarks = map.getPlacesById('uzbek', { nested: false });
+      expect(placemarks).toMatchObject([{ id: 'ismail' }]);
+    });
   });
 
   describe(MapItems.prototype.getPlacemarksByIdOrTag.name, () => {

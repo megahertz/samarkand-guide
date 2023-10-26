@@ -1,15 +1,16 @@
 ---
+title: Главная
 sidebar_class_name: hidden
 pagination_prev: null
 pagination_next: samarkand/visa
 ---
 
+# Самарканд: справочник релоканта
+
 <head>
   <title>Самарканд: справочник релоканта</title>
   <meta property="og:title" content="Самарканд: справочник релоканта" />
 </head>
-
-# Самарканд: справочник релоканта
 
 Сайт создан, чтобы собрать всю информацию о жизни в Самарканде в одном месте.
 Проект некоммерческий, помощь в наполнении сайта контентом приветствуется.
@@ -17,7 +18,7 @@ pagination_next: samarkand/visa
 ## Разделы сайта
 
 В разделе [Самарканд и Узбекистан](samarkand/about) собрана общая информация о
-стане и городе, о [погоде](samarkand/weather), об
+стране и городе, о [погоде](samarkand/weather), об
 [узбекском менталитете](samarkand/people), о [визовых вопросах](samarkand/visa)
 и [топонимах Самарканда](samarkand/toponyms).
 
@@ -46,9 +47,7 @@ pagination_next: samarkand/visa
 
 Информация о [детских садах](children/kindergarten.md) и
 [школах](children/school.md), о том
-[куда водить ребенка](children/activities.md), о
-[детских площадках](children/playground) и о том где отметить детский день
-рождения находится в разделе Дети.
+[где провести время с ребенком](children/activities.md).
 
 В Разделе Другое находится [карта Самарканда](/map) со списком полезных мест
 разбитым по категориям. Раздел [Полезные ссылки](other/links.md) содержит список

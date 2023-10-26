@@ -40,6 +40,7 @@ export const rootItem: MapCategory = {
               ],
             },
             {
+              id: 'ismail',
               label: 'Ismail Sofrasi',
               location: [39.682183, 66.924769],
               yandexMap: 'https://yandex.uz/maps/org/26116258263',

@@ -12,6 +12,17 @@ import { MapCategory, MapItem, MapPlace, PlacemarkItem } from './types';
 export default class MapItems {
   constructor(private rootItem: MapCategory) {}
 
+  copyParentProperties(parent: MapCategory, child: MapPlace): MapPlace {
+    return {
+      ...child,
+      facebook: child.facebook || parent.facebook,
+      instagram: child.instagram || parent.instagram,
+      telegram: child.telegram || parent.telegram,
+      web: child.web || parent.web,
+      youtube: child.youtube || parent.youtube,
+    };
+  }
+
   getItemById(id: string): MapItem | null {
     return findItemById(this.rootItem, id);
   }
@@ -22,7 +33,10 @@ export default class MapItems {
     );
   }
 
-  getPlacesById(id: string): MapPlace[] {
+  getPlacesById(
+    id: string,
+    { nested = true }: { nested?: boolean } = {},
+  ): MapPlace[] {
     const item = this.getItemById(id);
 
     if (item) {
@@ -30,19 +44,16 @@ export default class MapItems {
         return [item as MapPlace];
       }
 
-      return (
-        filterItems(item, (child: MapItem) => isPlace(child))
-          // Some properties could be copied from the parent
-          .map((child: MapPlace) => {
-            return {
-              facebook: item.facebook,
-              instagram: item.instagram,
-              telegram: item.telegram,
-              web: item.web,
-              youtube: item.youtube,
-              ...child,
-            };
-          })
+      if (!nested) {
+        return (item as MapCategory).items
+          .filter(
+            (child: MapItem) => (child as MapCategory).type !== 'category',
+          )
+          .map((child: MapItem) => this.copyParentProperties(item, child));
+      }
+
+      return filterItems(item, (child: MapItem) => isPlace(child)).map(
+        (child: MapItem) => this.copyParentProperties(item, child),
       );
     }
 

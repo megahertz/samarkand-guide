@@ -10,7 +10,8 @@ export default function PlaceInfo({
   id: string;
   options?: string;
 }) {
-  const places = map.getPlacesById(id);
+  const placeViewOptions = decodeOptions(options);
+  const places = map.getPlacesById(id, { nested: placeViewOptions.findNested });
 
   if (places.length === 0) {
     return <div>Объект `{id}` не найден</div>;
@@ -20,19 +21,29 @@ export default function PlaceInfo({
     <Place
       key={place.id || place.label}
       place={place}
-      options={decodeOptions(options)}
+      options={placeViewOptions}
     />
   ));
 }
 
-function decodeOptions(options?: string): PlaceViewOptions {
-  if (typeof options === 'string' && options.startsWith('?')) {
+function decodeOptions(stringOptions?: string): PlaceViewOptions {
+  const defaultOptions: PlaceViewOptions = {
+    findNested: true,
+    view: 'card',
+  };
+
+  if (typeof stringOptions === 'string' && stringOptions.startsWith('?')) {
     try {
-      return Object.fromEntries(new URLSearchParams(options));
+      const options = Object.fromEntries(new URLSearchParams(stringOptions));
+      return {
+        ...defaultOptions,
+        ...options,
+        findNested: options.findNested !== 'false',
+      };
     } catch {
-      return {};
+      return defaultOptions;
     }
   }
 
-  return {};
+  return defaultOptions;
 }
