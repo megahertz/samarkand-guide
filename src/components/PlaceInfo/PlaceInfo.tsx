@@ -11,7 +11,7 @@ export default function PlaceInfo({
   options?: string;
 }) {
   const placeViewOptions = decodeOptions(options);
-  const places = map.getPlacesById(id, { nested: placeViewOptions.findNested });
+  const places = map.getPlacesById(id, placeViewOptions);
 
   if (places.length === 0) {
     return <div>Объект `{id}` не найден</div>;
@@ -28,6 +28,7 @@ export default function PlaceInfo({
 
 function decodeOptions(stringOptions?: string): PlaceViewOptions {
   const defaultOptions: PlaceViewOptions = {
+    findBy: 'idOrTag',
     findNested: true,
     view: 'card',
   };

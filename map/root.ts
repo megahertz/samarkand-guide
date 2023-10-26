@@ -1,14 +1,15 @@
-import cafe from '@site/map/cafe';
-import children from '@site/map/children';
-import city from '@site/map/city';
-import finance from '@site/map/finance';
-import { MapCategory } from '@site/map/lib/types';
-import market from '@site/map/market';
-import transport from '@site/map/transport';
+import other from '@site/map/other';
+import city from './city';
+import finance from './finance';
+import type { MapCategory } from './lib/types';
+import market from './market';
+import transport from './transport';
+import children from './children';
+import cafe from './cafe';
 
 export default {
   id: '',
   label: 'Карта Самарканда',
   type: 'category',
-  items: [cafe, market, finance, transport, children, city],
+  items: [cafe, market, finance, transport, children, city, other],
 } satisfies MapCategory;

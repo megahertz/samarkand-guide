@@ -147,6 +147,7 @@ function getMapPlaceLinks(place: MapPlace): IconLinkData[] {
 }
 
 export interface PlaceViewOptions {
+  findBy: 'id' | 'tag' | 'idOrTag';
   findNested?: boolean;
   view?: 'card' | 'paragraph';
 }

@@ -35,16 +35,22 @@ export default class MapItems {
 
   getPlacesById(
     id: string,
-    { nested = true }: { nested?: boolean } = {},
+    {
+      findBy = 'idOrTag',
+      findNested = true,
+    }: { findBy?: 'id' | 'tag' | 'idOrTag'; findNested?: boolean } = {},
   ): MapPlace[] {
+    const useId = findBy === 'id' || findBy === 'idOrTag';
+    const useTag = findBy === 'tag' || findBy === 'idOrTag';
+
     const item = this.getItemById(id);
 
-    if (item) {
+    if (item && useId) {
       if (isPlace(item)) {
         return [item as MapPlace];
       }
 
-      if (!nested) {
+      if (!findNested) {
         return (item as MapCategory).items
           .filter(
             (child: MapItem) => (child as MapCategory).type !== 'category',
@@ -57,9 +63,11 @@ export default class MapItems {
       );
     }
 
-    const taggedItems = this.getItemsByTag(id);
-    if (taggedItems.length > 0) {
-      return taggedItems;
+    if (useTag) {
+      const taggedItems = this.getItemsByTag(id);
+      if (taggedItems.length > 0) {
+        return taggedItems;
+      }
     }
 
     throw new Error(`Can't find place #${id}`);
@@ -81,9 +89,9 @@ export default class MapItems {
   }
 
   getSidebarItems(currentUrl = 'none'): PropSidebarItem[] {
-    return this.rootItem.items.map((child) =>
-      mapItemToSidebarItem(child, '#', currentUrl),
-    );
+    return this.rootItem.items
+      .map((child) => mapItemToSidebarItem(child, '#', currentUrl))
+      .filter(Boolean) as PropSidebarItem[];
   }
 
   getPlacemarkItems(): PlacemarkItem[] {

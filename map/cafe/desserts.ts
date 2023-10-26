@@ -15,7 +15,7 @@ export default {
       description:
         'Среднее качество блюд, хорошее обслуживание, можно поработать ' +
         'с ноутбуком',
-      tags: ['euro', 'coffee', 'work'],
+      tags: ['euro', 'coffee', 'coworking'],
     },
   ],
 } satisfies MapCategory;

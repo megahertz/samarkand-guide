@@ -3,6 +3,7 @@ export interface MapPlace {
   description?: string;
   facebook?: string;
   googleMap?: string;
+  hidden?: boolean;
   icon?: MapIcon;
   id?: string;
   instagram?: string;
@@ -25,6 +26,7 @@ export interface MapPlace {
 
 export interface MapCategory {
   facebook?: string;
+  hidden?: boolean;
   icon?: MapIcon;
   id: string;
   instagram?: string;

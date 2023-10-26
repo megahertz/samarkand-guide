@@ -1,4 +1,5 @@
 import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
+import { it } from 'vitest';
 import { renderPlace } from '../../src/components/PlaceInfo/PlaceBody';
 import type {
   MapCategory,
@@ -65,17 +66,21 @@ export function mapItemToSidebarItem(
   item: MapItem,
   parentUrl = '#',
   currentUrl = 'none',
-): PropSidebarItem {
+): PropSidebarItem | undefined {
   const href = `${parentUrl}/${item.id || encodeURIComponent(item.label)}`;
+
+  if (item.hidden) {
+    return undefined;
+  }
 
   if ((item as MapCategory).type === 'category') {
     const category = item as MapCategory;
     return {
       collapsed: !currentUrl.startsWith(href),
       collapsible: true,
-      items: category.items?.map((child) =>
-        mapItemToSidebarItem(child, href, currentUrl),
-      ),
+      items: category.items
+        ?.map((child) => mapItemToSidebarItem(child, href, currentUrl))
+        .filter(Boolean) as PropSidebarItem[],
       label: category.label,
       type: 'category',
       href,
@@ -102,6 +107,11 @@ export function mapItemToPlacemarkItems(
     item.id ?? encodeURIComponent(item.label),
   ].filter(Boolean);
 
+  if (item.hidden) {
+    console.log('hidden', item);
+    return [];
+  }
+
   const icon = (item.icon || parentIcon) as MapIcon;
 
   if ((item as MapCategory).type === 'category') {
@@ -118,6 +128,7 @@ export function mapItemToPlacemarkItems(
   }
 
   const place = item as MapPlace;
+
   return [
     {
       body: renderPlace(place),

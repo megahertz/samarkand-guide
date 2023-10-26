@@ -31,8 +31,8 @@ description:
 [icon-yandex-maps&#8288;Asia&nbsp;Medic](https://yandex.uz/maps/org/azia_medik/173357161088/)&nbsp;
 Фуфломицины не назначает, да и вообще строго придерживается доказательной
 медицины. Ведет канал
-[icon-telegramМедСоветПроДети](https://t.me/medsovetprodeti). Чат для записи:
-[icon-telegram&#8288;assist_khakimova](https://t.me/assist_khakimova).
+[icon-telegram МедСоветПроДети](https://t.me/medsovetprodeti). Чат для записи:
+[icon-telegram assist_khakimova](https://t.me/assist_khakimova).
 
 ### Государственные поликлиники {#state}
 
@@ -45,10 +45,10 @@ description:
 ## Аптеки {#drugstores}
 
 Поиск лекарств следует начинать с
-[icon-telegramБота](https://t.me/arzonaptekabot). Так-же есть
-[чат с аптеками](https://t.me/sampharmcity), где можно спросить определенное
-лекарство. Можно туда отправить фото назначения врача, если не можете разобрать.
-Ну и будьте бдительны, назначенные лекарства можно проверить в
+[icon-telegram Бота](https://t.me/arzonaptekabot). Так-же есть
+[icon-telegram чат с аптеками](https://t.me/sampharmcity), где можно спросить
+определенное лекарство. Можно туда отправить фото назначения врача, если не
+можете разобрать. Ну и будьте бдительны, назначенные лекарства можно проверить в
 [Расстрельном списке препаратов](https://encyclopatia.ru/wiki/%D0%A0%D0%B0%D1%81%D1%81%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2)
 
 На Беруни 65 есть магазин
@@ -67,6 +67,7 @@ description:
 - +998 (97) 910-73-73
 - +998 (90) 600-73-73
 - +998 (95) 500-73-73
+- +998 (55) 702-10-63 Zarmed
 
 ## Вакцинация {#vaccine}
 

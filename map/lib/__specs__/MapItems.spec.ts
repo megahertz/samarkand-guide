@@ -26,7 +26,7 @@ describe(MapItems.name, () => {
 
     it('should find direct item', () => {
       const map = new MapItems(rootItem);
-      const placemarks = map.getPlacesById('uzbek', { nested: false });
+      const placemarks = map.getPlacesById('uzbek', { findNested: false });
       expect(placemarks).toMatchObject([{ id: 'ismail' }]);
     });
   });

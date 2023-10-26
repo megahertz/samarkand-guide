@@ -16,7 +16,7 @@ export default {
         'Табаки от местных дистрибьюторов (MastHave, Burn, Darkside...), ' +
         'хороший сервис, playstation, можно со своим алкоголем и едой, ' +
         'можно поработать с ноутбуком.',
-      tags: ['work'],
+      tags: ['coworking'],
     },
   ],
 } satisfies MapCategory;
