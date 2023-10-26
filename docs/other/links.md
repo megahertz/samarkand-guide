@@ -26,7 +26,7 @@ description:
 - [icon-telegram Чат про банки](https://t.me/samarkandkb), ранее тут была
   самоорганизованная очередь в Капиталбанк
 
-### Спорт, досуг и развлечения
+### Спорт, досуг и развлечения {#activities}
 
 - [icon-telegram Чат про настольные игры](https://t.me/+MLH6vX9i6q4zZWYy)
 - [icon-telegram Чат про D&D и Warhammer](https://t.me/+AjIYeJdKNkc3ZjUy)
@@ -35,8 +35,9 @@ description:
 - [icon-telegram Club Español en Samarcanda](https://t.me/+bWAfujZyPIg1YmE6)
 - [icon-telegram Чат о походах в горы](https://t.me/PogoramSamarkanda)
 - [icon-telegram Чат футбольной секции для детей](https://t.me/samarkand_football_school)
+- [icon-telegram Канал Афиша Самарканда](https://t.me/afisha_samarkand)
 
-### Другое
+### Другое {#other}
 
 - [icon-telegram Добрые сердца](https://t.me/dobryeserca), чат волонтеров
   помогающих нуждающимся
@@ -48,7 +49,7 @@ description:
 
 ## Узбекистан {#uzbekistan}
 
-### Общие темы
+### Общие темы {#uzbekistan-general}
 
 - [icon-telegram Канал Релокейшн в Узбекистан](https://t.me/relocationuz)
 - [icon-telegram Чат для общих вопросов](https://t.me/relocateuz)
@@ -61,7 +62,7 @@ description:
 - [icon-telegram Чат Барахолка](https://t.me/+97S8OehBAeRkYzM6)
 - [icon-telegram Чат про Бухару](https://t.me/relocationuzbukhara)
 
-### Деньги, работа, бизнес
+### Деньги, работа, бизнес {#uzbekistan-deals}
 
 - [icon-telegram Чат про деньги](https://t.me/+LibgGc_uy3c0OGU6)
 - [icon-telegram Чат TravelAsk Узбекистан — обмен денег, карты, крипта](https://t.me/+4M5Shn9aLuIyMTk6)
@@ -72,7 +73,7 @@ description:
 - [icon-telegram Чат для поиска работы](https://t.me/+hpVi2hLJkaUxN2Fi)
 - [icon-telegram Чат про IT](https://t.me/+HnxP0Ru23jMzM2Iy)
 
-### Спорт, досуг и развлечения
+### Спорт, досуг и развлечения {#uzbekistan-activities}
 
 - [icon-telegram Чат для бегунов](https://t.me/relocationuzrun)
 - [icon-telegram Чат для любителей горнолыжных видов спорта](https://t.me/relocationuzriders)

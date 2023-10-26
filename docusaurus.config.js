@@ -125,7 +125,7 @@ module.exports = {
             ],
           },
           {
-            title: 'Проект',
+            title: 'SamGuide',
             items: [
               {
                 html:

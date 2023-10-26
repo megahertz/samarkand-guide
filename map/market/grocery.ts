@@ -20,6 +20,8 @@ export default {
           label: 'Корзинка — Мотрид',
           location: [39.717617, 66.932119],
           yandexMap: 'https://yandex.uz/maps/org/123704214724/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001076990024/firm/70000001079872840',
           openHours: [{ time: '8:00 - 00:00' }],
         },
         {
@@ -27,6 +29,8 @@ export default {
           address: 'ул. Рудаки 54.',
           location: [39.682519, 66.930601],
           yandexMap: 'https://yandex.uz/maps/org/191146181348/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001076990024/firm/70000001077171866',
           openHours: [{ time: '8:00 - 21:00' }],
         },
         {
@@ -34,6 +38,8 @@ export default {
           address: 'ул. Беруни 56б',
           location: [39.674405, 66.926164],
           yandexMap: 'https://yandex.uz/maps/org/124060217179/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001076990024/firm/70000001076990025',
           openHours: [{ time: '8:00 - 00:00' }],
         },
         {
@@ -41,6 +47,8 @@ export default {
           address: 'ул. Гагарина 86',
           location: [39.658417, 66.935889],
           yandexMap: 'https://yandex.uz/maps/org/149128938819/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001076990024/firm/70000001077389578',
           openHours: [{ time: '8:00 - 00:00' }],
         },
         {
@@ -48,6 +56,8 @@ export default {
           address: 'ул. Мир Саид Барака 2',
           location: [39.658292, 66.944207],
           yandexMap: 'https://yandex.uz/maps/org/114874771350/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001076990024/firm/70000001077743521',
           openHours: [{ time: '8:00 - 00:00' }],
         },
         {
@@ -55,6 +65,8 @@ export default {
           address: 'ул. Буюк Ипак Йули 131б',
           location: [39.646176, 66.924256],
           yandexMap: 'https://yandex.uz/maps/org/92457012251/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001076990024/firm/70000001077855273',
           openHours: [{ time: '8:00 - 23:00' }],
         },
       ],
@@ -73,6 +85,7 @@ export default {
           address: 'Узбекистанская, 67а',
           location: [39.642316, 66.94649],
           yandexMap: 'https://yandex.uz/maps/org/optovik/6884964601/',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001080099538',
           openHours: [{ time: '8:00 - 23:00' }],
         },
         {
@@ -80,6 +93,7 @@ export default {
           address: 'ул. Мирзо Улугбека 39',
           location: [39.657809, 66.947213],
           yandexMap: 'https://yandex.uz/maps/org/226594219136/',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001078517037',
           openHours: [{ time: '8:00 - 23:00' }],
         },
         {
@@ -102,6 +116,7 @@ export default {
           address: 'ул. Амира Темура 41',
           location: [39.651241, 66.951359],
           yandexMap: 'https://yandex.uz/maps/org/219656602876/',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001079802788',
           openHours: [{ time: '7:00 - 23:00' }],
           phones: ['+998 (78) 210-00-01'],
         },
@@ -121,11 +136,21 @@ export default {
       type: 'category',
       items: [
         {
+          label: 'Asr Market',
+          location: [39.651715, 66.923086],
+          yandexMap: 'https://yandex.com/maps/-/CDawqJjP',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001077391907/',
+          googleMap: 'https://maps.app.goo.gl/m9mETgNVYrzrVHeq8',
+          openHours: [{ time: '9:00 - 22:00' }],
+          description: 'Лучший супермаркет в Мархабо',
+        },
+        {
           label: 'Vokzal Market',
           address: 'ул. Беруни 12',
           location: [39.682098, 66.928105],
           yandexMap:
             'https://yandex.uz/maps/org/bulochnaya_pekarnya/134973943789/',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001080236311',
           openHours: [{ time: '7:00 - 22:00' }],
           description:
             'Удобный и недорогой супермаркет возле Вокзала. Специально ехать ' +
@@ -136,6 +161,7 @@ export default {
           address: 'ул. Ибн Сино 4б',
           location: [39.690932, 66.988549],
           yandexMap: 'https://yandex.uz/maps/-/CDaANEII',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001080161782',
           instagram: 'https://www.instagram.com/yuksalish_supermarket/',
           telegram: 'https://t.me/yuksalish_supermarket',
           openHours: [{ time: 'круглосуточно' }],

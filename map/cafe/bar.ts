@@ -9,6 +9,7 @@ export default {
       label: 'Blues Bar',
       location: [39.650955, 66.949074],
       yandexMap: 'https://yandex.uz/maps/org/211359353896/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001078572957',
       googleMap: 'https://goo.gl/maps/Wfosg8ERnXwuVcCw6',
       instagram: 'https://www.instagram.com/cafe_blues_bar/',
       facebook: 'https://www.facebook.com/CafeBluesBar/',
@@ -27,22 +28,10 @@ export default {
       description: 'Первый в городе релокантский крафтовый бар/магазин.',
     },
     {
-      label: 'Sam Craft Pub',
-      location: [39.643103, 66.935845],
-      yandexMap: 'https://yandex.uz/maps/org/sam_craft_pub/225953215819/',
-      instagram: 'https://www.instagram.com/samcraft_beer/',
-      phones: ['+998 (95) 837-83-76', '+998 (99) 444-96-62'],
-      description:
-        'Второй (побольше) релокантский крафтовый бар. В плане' +
-        'атмосферы, напитков и уровня обслуживания, сложно найти что-то ' +
-        'лучше в городе. Очень разнообразная и интересная музыкальная ' +
-        'подборка. Не хватает, разве что, полноценной кухни, здесь только ' +
-        'закуски.',
-    },
-    {
       label: 'Пивной ресторан Хмельновъ',
       location: [39.660551, 67.056546],
       yandexMap: 'https://yandex.uz/maps/-/CDQgjMYV',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001080063566',
       description:
         'Ресторан при отеле Savitsky Plaza. Варят собственный крафт ' +
         'прямо в отеле. Пожалуй, это самое вкусное пиво в городе. Для ' +
