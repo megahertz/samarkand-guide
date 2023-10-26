@@ -13,7 +13,8 @@ export default {
       yandexMap: 'https://yandex.uz/maps/org/224799588118/',
       googleMap: 'https://goo.gl/maps/ZZ9shAYgQ6cnc9Ey8',
       web: 'https://het.uz/ru',
-      telegram: 'https://t.me/HET_admin',
+      telegram: 'https://t.me/SamHETK',
+      telegram2: 'https://t.me/HET_admin',
       phones: [
         '1154',
         '+998 (66) 233-12-12',
