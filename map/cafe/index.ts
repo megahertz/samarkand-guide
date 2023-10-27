@@ -1,4 +1,5 @@
 import type { MapCategory } from '../lib/types';
+import asian from './asian';
 import bar from './bar';
 import desserts from './desserts';
 import euro from './euro';
@@ -8,7 +9,7 @@ import uzbek from './uzbek';
 
 export default {
   id: 'cafe',
-  items: [uzbek, euro, fastfood, desserts, bar, hookah],
+  items: [uzbek, euro, asian, fastfood, desserts, bar, hookah],
   icon: 'islands#orangeFoodIcon',
   label: 'Кафе и рестораны',
   type: 'category',

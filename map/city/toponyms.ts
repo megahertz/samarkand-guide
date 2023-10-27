@@ -32,6 +32,16 @@ export default {
       description: 'Район вокруг улицы Ибн Сины, которая упирается в аэропорт.',
     },
     {
+      label: 'БАМ',
+      location: [39.665321, 66.859099],
+      icon: DISTRICT_ICON,
+      yandexMap:
+        'https://yandex.uz/maps/105810/samarqand-province/geo/1533238500/',
+      description:
+        'Крупный жилой массив поселка Супер. Назван так из-за ' +
+        'высоких темпов строительства. Официально называется 29-й квартал.',
+    },
+    {
       label: 'Богишамол',
       location: [39.661231, 66.937068],
       icon: PLACE_ICON,
@@ -90,6 +100,15 @@ export default {
         'Самарканд, тем не менее, синагога все еще действует. От таджикского ' +
         '«Джугут», «Джуут» — еврей, "-тон" означает место. В советское ' +
         'время — квартал "Восток".',
+    },
+    {
+      label: 'Иняз',
+      location: [39.65134, 66.964561],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/11436389847/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001077408924',
+      description:
+        'Самаркандский государственный институт иностранных языков (СамГИИЯ).',
     },
     {
       label: 'За линией',
@@ -196,6 +215,14 @@ export default {
         'название осталось.',
     },
     {
+      label: 'МЧС',
+      location: [39.666915, 66.93773],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/87009485276/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001077390160',
+      description: 'Управление по чрезвычайным ситуациям Самаркандской области',
+    },
+    {
       label: 'Новый Билайн',
       location: [39.66354, 66.937571],
       icon: PLACE_ICON,
@@ -210,6 +237,14 @@ export default {
       icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CCUCUWbSxA',
       description: 'Ориентир по названию ресторана.',
+    },
+    {
+      label: 'Областная больница',
+      location: [39.660719, 66.942912],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/143613160289/',
+      twoGis:
+        'https://2gis.uz/samarkand/inside/70030076610836257/firm/70000001077377532',
     },
     {
       label: 'Обл. ГАИ',
@@ -302,8 +337,21 @@ export default {
       description: 'Когда-то здесь был офис Билайна, теперь Корзинка Анжир.',
     },
     {
+      label: 'Супер',
+      location: [39.664808, 66.844392],
+      icon: DISTRICT_ICON,
+      yandexMap: 'https://yandex.uz/maps/geo/1508547754/',
+      twoGis: 'https://2gis.uz/samarkand/geo/70030076614907419',
+      description:
+        'Поселок на западе, входящий в состав Самарканда. Раньше ' +
+        'назывался Суперфосфатный по градообразующему заводу. Сейчас ' +
+        'называется Kimyogarlar (узб. Химики). Район девятиэтажек называется ' +
+        'БАМ и часто используется как отдельный ориентир.',
+    },
+    {
       label: 'UzGazOil / Uzbekneftegaz',
       location: [39.680189, 66.938295],
+      icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/org/159142842034/',
       description:
         'Заправка. До 2017 называлась Узгазоил, позже компания ' +

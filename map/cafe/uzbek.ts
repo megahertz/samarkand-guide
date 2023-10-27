@@ -1,7 +1,7 @@
 import type { MapCategory } from '../lib/types';
 
 export default {
-  id: 'uzbek',
+  id: 'uzbek-food',
   label: 'Узбекская кухня',
   type: 'category',
   items: [
