@@ -84,7 +84,7 @@ export default {
     {
       label: 'Гор. ГАИ',
       location: [39.661428, 66.95357],
-      icon: DISTRICT_ICON,
+      icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/org/36766274484/',
       description:
         'Госавтоинспекция города Самарканд. Не путать с Обл. ГАИ. ' +
