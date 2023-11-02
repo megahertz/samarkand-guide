@@ -83,7 +83,7 @@ export default {
     },
     {
       label: 'Гор. ГАИ',
-      location: [39.658467, 66.987169],
+      location: [39.661428, 66.95357],
       icon: DISTRICT_ICON,
       yandexMap: 'https://yandex.uz/maps/org/36766274484/',
       description:
