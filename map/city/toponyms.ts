@@ -249,7 +249,7 @@ export default {
     {
       label: 'Обл. ГАИ',
       location: [39.676519, 66.912516],
-      icon: DISTRICT_ICON,
+      icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/org/213939596730/',
       description:
         'Управление безопасности дорожного движения Самаркандской области, в ' +
