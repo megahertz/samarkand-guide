@@ -20,6 +20,7 @@
   --ifm-color-primary-lighter: #079bff;
   --ifm-color-primary-lightest: #0eafff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="%23ebedf0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
 }
 /* colors-end */
 
@@ -29,21 +30,36 @@ iframe {
   max-width: 100%;
 }
 
-.index-pattern {
-  background: url(/img/index-pattern.png) repeat-x;
-  height: 50px;
-  margin-bottom: 1em;
-}
-
 .hidden {
   display: none !important;
 }
 
+.navbar {
+  background: url(/img/navbar.jpg);
+  background-size: auto 50%;
+}
+html[data-theme='dark'] .navbar {
+  background: url(/img/navbar-dark.jpg);
+  background-size: auto 50%;
+}
+.navbar__inner {
+  background-color: rgba(255, 255, 255, 0.93);
+  border-radius: 4px;
+  padding: 0 0.6rem;
+}
+html[data-theme='dark'] .navbar__inner {
+  background-color: rgba(36, 37, 38, 0.93);
+}
 .navbar-sidebar__to-guide {
   padding: 0.3rem 0.6rem;
 }
 .navbar-sidebar__to-guide a {
   color: ButtonText;
+}
+@media (max-width: 996px) {
+  body .searchBox_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
+    right: auto;
+  }
 }
 
 .medium-zoom-image {
@@ -79,3 +95,5 @@ iframe {
 img[alt='Оплата социального налога на самозанятого'] {
   width: 400px;
 }
+
+:root {}
