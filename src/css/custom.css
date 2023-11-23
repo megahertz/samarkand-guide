@@ -29,16 +29,19 @@ iframe {
   max-width: 100%;
 }
 
-.index-pattern {
-  background: url(/img/index-pattern.png) repeat-x;
-  height: 50px;
-  margin-bottom: 1em;
-}
-
 .hidden {
   display: none !important;
 }
 
+.navbar {
+  background: url(/img/index-pattern.png);
+  background-size: auto 270%;
+}
+.navbar__inner {
+  background-color: rgba(255, 255, 255, 0.93);
+  border-radius: 4px;
+  padding: 0 0.6rem;
+}
 .navbar-sidebar__to-guide {
   padding: 0.3rem 0.6rem;
 }

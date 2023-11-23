@@ -12,6 +12,24 @@ pagination_next: samarkand/visa
   <meta property="og:title" content="Самарканд: справочник релоканта" />
 </head>
 
+<p>
+  <button id="prev-img">←</button>
+  <span> </span>
+  <button id="next-img">→</button> 
+</p>
+
+<p>
+  <button id="scale-minus">scale -</button>
+  <span> </span>
+  <button id="scale-plus">scale +</button> 
+</p>
+
+<p>
+  <button id="white-minus">white -</button>
+  <span> </span>
+  <button id="white-plus">white +</button> 
+</p>
+
 Сайт создан, чтобы собрать всю информацию о жизни в Самарканде в одном месте.
 Проект некоммерческий, составляется на основе собственного опыта, вклада
 неравнодушных контрибюторов, а так-же сообщений участников

@@ -51,6 +51,8 @@ module.exports = {
     },
   ],
 
+  clientModules: [require.resolve('./src/js/custom.js')],
+
   presets: [
     [
       'classic',
