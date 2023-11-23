@@ -38,7 +38,18 @@ export default {
           googleMap: 'https://goo.gl/maps/V18pY2m2Z7cwfyDx7',
           description:
             'Одно из немногих мест где плов можно поесть вечером. ' +
-            'Готовят 2 раза в день - в 11:30 и 18:00',
+            'Готовят 2 раза в день - в 11:30 и 18:00. Плов очень вкусный,' +
+            'место уютное.',
+        },
+        {
+          label: 'Polvonosh',
+          location: [39.648722, 66.955921],
+          yandexMap: 'https://yandex.uz/maps/org/polvonosh/9010273545',
+          googleMap: 'https://maps.app.goo.gl/gJqmZT3NcDRY6LoUA',
+          openHours: [{ daysOfWeek: '1-6', time: '8:00 - 15:00' }],
+          description:
+            'Плов на твердую пятерку. Помимо плова есть лагман, манты, ' +
+            'шурпа, и что удивительно, пицца.',
         },
         {
           label: 'Центр Плова №1',
