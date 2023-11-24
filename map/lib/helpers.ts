@@ -1,5 +1,4 @@
 import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
-import { it } from 'vitest';
 import { renderPlace } from '../../src/components/PlaceInfo/PlaceBody';
 import type {
   MapCategory,
@@ -108,7 +107,6 @@ export function mapItemToPlacemarkItems(
   ].filter(Boolean);
 
   if (item.hidden) {
-    console.log('hidden', item);
     return [];
   }
 

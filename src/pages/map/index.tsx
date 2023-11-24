@@ -1,7 +1,7 @@
 import Head from '@docusaurus/Head';
 import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
 import { useLocation } from '@docusaurus/router';
-import SidebarStyles from '@docusaurus/theme-classic/lib/theme/DocPage/Layout/Sidebar/styles.module.css';
+import SidebarStyles from '@docusaurus/theme-classic/lib/theme/DocRoot/Layout/Sidebar/styles.module.css';
 import { ThemeClassNames } from '@docusaurus/theme-common';
 import map from '@site/map';
 import { placemarkMatchesUrl } from '@site/map/lib/helpers';

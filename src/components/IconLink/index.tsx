@@ -15,6 +15,7 @@ export default function IconLink({
 
   return (
     <a
+      aria-label={name}
       className={styles.link}
       href={href}
       target="_blank"

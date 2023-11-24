@@ -11,7 +11,6 @@ export default function useImgCache(images: string[]) {
 
   return {
     isCached(url: string): boolean {
-      console.log({ isCached: globalCache.includes(url), url });
       return globalCache.includes(url);
     },
   };
