@@ -54,8 +54,7 @@ html[data-theme='dark'] .navbar__inner {
   color: ButtonText;
 }
 @media (max-width: 996px) {
-  body
-    .searchBox_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
+  .navbar__items--right>:last-child {
     right: auto;
   }
 }
