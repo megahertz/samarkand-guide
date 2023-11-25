@@ -54,7 +54,7 @@ html[data-theme='dark'] .navbar__inner {
   color: ButtonText;
 }
 @media (max-width: 996px) {
-  .navbar__items--right>:last-child {
+  .navbar__items--right > :last-child {
     right: auto;
   }
 }
