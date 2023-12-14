@@ -31,7 +31,7 @@ description:
 Внутренние рейсы есть у следующих авиакомпаний:
 
 - [Uzbekistan Airways](https://www.uzairways.com/ru)
-- [Silk Avia](https://silk-avia.com/ru/) - Небольшая компания с парком ATR
+- [Silk Avia](https://silk-avia.com/ru/) — небольшая компания с парком ATR
   72-600, в настоящее время вливается в состав Узбекских авиалиний
 - [Qanot Sharq](https://www.qanotsharq.com/)
 - [HumoAir](https://flyhumo.com/)

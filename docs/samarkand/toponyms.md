@@ -31,7 +31,7 @@ description:
 | Жуковского            | [Абдуллахана Сони](https://yandex.uz/maps/10334/samarkand/geo/1522495148/)        |                                                                  |
 | Карла Маркса          | [Мирзо Улугбека](https://yandex.uz/maps/10334/samarkand/geo/1522494146/)          |                                                                  |
 | Коммунистическая      | [Шахруха Мирзы](https://yandex.uz/maps/10334/samarkand/geo/1522495048/)           |                                                                  |
-| Комсомольская         | ? (район Биби-Ханым)                                                              |                                                                  |
+| Комсомольская         | [Имама аль-Бухари](https://2gis.uz/samarkand/geo/70030076598908946/)              |                                                                  |
 | Красноармейское шоссе | [Спитамена](https://yandex.uz/maps/10334/samarkand/geo/1522495282/)               |                                                                  |
 | Кренкеля              | [Академика Яхъё Гулямова](https://yandex.uz/maps/10334/samarkand/geo/1522495100/) |                                                                  |
 | Курская               | ? Чулпан ?                                                                        |                                                                  |
@@ -47,6 +47,7 @@ description:
 | Папанина              | [Абдурауфа Фитрата](https://yandex.uz/maps/10334/samarkand/geo/1522495140/)       |                                                                  |
 | Розы Люксенбург       | [Лутфи](https://yandex.uz/maps/10334/samarkand/geo/1522495076/)                   |                                                                  |
 | Советская             | [Абдурахмана Джами](https://yandex.uz/maps/10334/samarkand/geo/1522495058/)       |                                                                  |
+| Ташкентская           | [Ислама Каримова](https://2gis.uz/samarkand/geo/70030076598917691/)               |                                                                  |
 | Титова                | [Рудаки](https://yandex.uz/maps/10334/samarkand/geo/1522494288/)                  |                                                                  |
 | Фролова               | [Мухаммада Аль-Хорезми](https://yandex.uz/maps/10334/samarkand/geo/1522495300/)   |                                                                  |
 | Фрунзе                | [Амира Тимура](https://yandex.uz/maps/10334/samarkand/geo/1522494978/)            |                                                                  |

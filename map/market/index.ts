@@ -8,6 +8,6 @@ export default {
   id: 'market',
   items: [grocery, malls, household, bazar],
   icon: 'islands#blueShoppingIcon',
-  label: 'Торговля',
+  label: 'Покупки',
   type: 'category',
 } satisfies MapCategory;
