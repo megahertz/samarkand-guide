@@ -32,6 +32,7 @@ export default {
     {
       label: 'Manresa',
       location: [39.657919, 66.928805],
+      tags: ['asian-food'],
       yandexMap: 'https://yandex.uz/maps/org/manresa/197056860158/',
       twoGis: 'https://2gis.uz/samarkand/firm/70000001078508527',
       googleMap: 'https://maps.app.goo.gl/vLsfrffkWJv6Vc7C9',
@@ -42,7 +43,24 @@ export default {
         'необычный интерьер, разнообразная винная карта. Отлично готовят ' +
         'как японскую, так и европейскую кухню. Но вечером может быть ' +
         'достаточно шумно.',
-      tags: ['asian-food'],
+    },
+    {
+      label: 'Roni Pizza Napoletana',
+      location: [39.643509, 66.956753],
+      tags: ['bar'],
+      yandexMap:
+        'https://yandex.uz/maps/org/roni_pizza_napoletana/21954682743/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001082338455',
+      googleMap: 'https://maps.app.goo.gl/go5Sk8FyATQ5te36A',
+      telegram: 'https://t.me/roni_uz_bot',
+      web: 'https://ronipizza.uz/',
+      instagram: 'https://www.instagram.com/ronipizzauz',
+      facebook: 'https://www.facebook.com/ronipizzauz',
+      address: 'Орзу Махмудов 20',
+      phones: ['+998 (91) 136‒11‒88'],
+      description:
+        'Уютная сетевая пиццерия с отличным сервисом и, возможно, ' +
+        'лучшими коктейлями в Самарканде.',
     },
     {
       label: 'Sogdiana',

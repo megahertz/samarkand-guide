@@ -52,6 +52,18 @@ export default {
             'шурпа, и что удивительно, пицца.',
         },
         {
+          label: 'Ulfatlar',
+          location: [39.649086, 66.935137],
+          address: 'Гусейнова 46',
+          yandexMap: 'https://yandex.uz/maps/org/204846027656/',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001080620563',
+          googleMap: 'https://maps.app.goo.gl/V4KjckYdadDxxi4k7',
+          phones: ['+998 (93) 334‒07‒77', '+998 (66) 238‒83‒34'],
+          description:
+            'Один из номинантов на звание лучшего плова в городе. ' +
+            'Заявлены также другие блюда, но все едут сюда за пловом.',
+        },
+        {
           label: 'Центр Плова №1',
           location: [39.681415, 66.984976],
           yandexMap: 'https://yandex.uz/maps/org/77650409051/',
@@ -96,18 +108,6 @@ export default {
       description: 'Вкусно, хорошее обслуживание, уютная веранда',
       phones: ['+998 (66) 237-77-39'],
       tags: ['beer'],
-    },
-    {
-      label: 'Ulfatlar',
-      location: [39.649086, 66.935137],
-      address: 'Гусейнова 46',
-      yandexMap: 'https://yandex.uz/maps/org/204846027656/',
-      twoGis: 'https://2gis.uz/samarkand/firm/70000001080620563',
-      googleMap: 'https://maps.app.goo.gl/V4KjckYdadDxxi4k7',
-      phones: ['+998 (93) 334‒07‒77', '+998 (66) 238‒83‒34'],
-      description:
-        'Один из номинантов на звание лучшего плова в городе. ' +
-        'Заявлены также другие блюда, но все едут сюда за пловом.',
     },
     {
       label: 'Зебо-бахт',
