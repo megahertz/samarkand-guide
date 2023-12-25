@@ -14,11 +14,28 @@ export default {
       instagram: 'https://www.instagram.com/bellagio.restobar',
       web: 'https://taplink.cc/bellagio.restobar',
       phones: ['+998 (55) 702‒22‒20'],
+      openHours: [{ time: '07:00 - 23:00' }],
       description:
         'Место с уютной верандой. Хорошее обслуживание и неплохая ' +
         'кухня. Вечером здесь тихо по местным меркам. Очень удобно ' +
         'собираться компанией, когда заранее неизвестно количество участников.',
       tags: ['bar'],
+    },
+    {
+      label: 'Coffee House El-Merosi',
+      location: [39.65687, 66.956305],
+      yandexMap: 'https://yandex.uz/maps/org/223276756275/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001079840037',
+      googleMap: 'https://maps.app.goo.gl/SdKxrX35B9AQpz1y8',
+      instagram: 'https://www.instagram.com/coffeehouse_elmerosi',
+      facebook: 'https://www.facebook.com/ElMerosiCoffeeHouse',
+      address: 'Алишера Навои 29а',
+      phones: ['+998 (66) 233‒81‒25', '+998 (91) 525‒00‒15'],
+      openHours: [{ time: '07:00 - 23:00' }],
+      description:
+        'Театр, кафе, ресторан с террасой. В основном зале простовато ' +
+        'но терраса очень уютная. Обслуживание на уровне. Очень вкусно. ' +
+        'Здесь самый вкусный чизкейк в городе.',
     },
     {
       label: 'La Esmeralda',
@@ -57,6 +74,7 @@ export default {
       instagram: 'https://www.instagram.com/ronipizzauz',
       facebook: 'https://www.facebook.com/ronipizzauz',
       address: 'Орзу Махмудов 20',
+      openHours: [{ time: '11:00 - 23:00' }],
       phones: ['+998 (91) 136‒11‒88'],
       description:
         'Уютная сетевая пиццерия с отличным сервисом и, возможно, ' +
@@ -71,6 +89,8 @@ export default {
       telegram: 'https://t.me/cafesogdiana',
       instagram: 'https://instagram.com/sogdiana.cafe',
       facebook: 'https://www.facebook.com/sogdiana.cafe',
+      openHours: [{ time: '07:30 - 23:30' }],
+      phones: ['+998 (97) 926‒00‒08'],
       description:
         'Одно из лучших кафе европейской кухни в городе. Находится в парке' +
         'Навои, так что терраса здесь с шикарным видом. Приятный интерьер. ' +
