@@ -1,5 +1,5 @@
 import { MapPlace } from '@site/map/lib/types';
-import translit from '@site/src/components/PlaceInfo/translit';
+import transliterate from '@site/src/components/PlaceInfo/transliterate';
 import React, { ComponentType, Fragment } from 'react';
 import { renderToString } from 'react-dom/server';
 import { IconName } from '../Icon';
@@ -25,7 +25,7 @@ export function PlaceBody({
   const TitleComponent = titleComponent;
 
   const id =
-    place.id || translit(place.label).toLowerCase().replace(/\W+/g, '');
+    place.id || transliterate(place.label).toLowerCase().replace(/\W+/g, '');
 
   const linkTitle = `Прямая ссылка на ${place.label}`;
 

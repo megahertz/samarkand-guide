@@ -9,16 +9,19 @@ const MAP: Record<string, string> = {
 };
 /* eslint-enable prettier/prettier */
 
-export default function translit(str: string): string {
+export default function transliterate(str: string): string {
   return str
     .split('') // eslint-disable-line unicorn/prefer-spread
     .map((char) => {
       const loweredChar = char.toLowerCase();
 
-      const converted = MAP[loweredChar] || char;
+      const converted = MAP[loweredChar];
+      if (converted === undefined) {
+        return char;
+      }
 
       if (char === loweredChar) {
-        return converted.toLowerCase();
+        return converted;
       }
 
       return converted[0].toUpperCase() + converted.slice(1);
