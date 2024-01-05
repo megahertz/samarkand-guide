@@ -6,6 +6,37 @@ export default {
   type: 'category',
   items: [
     {
+      id: 'coffee-desserts',
+      label: 'Кофе и десерты',
+      type: 'category',
+      items: [
+        {
+          label: 'Chocolate',
+          location: [39.680329, 66.928444],
+          yandexMap: 'https://yandex.uz/maps/org/154795109887/',
+          googleMap: 'https://goo.gl/maps/9qapcRghkpoVqSRj8',
+          instagram: 'https://instagram.com/chocolate_sweethome',
+          phones: ['+998 (78) 210-00-80'],
+          description:
+            'Среднее качество блюд, хорошее обслуживание, можно поработать ' +
+            'с ноутбуком',
+          tags: ['coworking'],
+        },
+        {
+          label: 'Coffee and more',
+          location: [39.660272, 66.940277],
+          address: 'Мирзо Улугбека 74',
+          yandexMap: 'https://yandex.uz/maps/org/coffee_and_more/139647771656/',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001077520475',
+          googleMap: 'https://maps.app.goo.gl/vE5xprWfoToT6oBm6',
+          openHours: [{ time: '09:00 – 03:00' }],
+          description:
+            'Самый вкусный кофе в городе и очень вкусные десерты. Отличное ' +
+            'обслуживание и интерьер.',
+        },
+      ],
+    },
+    {
       label: 'Bellagio',
       location: [39.655202, 66.952212],
       yandexMap: 'https://yandex.uz/maps/org/182745931928/',
@@ -15,11 +46,11 @@ export default {
       web: 'https://taplink.cc/bellagio.restobar',
       phones: ['+998 (55) 702‒22‒20'],
       openHours: [{ time: '07:00 - 23:00' }],
+      tags: ['bar'],
       description:
         'Место с уютной верандой. Хорошее обслуживание и неплохая ' +
         'кухня. Вечером здесь тихо по местным меркам. Очень удобно ' +
         'собираться компанией, когда заранее неизвестно количество участников.',
-      tags: ['bar'],
     },
     {
       label: 'Coffee House El-Merosi',
@@ -32,6 +63,7 @@ export default {
       address: 'Алишера Навои 29а',
       phones: ['+998 (66) 233‒81‒25', '+998 (91) 525‒00‒15'],
       openHours: [{ time: '07:00 - 23:00' }],
+      tags: ['coffee', 'coworking'],
       description:
         'Театр, кафе, ресторан с террасой. В основном зале простовато ' +
         'но терраса очень уютная. Обслуживание на уровне. Очень вкусно. ' +
@@ -104,11 +136,21 @@ export default {
     {
       label: 'T-Bone',
       location: [39.680329, 66.928444],
+      address: 'Мирзо Улугбека 76',
       yandexMap: 'https://yandex.uz/maps/org/142399652641',
       googleMap: 'https://goo.gl/maps/GuuB14tXGdcmKjVb6',
       twoGis: 'https://2gis.uz/samarkand/firm/70000001077520489',
       facebook: 'https://facebook.com/tbonesamarkand',
+      openHours: [
+        { daysOfWeek: '1-6', time: '08:00 – 01:00' },
+        { daysOfWeek: '7', time: '13:00 – 01:00' },
+      ],
       phones: ['+998 (90) 451-05-67'],
+      tags: ['asian-food'],
+      description:
+        'Приятная обстановка, вкусная еда, хорошее обслуживание. В основном, ' +
+        'европейская кухня, но есть так-же грузинская и японская.' +
+        'Разнообразная винная карта.',
     },
   ],
 } satisfies MapCategory;
