@@ -33,4 +33,5 @@
 
 .title {
   font-weight: normal;
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 2rem);
 }

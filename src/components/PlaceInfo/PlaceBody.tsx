@@ -1,4 +1,5 @@
 import { MapPlace } from '@site/map/lib/types';
+import translit from '@site/src/components/PlaceInfo/translit';
 import React, { ComponentType, Fragment } from 'react';
 import { renderToString } from 'react-dom/server';
 import { IconName } from '../Icon';
@@ -23,13 +24,26 @@ export function PlaceBody({
 }) {
   const TitleComponent = titleComponent;
 
+  const id =
+    place.id || translit(place.label).toLowerCase().replace(/\W+/g, '');
+
+  const linkTitle = `Прямая ссылка на ${place.label}`;
+
   return (
     <div className={styles.container}>
       {place.images?.length && place.images.length > 0 && (
         <Gallery images={place.images} title={place.label} />
       )}
       <div className={noPadding ? styles.contentNoPadding : styles.content}>
-        <TitleComponent className={styles.title}>{place.label}</TitleComponent>
+        <TitleComponent id={id} className={styles.title}>
+          {place.label}
+          <a
+            href={`#${id}`}
+            className="hash-link"
+            aria-label={linkTitle}
+            title={linkTitle}
+          />
+        </TitleComponent>
         <div>{place.description}</div>
         <PlaceAddress place={place} />
         <PlaceHours place={place} />
