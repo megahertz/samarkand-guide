@@ -40,5 +40,14 @@ export default {
       telegram: 'https://t.me/chillzone_sam',
       phones: ['+998 (99) 367-87-77'],
     },
+    {
+      label: 'Учебный центр IT TAT',
+      location: [39.677544, 66.926537],
+      address: 'Беруни 32а',
+      yandexMap: 'https://yandex.uz/maps/org/it_tat/220439089891',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001087417426',
+      instagram: 'https://www.instagram.com/p/C12A9XVtO3T',
+      phones: ['+998 (88) 611‒04‒40'],
+    }
   ],
 } satisfies MapCategory;
