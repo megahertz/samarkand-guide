@@ -59,6 +59,16 @@ export default {
         'Таджикистаном).',
       tags: ['pyatok'],
     },
+    {
+      label: 'Сельский пятак',
+      location: [39.616491, 66.955416],
+      yandexMap:
+        'https://yandex.uz/maps/198101/khuzha-achori-vali/stops/4230811939/',
+      description:
+        'Куча разных пригородных Дамасов. Если пройти чуть дальше в сторону ' +
+        'от центра города, можно найти Дамасы на Агалык.',
+      tags: ['pyatok'],
+    },
   ],
   icon: 'islands#blueMassTransitIcon',
   label: 'Транспорт',
