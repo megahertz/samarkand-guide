@@ -96,6 +96,13 @@ export default {
       description: 'Отзываются хорошо, но мест мало',
     },
     {
+      label: "Magic Kids",
+      location: [39.680157, 66.951146],
+      yandexMap: 'https://yandex.uz/maps/-/CDb6B08n',
+      instagram: 'https://www.instagram.com/magic_kids_sam/',
+      phones: ['+998 (55) 705-00-03', '+998 (90) 451-07-10'],
+    },
+    {
       label: 'Wunderkind',
       price: [2_000_000],
       location: [39.671565, 66.92388],
