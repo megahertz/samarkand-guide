@@ -96,7 +96,7 @@ export default {
       description: 'Отзываются хорошо, но мест мало',
     },
     {
-      label: "Magic Kids",
+      label: 'Magic Kids',
       location: [39.680157, 66.951146],
       yandexMap: 'https://yandex.uz/maps/-/CDb6B08n',
       instagram: 'https://www.instagram.com/magic_kids_sam/',

@@ -48,6 +48,6 @@ export default {
       twoGis: 'https://2gis.uz/samarkand/firm/70000001087417426',
       instagram: 'https://www.instagram.com/p/C12A9XVtO3T',
       phones: ['+998 (88) 611‒04‒40'],
-    }
+    },
   ],
 } satisfies MapCategory;
