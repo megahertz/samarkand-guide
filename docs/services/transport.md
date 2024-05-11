@@ -140,6 +140,11 @@ description:
 [icon-telegram&#8288;Toshkent_Samarqand_taksis](https://t.me/Toshkent_Samarqand_taksis)
 и [icon-telegram&#8288;toshkentsamarkand](https://t.me/toshkentsamarkand).
 
+Для поездок в Душанбе советуют Расула
+[icon-telegram](https://t.me/+992927060342) +992 (92) 706-03-42. У него всё
+организовано для быстрого прохождения границы. Одна машина до границы, другая до
+Душанбе. В итоге, пешком граница.
+
 Для поездки в горы и другие интересные места, вроде Шахрисабза можно обратиться
 к [Эркину icon-telegram&#8288;@erkinmavlyanov13](https://t.me/erkinmavlyanov13).
 У него комфортный 7-местный минивен Volkswagen. За поездку обычно выходит
