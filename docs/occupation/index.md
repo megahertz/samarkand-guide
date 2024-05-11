@@ -21,9 +21,10 @@ $3000+ в сфере IT, то в Самарканде, наверное, даж�
 фармацевтов. Где можно поискать работу:
 
 - [icon-web samarkand.hh.uz](https://samarkand.hh.uz/)
-- [icon-web olx](https://www.olx.uz/d/rabota/samarkand/)
+- [icon-telegram SAMARKAND ISH](https://t.me/samarqand_rabota_ish)
 - [icon-telegram Работа в Самарканде](https://t.me/samarkandvakansiya)
 - [icon-telegram SamCityJobs](https://t.me/samcityjobs)
+- [icon-web olx](https://www.olx.uz/d/rabota/samarkand/)
 - [icon-telegram Relocationuz - Вакансии](https://t.me/+XfqwsMFvUBtlNzEy)
 - [icon-telegram Relocationuz - Резюме](https://t.me/+mxhNi7eV-D41YmRi)
 
