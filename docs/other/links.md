@@ -57,6 +57,7 @@ description:
 - [icon-telegram Чат для родителей (дети 10-13 лет)](https://t.me/+IaWTv3i5SrtmZmRi)
 - [icon-telegram Чат про здоровье](https://t.me/relocationuzhealth)
 - [icon-telegram Чат для женщин](https://t.me/relocationuzwomen)
+- [icon-telegram Чат Беременяшки.уз](https://t.me/beremenie_uzb)
 - [icon-telegram Чат про недвижимость](https://t.me/relocationuzrent)
 - [icon-telegram Чат про аренду](https://t.me/relocationuzrenthere)
 - [icon-telegram Чат Барахолка](https://t.me/+97S8OehBAeRkYzM6)
