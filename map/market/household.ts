@@ -94,11 +94,15 @@ export default {
         'местного производства.',
     },
     {
-      label: 'Хозмаг на Железнодорожном рынке',
+      label: 'MrDom',
       location: [39.683327, 66.930033],
+      address: 'Вокзальный рынок',
       yandexMap:
         'https://yandex.com/web-maps/org/tovary_dlya_doma_i_remonta/23380603270/',
       twoGis: 'https://2gis.uz/samarkand/firm/70000001077171790/',
+      instagram: 'https://www.instagram.com/mr.dom.optom/',
+      telegram: 'https://t.me/mrdomoptom',
+      openHours: [{ time: '8:00 - 19:00' }],
       description:
         'Один из лучших хозмагов. Большой ассортимент, приятные ' +
         'цены. В подвале находится строительный магазин. Выкладка там ' +
