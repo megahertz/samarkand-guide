@@ -78,6 +78,7 @@ description:
 
 - [icon-telegram Чат для бегунов](https://t.me/relocationuzrun)
 - [icon-telegram Чат для любителей горнолыжных видов спорта](https://t.me/relocationuzriders)
+- [icon-telegram Чат Sanatоrii_Uz - запросов и предложений по курортному отдыху](https://t.me/sanatorii_uz)
 
 ### Другое
 
