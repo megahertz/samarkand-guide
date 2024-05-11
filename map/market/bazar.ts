@@ -71,7 +71,8 @@ export default {
       yandexMap: 'https://yandex.uz/maps/-/CCUzNUHecC',
       twoGis: 'https://2gis.uz/samarkand/firm/70000001080305287',
       description:
-        'Не путать с железнодорожным. Он находится слева от вокзала. Недорогая одежда, особенно детская.',
+        'Не путать с железнодорожным. Он находится слева от вокзала. ' +
+        'Недорогая одежда, особенно детская.',
     },
     {
       label: 'Крытый рынок',
@@ -80,7 +81,8 @@ export default {
         'https://yandex.uz/maps/org/kryty_rynok_bazar_bozori_central_market/191042139990/',
       twoGis: 'https://2gis.uz/samarkand/search/firm/70000001080940014',
       description:
-        'Небольшой рынок в центре города. Цены средние. Можно поменять валюту.',
+        'Он же - мраморный рынок. Небольшой рынок в центре города. ' +
+        'Цены средние. Можно поменять валюту.',
     },
   ],
 } satisfies MapCategory;
