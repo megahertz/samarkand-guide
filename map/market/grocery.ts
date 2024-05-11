@@ -78,7 +78,6 @@ export default {
       telegram: 'https://t.me/optovikuzsamarkand/',
       instagram: 'https://www.instagram.com/optovikuz/',
       facebook: 'https://www.facebook.com/optovikuzsamarkand/',
-      web: 'http://optovikuz.com/ru/',
       items: [
         {
           label: 'Optovik.uz — Узбекистанская',
@@ -95,6 +94,15 @@ export default {
           yandexMap: 'https://yandex.uz/maps/org/226594219136/',
           twoGis: 'https://2gis.uz/samarkand/firm/70000001078517037',
           openHours: [{ time: '8:00 - 23:00' }],
+        },
+        {
+          label: 'Optovik.uz — Гипермакет',
+          location: [39.676405, 66.97552],
+          address: 'ул. Ибн Сины 47',
+          yandexMap: 'https://yandex.uz/maps/org/optovik_uz/100357560808/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001083932596/firm/70000001083932597',
+          openHours: [{ time: '8:00 - 24:00' }],
         },
         {
           label: 'Optovik.uz — Окмачит, 21 школа',
@@ -127,6 +135,75 @@ export default {
           yandexMap: 'https://yandex.uz/maps/org/81001564551/',
           openHours: [{ time: '7:00 - 23:00' }],
           phones: ['+998 (66) 234-04-29'],
+        },
+      ],
+    },
+    {
+      id: 'wellcom',
+      label: 'Wellcom',
+      type: 'category',
+      instagram: 'https://www.instagram.com/wellcom.market',
+      telegram: 'https://t.me/wellcom_market',
+      telegram2: 'https://t.me/SamWellcommarket',
+      items: [
+        {
+          label: 'Wellcom — Пенджикентская',
+          address: 'ул. Пенджикентская 182',
+          location: [39.646161, 66.995871],
+          yandexMap: 'https://yandex.uz/maps/org/wellcom/119117724608/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001079683937/firm/70000001079683938/',
+          openHours: [{ time: '6:00 - 24:00' }],
+          phones: ['+998 (55) 701‒08‒88', '+998 (66) 236‒40‒05'],
+        },
+        {
+          label: 'Wellcom — Юсупова',
+          address: 'ул. Усмана Юсупова, 67',
+          location: [39.624484, 66.95598],
+          yandexMap: 'https://yandex.uz/maps/org/116307451107/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001079683937/firm/70000001080212593/',
+          openHours: [{ time: '6:00 - 24:00' }],
+          phones: ['+998 (55) 701‒08‒88'],
+        },
+      ],
+    },
+    {
+      id: 'kiwi',
+      label: 'Kiwi',
+      type: 'category',
+      telegram: 'https://t.me/kiwisamarkand',
+      telegram2: 'https://t.me/kiwi_samarkand',
+      instagram: 'https://www.instagram.com/kiwisamarkand/',
+      facebook: 'https://www.facebook.com/kiwi.samarqand',
+      phones: ['+998 (90) 250-20-02'],
+      items: [
+        {
+          label: 'Kiwi — ЖД парк',
+          location: [39.676073, 66.927333],
+          address: 'ул. Беруни 67',
+          yandexMap: 'https://yandex.uz/maps/org/kiwi/106130061823/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001076640118/firm/70000001076640119/',
+          openHours: [{ time: 'круглосуточно' }],
+          description:
+            'Магазин неподалеку от Железнодорожного парка. Один из немногих ' +
+            'супермаркетов, где продают алкоголь. Причем, много зарубежного ' +
+            'алкоголя по очень приятным ценам. Так-же возят много всякой ' +
+            'экзотики, например клешни камчатского краба (правда, дико ' +
+            'перемороженные, судя по виду). Отвечают в социальных сетях, ' +
+            'можно попросить что-нибудь привести. С 12:00 до 00:00 работает ' +
+            'доставка, бесплатно от 150,000UZS.',
+        },
+        {
+          label: 'Kiwi — Гагарина',
+          location: [39.68035, 66.941374],
+          address: 'ул. Гагарина 23а',
+          yandexMap: 'https://yandex.uz/maps/org/kiwi/106130061823/',
+          twoGis:
+            'https://2gis.uz/samarkand/branches/70000001076640118/firm/70000001077843318/',
+          openHours: [{ time: '8:00 - 01:00' }],
+          description: 'Филиал на Гагарина, возле Buyuk',
         },
       ],
     },
@@ -178,25 +255,6 @@ export default {
       icon: 'islands#yellowShoppingIcon',
       type: 'category',
       items: [
-        {
-          label: 'Kiwi',
-          address: 'ул. Беруни 67',
-          location: [39.676073, 66.927333],
-          yandexMap: 'https://yandex.uz/maps/org/kiwi/106130061823/',
-          telegram: 'https://t.me/kiwi_samarkand',
-          instagram: 'https://www.instagram.com/kiwisamarkand/',
-          facebook: 'https://www.facebook.com/kiwi.samarqand',
-          openHours: [{ time: 'круглосуточно' }],
-          phones: ['+998 (90) 250-20-02'],
-          description:
-            'Магазин неподалеку от Железнодорожного парка. Один из немногих ' +
-            'супермаркетов, где продают алкоголь. Причем, много зарубежного ' +
-            'алкоголя по очень приятным ценам. Так-же возят много всякой ' +
-            'экзотики, например клешни камчатского краба (правда, дико ' +
-            'перемороженные, судя по виду). Отвечают в социальных сетях, ' +
-            'можно попросить что-нибудь привести. С 12:00 до 00:00 работает ' +
-            'доставка, бесплатно от 150,000UZS.',
-        },
         {
           label: 'Buyuk',
           address: 'ул. Гагарина 29',
