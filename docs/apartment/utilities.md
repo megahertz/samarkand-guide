@@ -48,6 +48,7 @@ Bank, Click, Paynet и прочих. Обычно, передавать пока
 - [инструкция к счетчику TE 71](https://tashelectroapparat.uz/wp-content/uploads/2021/05/te71_manual_rus_v2021.1.pdf)
 - [инструкция к счетчику TE 73](https://tashelectroapparat.uz/wp-content/uploads/2021/05/te73_manual_rus_v2020.2.pdf)
 - [инструкция к счетчику Kaifa](https://het.uz/uploads/0138fd8c-bce2-622e-6a19-0d945d6974d3_media_.pdf)
+- [личный кабинет](https://het.uz/ru/pages/view/personal_account)
 
 @@sam-electricity
 
