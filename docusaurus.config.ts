@@ -80,7 +80,7 @@ export default {
 
   themeConfig: {
     colorMode: {
-      respectPrefersColorScheme: false,
+      respectPrefersColorScheme: true,
     },
     metadata: [
       {
