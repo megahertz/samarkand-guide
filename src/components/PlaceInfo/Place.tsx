@@ -28,7 +28,11 @@ export default function Place({
 }
 
 function ViewCard({ children }: { children: React.ReactNode }) {
-  return <Container as="div">{children}</Container>;
+  return (
+    <Container className={styles.container} as="div">
+      {children}
+    </Container>
+  );
 }
 
 function ViewParagraph({ children }: { children: React.ReactNode }) {

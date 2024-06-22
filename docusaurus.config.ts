@@ -79,6 +79,9 @@ export default {
   ],
 
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: false,
+    },
     metadata: [
       {
         name: 'og:image',

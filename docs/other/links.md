@@ -89,7 +89,9 @@ description:
 
 ## Соседние релокации {#near}
 
-- [icon-telegram Таджикистан](https://t.me/relocation_tj),
+- [icon-telegram Таджикистан](https://t.me/+QP_iFR3XKsY1Mjgy),
+  [icon-telegram Душанбе](https://t.me/citydyshanbe),
+  [icon-telegram Худжанд](https://t.me/russiankhujiand),
   [icon-web гайд](https://teletype.in/@theferrum/tajikistan)
 - [icon-telegram Кыргызстан](https://t.me/WelcomeToKG)
 - [icon-telegram Казахстан](https://t.me/relocation_kaz),
