@@ -12,7 +12,7 @@ export default function iconPlugin() {
             name: 'Icon',
             attributes: [{ type: 'mdxJsxAttribute', name: 'name', value: m1 }],
             children: [],
-            data: { _mdxExplicitJsx: true },
+            data: { _mdxExplicitJsx: true } as Record<string, boolean>,
           };
         },
       ],

@@ -14,7 +14,7 @@ export default function pricePlugin() {
             name: 'Price',
             attributes: [],
             children: [{ type: 'text', value: m1 }],
-            data: { _mdxExplicitJsx: true },
+            data: { _mdxExplicitJsx: true } as Record<string, boolean>,
           };
         },
       ],
@@ -31,7 +31,7 @@ export default function pricePlugin() {
               { type: 'mdxJsxAttribute', name: 'currency', value: 'brv' },
             ],
             children: [{ type: 'text', value: m1 }],
-            data: { _mdxExplicitJsx: true },
+            data: { _mdxExplicitJsx: true } as Record<string, boolean>,
           };
         },
       ],

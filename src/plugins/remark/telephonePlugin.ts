@@ -14,7 +14,7 @@ export default function telephonePlugin() {
               { type: 'mdxJsxAttribute', name: 'href', value: `tel:${link}` },
             ],
             children: [{ type: 'text', value: match }],
-            data: { _mdxExplicitJsx: true },
+            data: { _mdxExplicitJsx: true } as Record<string, boolean>,
           };
         },
       ],

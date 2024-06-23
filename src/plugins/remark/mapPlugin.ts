@@ -16,7 +16,7 @@ export default function mapPlugin() {
               { type: 'mdxJsxAttribute', name: 'itemId', value: m1 },
             ],
             children: [],
-            data: { _mdxExplicitJsx: true },
+            data: { _mdxExplicitJsx: true } as Record<string, boolean>,
           };
         },
       ],
@@ -34,7 +34,7 @@ export default function mapPlugin() {
               { type: 'mdxJsxAttribute', name: 'options', value: mOptions },
             ],
             children: [],
-            data: { _mdxExplicitJsx: true },
+            data: { _mdxExplicitJsx: true } as Record<string, boolean>,
           };
         },
       ],
