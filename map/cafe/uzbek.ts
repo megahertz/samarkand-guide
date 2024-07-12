@@ -130,9 +130,18 @@ export default {
       yandexMap: 'https://yandex.uz/maps/org/80972462029',
       twoGis: 'https://2gis.uz/samarkand/firm/70000001076931319/',
       googleMap: 'https://goo.gl/maps/4xND92kMDvFaFBcB8',
+      telegram: 'https://t.me/rozmarin6888',
+      instagram: 'https://www.instagram.com/rozmarin_samarkand',
+      openHours: [
+        { daysOfWeek: '1-6', time: '10:00-01:00' },
+        { daysOfWeek: '7', time: '10:00-23:00' },
+      ],
+      phones: ['+998 (90) 101‒68‒88'],
       description:
-        'Вкусно и недорого, плов только по будням. Немного европейской ' +
-        'кухни, есть пиво.',
+        'Вкусно и недорого, чисто, аккуратно, неплохое обслуживание. ' +
+        'В основном узбекская кухня и немного европейской, есть пиво. ' +
+        'Плов — один из лучших в районе Вокзала. Его готовят только ' +
+        'по будням, к 13:30 уже может закончиться.',
       tags: ['osh', 'beer'],
     },
   ],

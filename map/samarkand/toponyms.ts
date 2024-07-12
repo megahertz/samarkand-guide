@@ -64,6 +64,15 @@ export default {
         'деревьев, благодаря этой аллее улица разделена на две части.',
     },
     {
+      label: 'Буюк / Олтын самарканд',
+      location: [39.678263, 66.940249],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/155899067585/',
+      description:
+        'Перекресток Рудаки — Гагарина. На одной стороне находится' +
+        'супермаркет Buyuk, на другой ресторан Oltin Samarqand.',
+    },
+    {
       label: 'Вокзал',
       location: [39.682079, 66.928764],
       icon: DISTRICT_ICON,
@@ -102,15 +111,6 @@ export default {
         'время — квартал "Восток".',
     },
     {
-      label: 'Иняз',
-      location: [39.65134, 66.964561],
-      icon: PLACE_ICON,
-      yandexMap: 'https://yandex.uz/maps/org/11436389847/',
-      twoGis: 'https://2gis.uz/samarkand/firm/70000001077408924',
-      description:
-        'Самаркандский государственный институт иностранных языков (СамГИИЯ).',
-    },
-    {
       label: 'За линией',
       location: [39.688565, 66.929397],
       icon: DISTRICT_ICON,
@@ -136,6 +136,15 @@ export default {
       icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/-/CDQcNAMM',
       description: 'По названию заправки, но это не точно.',
+    },
+    {
+      label: 'Иняз',
+      location: [39.65134, 66.964561],
+      icon: PLACE_ICON,
+      yandexMap: 'https://yandex.uz/maps/org/11436389847/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001077408924',
+      description:
+        'Самаркандский государственный институт иностранных языков (СамГИИЯ).',
     },
     {
       label: 'Каримбек / Истыклол / Фрунзе',
@@ -165,6 +174,15 @@ export default {
       description:
         'Улица Ибн Холдуна. Топоним получил название из-за виноградного ' +
         'завода когда-то находившегося здесь.',
+    },
+    {
+      label: 'Красные дома',
+      location: [39.680364, 66.939489],
+      icon: PLACE_ICON,
+      address: 'Ислохат 17',
+      yandexMap: 'https://yandex.uz/maps/-/CDGtU4Jw',
+      twoGis: 'https://2gis.uz/samarkand/geo/70030076619180328',
+      description: 'Новостройки из красного кирпича за Узгазоил.',
     },
     {
       label: 'Лимонадка / Лимонадный базарчик',
@@ -359,13 +377,13 @@ export default {
         'БАМ и часто используется как отдельный ориентир.',
     },
     {
-      label: 'UzGazOil / Uzbekneftegaz',
+      label: 'Узгазоил / Узбекнефтгаз',
       location: [39.680189, 66.938295],
       icon: PLACE_ICON,
       yandexMap: 'https://yandex.uz/maps/org/159142842034/',
       description:
-        'Заправка. До 2017 называлась Узгазоил, позже компания ' +
-        'переименовалась в Узбекнефтгаз. Но ориентир сохранил старое название.',
+        'Заправка. До 2017 называлась UzGazOil, позже компания ' +
+        'переименовалась в Uzbekneftegaz. Но ориентир сохранил старое название.',
     },
     {
       label: 'Ургутский базарчик',
