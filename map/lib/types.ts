@@ -13,6 +13,7 @@ export interface MapPlace {
   openHours?: Array<{ daysOfWeek?: string; time: string }>;
   phones?: string[];
   price?: number[];
+  priceDate?: Date;
   showLabel?: boolean;
   tags?: string[];
   telegram?: string;

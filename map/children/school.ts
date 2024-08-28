@@ -81,18 +81,20 @@ export default {
     {
       id: 'redbridge',
       label: 'RedBridge',
-      location: [39.64435, 66.940187],
+      location: [39.662485, 66.965587],
       tags: ['kindergarten'],
-      yandexMap: 'https://yandex.uz/maps/org/190271767898/',
-      googleMap: 'https://goo.gl/maps/ioF1Vvz56aP98QZC7',
-      price: [2_550_000],
+      yandexMap: 'https://yandex.uz/maps/org/158352191430/',
+      googleMap: 'https://maps.app.goo.gl/52inFXjHbkjPBpM17',
+      price: [3_400_000, 3_600_000],
+      priceDate: new Date('2024-08-28'),
       web: 'https://redbridge.uz/',
       instagram: 'https://instagram.com/redbridgeschools',
       facebook: 'https://facebook.com/redbridgeschools.sam',
-      phones: ['+998 (97) 288-19-19', '+998 (91) 525-34-65'],
+      phones: ['+998 97 288 19 19', '+998 97 288 18 18', '+998 88 277 18 18'],
       description:
-        'Самая популярная школа у экспатов. Прежде всего примечательна' +
-        'серьезным упором на английский.',
+        'Русская школа с английским уклоном, основана на программе ' +
+        'International Baccalaureate. Часть предметов ведется иностранными ' +
+        'преподавателями на английском языке.',
     },
     {
       label: 'Samarkand Intellekt',
