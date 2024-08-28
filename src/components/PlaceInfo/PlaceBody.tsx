@@ -99,10 +99,16 @@ function PlacePrices({ place }: { place: MapPlace }) {
     return null;
   }
 
+  let priceDate = null;
+  if (place.priceDate instanceof Date) {
+    const date = place.priceDate.toISOString().slice(0, 10).replace(/-/g, '.');
+    priceDate = <span className={styles.priceDate}>(обновлено {date})</span>;
+  }
+
   if (place.price.length === 1) {
     return (
       <div className={styles.price}>
-        <Price>{place.price[0].toString()}</Price>{' '}
+        <Price>{place.price[0].toString()}</Price> {priceDate}
       </div>
     );
   }
@@ -110,7 +116,7 @@ function PlacePrices({ place }: { place: MapPlace }) {
   return (
     <div className={styles.price}>
       <Price>{place.price[0].toString()}</Price> —&nbsp;
-      <Price>{place.price[1].toString()}</Price>
+      <Price>{place.price[1].toString()}</Price> {priceDate}
     </div>
   );
 }
