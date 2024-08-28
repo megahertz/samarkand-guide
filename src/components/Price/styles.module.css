@@ -19,3 +19,12 @@
   position: absolute;
   white-space: pre;
 }
+
+.price[data-title=""] {
+  border-bottom: none;
+  color: var(--ifm-font-color-base);
+}
+
+.price[data-title=""]:hover:after {
+  display: none;
+}

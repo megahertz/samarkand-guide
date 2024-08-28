@@ -33,6 +33,8 @@ export default function Price({
     [tempExchangeRates, setExchangeRates],
   );
 
+  console.log(JSON.stringify(exchangeRates));
+
   return (
     <span
       aria-label="Price"
@@ -53,8 +55,8 @@ const useCurrencyRequest = createUseRequest({
   > {
     return fetch('https://www.floatrates.com/daily/uzs.json')
       .then((response) => response.json())
-      .then((currencies: Record<string, { rate?: number }>) =>
-        Object.fromEntries(
+      .then((currencies: Record<string, { rate?: number }>) => {
+        return Object.fromEntries(
           Object.entries(currencies)
             .map(([code, currency]): [string, number] => [
               code,
@@ -63,8 +65,8 @@ const useCurrencyRequest = createUseRequest({
             .filter(
               ([code, rate]) => rate && selectedCurrencies.includes(code),
             ),
-        ),
-      );
+        );
+      });
   },
 });
 
