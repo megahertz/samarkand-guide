@@ -47,6 +47,7 @@ description:
 | Папанина              | [Абдурауфа Фитрата](https://yandex.uz/maps/10334/samarkand/geo/1522495140/)       |                                                                  |
 | Розы Люксенбург       | [Лутфи](https://yandex.uz/maps/10334/samarkand/geo/1522495076/)                   |                                                                  |
 | Советская             | [Абдурахмана Джами](https://yandex.uz/maps/10334/samarkand/geo/1522495058/)       |                                                                  |
+| Судавцова             | [Абунасра Фараби](https://2gis.uz/samarkand/geo/70030076597434135)                |                                                                  |
 | Ташкентская           | [Ислама Каримова](https://2gis.uz/samarkand/geo/70030076598917691/)               |                                                                  |
 | Титова                | [Рудаки](https://yandex.uz/maps/10334/samarkand/geo/1522494288/)                  |                                                                  |
 | Фролова               | [Мухаммада Аль-Хорезми](https://yandex.uz/maps/10334/samarkand/geo/1522495300/)   |                                                                  |
