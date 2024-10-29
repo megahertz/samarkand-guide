@@ -18,6 +18,21 @@ export default {
           description: 'Просто хороший плов. Работает без выходных',
         },
         {
+          label: 'Jasmin',
+          location: [39.647945, 66.912815],
+          yandexMap: 'https://yandex.uz/maps/org/9223113930/',
+          twoGis: 'https://2gis.uz/samarkand/firm/70000001079719573',
+          googleMap: 'https://maps.app.goo.gl/cgPBUDT6bUDbdSUW7',
+          telegram: 'https://t.me/jasmindostavka_bot',
+          instagram: 'https://www.instagram.com/jasminsamarkand',
+          facebook: 'https://www.facebook.com/JasminSamarkand/',
+          phones: ['+998 (97) 507‒90‒00'],
+          openHours: [{ time: '9:00-23:00' }],
+          description:
+            'Примечателен там, что тут готовят редкие для Самарканда ' +
+            'блюда, такие как норин, хоним, курутоб.',
+        },
+        {
           label: 'Joni Osh',
           location: [39.684263, 66.985654],
           yandexMap: 'https://yandex.uz/maps/org/200843248583/',
