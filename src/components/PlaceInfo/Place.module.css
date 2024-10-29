@@ -5,9 +5,3 @@
     font-size: 1.1em;
   }
 }
-
-[data-theme='dark'] {
-  .container {
-    color: var(--ifm-font-color-base);
-  }
-}

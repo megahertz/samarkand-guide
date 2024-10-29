@@ -10,6 +10,12 @@
   }
 }
 
+[data-theme='dark'] {
+  .container {
+    color: var(--ifm-font-color-base);
+  }
+}
+
 .content {
   flex: 1;
   padding: var(--ifm-pre-padding);
