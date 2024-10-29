@@ -10,10 +10,8 @@
   }
 }
 
-[data-theme='dark'] {
-  .container {
-    color: var(--ifm-font-color-base);
-  }
+[data-theme='dark'] .container {
+  color: var(--ifm-font-color-base);
 }
 
 .content {

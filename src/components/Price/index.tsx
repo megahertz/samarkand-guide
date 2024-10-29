@@ -33,8 +33,6 @@ export default function Price({
     [tempExchangeRates, setExchangeRates],
   );
 
-  console.log(JSON.stringify(exchangeRates));
-
   return (
     <span
       aria-label="Price"

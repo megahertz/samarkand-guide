@@ -1,4 +1,5 @@
 import Head from '@docusaurus/Head';
+import Link from '@docusaurus/Link';
 import type { PropSidebarItem } from '@docusaurus/plugin-content-docs';
 import { useLocation } from '@docusaurus/router';
 import SidebarStyles from '@docusaurus/theme-classic/lib/theme/DocRoot/Layout/Sidebar/styles.module.css';
@@ -58,10 +59,31 @@ export default function MapPage() {
             onCollapse={() => {}}
             path="/map"
           />
+          <FakeAnchors sidebarItems={sidebarItems} />
         </aside>
         <Map placemarks={selectedPlacemarks} />
       </main>
     </Layout>
+  );
+}
+
+/**
+ * Actually, the only purpose of this component is to generate fake anchors
+ * to prevent broken link warnings on building. There's no other way to
+ * disable this warning for map links but keep it for real broken anchor errors
+ */
+function FakeAnchors({ sidebarItems }: { sidebarItems: PropSidebarItem[] }) {
+  const topLevelLinks = sidebarItems
+    .filter((item) => item.type === 'category')
+    .map((item) => item.href);
+
+  return (
+    <template>
+      {topLevelLinks.map((href) => (
+        // eslint-disable-next-line jsx-a11y/anchor-is-valid
+        <Link key={href} id={href} />
+      ))}
+    </template>
   );
 }
 

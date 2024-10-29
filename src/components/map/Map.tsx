@@ -41,7 +41,10 @@ export default function Map({
           key={item.id}
           modules={['geoObject.addon.balloon', 'geoObject.addon.hint']}
           options={
-            { preset: item.icon, iconCaptionMaxWidth: 120 } as IPlacemarkOptions
+            {
+              preset: item.icon,
+              iconCaptionMaxWidth: 120,
+            } as IPlacemarkOptions
           }
           properties={{
             balloonContentBody: item.body,
