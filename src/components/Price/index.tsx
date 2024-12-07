@@ -14,7 +14,7 @@ const FORMATS = {
   uzs: '{value} сумов',
   default: '{value} {code}',
 } as const;
-const BRV = 340_000;
+const BRV = 375_000;
 
 export default function Price({
   children,

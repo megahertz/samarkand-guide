@@ -93,7 +93,8 @@ description:
   [icon-telegram Душанбе](https://t.me/citydyshanbe),
   [icon-telegram Худжанд](https://t.me/russiankhujiand),
   [icon-web гайд](https://teletype.in/@theferrum/tajikistan)
-- [icon-telegram Кыргызстан](https://t.me/WelcomeToKG)
+- [icon-telegram Кыргызстан](https://t.me/WelcomeToKG),
+  [icon-telegram 2](https://t.me/chats_kg)
 - [icon-telegram Казахстан](https://t.me/relocation_kaz),
   [icon-telegram 2](https://t.me/forum_kazakhstan),
   [icon-telegram Алматы](https://t.me/rent_almaty/),
