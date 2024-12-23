@@ -69,6 +69,11 @@ Cамаркандская сеть поменьше. Самый интересн
   не путают, наличие показывается более-менее точно. Но бывает, зайдешь на сайт,
   а там пусто как в советских гастрономах.
 
+- [Mango Market](https://www.instagram.com/_mango_market_)
+  ([Android](https://play.google.com/store/apps/details?id=com.mangomarket&hl=ru),
+  [iOS](https://apps.apple.com/uz/app/mango-market/id6480472169)) вроде хвалят,
+  но не пробовал, ссылка на Android приложение в данный момент не активна.
+
 - В Oila Supermarket
   ([Android](https://play.google.com/store/apps/details?id=uz.gigalab.oilasupermarket),
   [iOS](https://apps.apple.com/us/app/oila-supermarket/id1637385727))
@@ -81,14 +86,14 @@ Cамаркандская сеть поменьше. Самый интересн
 
 ### Готовая еда
 
-- [https://express24.uz/](https://express24.uz/) — на данный момент, самый
-  популярный вариант.
+- [Яндекс.Еда](https://eats.yandex.com/uz/Samarkand?lang=ru) — Зашли на рынок не
+  так давно, поглотив крупнейшего конкурента express24.
 
-- [Яндекс.Еда](https://eats.yandex.com/uz/Samarkand?lang=ru) — зашли на рынок
-  недавно, но намерены серьезно потеснить конкурентов.
+- [Uzum Tezkor](https://uzumtezkor.uz/ru)
 
-- [Chalop](https://www.instagram.com/chalop.uz/) — доставка готовых рационов по
-  типу LevelKitchen. Доставка каждый день, достаточно гибкие. Можно попросить
+- [Chalop](https://www.instagram.com/chalop.uz/) и их-же второй проект
+  [Iceberg](https://www.instagram.com/iceberg.sam1/) — доставка готовых рационов
+  по типу LevelKitchen. Доставка каждый день, достаточно гибкие. Можно попросить
   заменить некоторые блюда (например убрать рыбу или молочные продукты). Можно
   отказаться от доставки или наоборот заказать в этот-же день.
 
