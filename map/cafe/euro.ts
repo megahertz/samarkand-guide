@@ -113,6 +113,20 @@ export default {
         'лучшими коктейлями в Самарканде.',
     },
     {
+      label: 'Sirius',
+      location: [39.656381, 66.954735],
+      yandexMap: 'https://yandex.uz/maps/org/sirius/188483635401/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001079806009',
+      googleMap: 'https://maps.app.goo.gl/EMvbRnvBesY7Aeu4A',
+      instagram: 'https://www.instagram.com/sirius.restaurant',
+      phones: ['+998 (90) 192‒70‒00', '+998 (90) 193‒80‒00'],
+      address: 'Мироншоха Мирзо 34',
+      openHours: [{ time: '12:00 - 24:00' }],
+      description:
+        'Уютное место с хорошей кухней и обслуживанием. Вкусные роллы. На ' +
+        'третьем этаже есть терраса.',
+    },
+    {
       label: 'Sogdiana',
       location: [39.647939, 66.960265],
       yandexMap: 'https://yandex.uz/maps/org/29376900650/',
