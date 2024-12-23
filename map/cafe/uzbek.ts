@@ -18,21 +18,6 @@ export default {
           description: 'Просто хороший плов. Работает без выходных',
         },
         {
-          label: 'Jasmin',
-          location: [39.647945, 66.912815],
-          yandexMap: 'https://yandex.uz/maps/org/9223113930/',
-          twoGis: 'https://2gis.uz/samarkand/firm/70000001079719573',
-          googleMap: 'https://maps.app.goo.gl/cgPBUDT6bUDbdSUW7',
-          telegram: 'https://t.me/jasmindostavka_bot',
-          instagram: 'https://www.instagram.com/jasminsamarkand',
-          facebook: 'https://www.facebook.com/JasminSamarkand/',
-          phones: ['+998 (97) 507‒90‒00'],
-          openHours: [{ time: '9:00-23:00' }],
-          description:
-            'Примечателен там, что тут готовят редкие для Самарканда ' +
-            'блюда, такие как норин, хоним, курутоб.',
-        },
-        {
           label: 'Joni Osh',
           location: [39.684263, 66.985654],
           yandexMap: 'https://yandex.uz/maps/org/200843248583/',
@@ -115,6 +100,21 @@ export default {
         'свободный столик, но не долго. Неплохой плов.',
     },
     {
+      label: 'Jasmin',
+      location: [39.647945, 66.912815],
+      yandexMap: 'https://yandex.uz/maps/org/9223113930/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001079719573',
+      googleMap: 'https://maps.app.goo.gl/cgPBUDT6bUDbdSUW7',
+      telegram: 'https://t.me/jasmindostavka_bot',
+      instagram: 'https://www.instagram.com/jasminsamarkand',
+      facebook: 'https://www.facebook.com/JasminSamarkand/',
+      phones: ['+998 (97) 507‒90‒00'],
+      openHours: [{ time: '9:00-23:00' }],
+      description:
+        'Примечателен там, что тут готовят редкие для Самарканда ' +
+        'блюда, такие как норин, хоним, курутоб.',
+    },
+    {
       label: 'Karimbek',
       location: [39.64718, 66.936771],
       yandexMap: 'https://yandex.uz/maps/org/234049585658',
@@ -138,6 +138,21 @@ export default {
         'расходится за 10-15 минут. Есть 2 вида: из баранины и говядины. ' +
         'Очень вкусно. За самсой приходится стоять в очереди. У заведения ' +
         'нет опознавательных знаков, просто дверь внутрь и много народу.',
+    },
+    {
+      label: 'Qurutob.uz',
+      location: [39.643171, 66.936155],
+      yandexMap: 'https://yandex.uz/maps/org/207478437261/',
+      twoGis: 'https://2gis.uz/samarkand/firm/70000001094648494',
+      googleMap: 'https://maps.app.goo.gl/gryipAGdLEfx9urs5',
+      instagram: 'https://www.instagram.com/aisha.ulmasova',
+      phones: ['+998 (97) 396-86-61'],
+      openHours: [{ time: '9:00-22:00' }],
+      address: 'Фирдоуси, 94',
+      description:
+        'Курутоб — главное блюдо таджикской кухни, которое редко ' +
+        'встретишь в Узбекистане. Готовят очень вкусно, качество не уступает ' +
+        'лучшим курутобным Душанбе. Еще у них неплох холодец.',
     },
     {
       label: 'Розмарин',
