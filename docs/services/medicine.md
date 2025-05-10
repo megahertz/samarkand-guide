@@ -86,8 +86,9 @@ description:
 
 ## Аптеки {#drugstores}
 
-Поиск лекарств следует начинать с
-[icon-telegram Бота](https://t.me/arzonaptekabot). Так-же есть
+Поиск лекарств следует начинать с каталога аптек
+[ArzonApteka](https://arzonapteka.uz/ru) или их
+[icon-telegram бота](https://t.me/arzonaptekabot). Так-же есть
 [icon-telegram чат с аптеками](https://t.me/sampharmcity), где можно спросить
 определенное лекарство. Можно туда отправить фото назначения врача, если не
 можете разобрать. Ну и будьте бдительны, назначенные лекарства можно проверить в

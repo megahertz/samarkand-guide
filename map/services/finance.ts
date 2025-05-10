@@ -15,6 +15,8 @@ export default {
       facebook: 'https://facebook.com/kapitalbank.uz',
       instagram: 'https://www.instagram.com/kapitalbank.uz/',
       youtube: 'https://www.youtube.com/channel/UCKC7eEVm_l8NPQcELlJjq4w/',
+      telegram: 'https://t.me/kapital24',
+      telegram2: 'https://t.me/KapitalbankBot',
       phones: [
         '+998 (71) 200-150-15',
         '+998 (78) 210-00-60',
@@ -22,7 +24,8 @@ export default {
       ],
       description:
         'Самый популярный у релокантов. Есть банкомат - обменник. ' +
-        'Быстрее всего отвечают в instagram',
+        'Быстрее всего отвечают в instagram, так-же можно писать им в ' +
+        'telegram бота.',
     },
     {
       label: 'Алокабанк',
