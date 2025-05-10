@@ -9,3 +9,9 @@
 `npm install`
 
 `npm start`
+
+## Publish
+
+Just add a new tag:
+
+`npm version patch`
