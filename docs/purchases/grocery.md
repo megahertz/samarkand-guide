@@ -69,6 +69,8 @@ Cамаркандская сеть поменьше. Самый интересн
   не путают, наличие показывается более-менее точно. Но бывает, зайдешь на сайт,
   а там пусто как в советских гастрономах.
 
+- [Korzinka Go](https://korzinka.uz/go)
+
 - [Mango Market](https://www.instagram.com/_mango_market_)
   ([Android](https://play.google.com/store/apps/details?id=com.mangomarket&hl=ru),
   [iOS](https://apps.apple.com/uz/app/mango-market/id6480472169)) вроде хвалят,
