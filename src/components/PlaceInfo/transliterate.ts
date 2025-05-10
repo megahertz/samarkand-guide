@@ -24,7 +24,7 @@ export default function transliterate(str: string): string {
         return converted;
       }
 
-      return converted[0].toUpperCase() + converted.slice(1);
+      return (converted[0]?.toUpperCase() || '') + converted.slice(1);
     })
     .join('');
 }
