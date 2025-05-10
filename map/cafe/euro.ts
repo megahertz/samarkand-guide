@@ -70,15 +70,6 @@ export default {
         'Здесь самый вкусный чизкейк в городе.',
     },
     {
-      label: 'La Esmeralda',
-      location: [39.644626, 66.955554],
-      yandexMap: 'https://yandex.uz/maps/org/115557029636',
-      twoGis: 'https://2gis.uz/samarkand/firm/70000001079915423/',
-      googleMap: 'https://goo.gl/maps/UAvF8jaXA3mFQyJe7',
-      instagram: 'https://www.instagram.com/laesmeralda.uz/',
-      phones: ['+998 (33) 235-00-20'],
-    },
-    {
       label: 'Manresa',
       location: [39.657919, 66.928805],
       tags: ['asian-food'],
