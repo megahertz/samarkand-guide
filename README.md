@@ -12,6 +12,6 @@
 
 ## Publish
 
-Just add a new tag:
+Just add a new tag. It will be deployed to Cloudflare Pages automatically.
 
 `npm version patch`
