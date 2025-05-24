@@ -1,0 +1,31 @@
+.cartButton {
+  background: transparent;
+  border: none;
+  color: #374151;
+  cursor: pointer;
+  margin-top: 11px;
+  margin-bottom: -10px;
+  padding: 0.5rem;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.cartButton:hover {
+  color: var(--ifm-breadcrumb-color-active);
+}
+
+.cartCount {
+  position: absolute;
+  top: -0.25rem;
+  right: -0.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: var(--ifm-breadcrumb-color-active);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
