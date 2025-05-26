@@ -1,9 +1,9 @@
-import { formatUzsPrice } from '@site/src/pages/sale/other/utils';
+import { formatUzsPrice } from '@site/src/pages/sale/components/other/utils';
 import React, { useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import { getProductById } from '../products';
-import { useCart } from '../other/CartContext';
-import type { Product } from '../other/types';
+import { useCart } from '@site/src/pages/sale/components/other/CartContext';
+import type { Product } from '@site/src/pages/sale/components/other/types';
+import { getProductById } from './products';
 import CartIcon from './CartIcon';
 import styles from './ShoppingCart.module.css';
 

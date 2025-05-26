@@ -1,8 +1,8 @@
 import Head from '@docusaurus/Head';
 import Layout from '@theme/Layout';
 import React, { type ReactNode } from 'react';
+import { CartProvider } from '@site/src/pages/sale/components/other/CartContext';
 import styles from '../../map/styles.module.css';
-import { CartProvider } from '../other/CartContext';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const ogImage = require('../../../../docs/purchases/img/bazar.jpg');

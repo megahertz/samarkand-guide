@@ -1,6 +1,6 @@
 import mediumZoom from 'medium-zoom';
 import React, { useEffect } from 'react';
-import { Product } from '../other/types';
+import { Product } from '@site/src/pages/sale/components/other/types';
 import ProductCard from './ProductCard';
 import styles from './ProductGrid.module.css';
 

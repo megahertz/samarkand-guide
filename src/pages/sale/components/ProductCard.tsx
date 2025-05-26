@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { useCart } from '@site/src/pages/sale/components/other/CartContext';
+import { formatUzsPrice } from '@site/src/pages/sale/components/other/utils';
+import { Product } from '@site/src/pages/sale/components/other/types';
 import CartIcon from './CartIcon';
-import { useCart } from '../other/CartContext';
-import { formatUzsPrice } from '../other/utils';
-import { Product } from '../other/types';
 import styles from './ProductCard.module.css';
 
 export default function ProductCard({ product }: { product: Product }) {
