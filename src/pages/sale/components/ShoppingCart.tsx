@@ -37,7 +37,7 @@ export default function ShoppingCart() {
         ? `${firstLane} ${names}`
         : `${firstLane}:\n• ${names}`;
 
-    const url = `https://t.me/prolko?text=${encodeURIComponent(text)}`;
+    const url = `https://t.me/sam7pr?text=${encodeURIComponent(text)}`;
 
     window.open(url, '_blank');
   }

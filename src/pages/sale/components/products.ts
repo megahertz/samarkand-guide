@@ -6,6 +6,7 @@ export const products: Product[] = [
     name: 'Пылесос MI VC G9',
     price: 1_500_000,
     image: require('./img/mi-vacuum.jpg'),
+    isSold: true,
     description:
       'Мощный беспроводной пылесос со сменным аккумулятором и тремя ' +
       'насадками. Мощность двигателя - 400Вт, всасывания - 120аВт. ' +
@@ -39,6 +40,7 @@ export const products: Product[] = [
     name: 'Стол рабочий',
     price: 900_000,
     image: require('./img/table.jpg'),
+    isSold: true,
     description:
       'Компьютерный стол из светлого дерева с просторной рабочей ' +
       'поверхностью 130х70 см и удобной высотой 76 см. Функциональная тумба ' +
@@ -110,6 +112,7 @@ export const products: Product[] = [
     name: 'Кофеварка Delonghi EC785.BG',
     price: 1_700_000,
     image: require('./img/delonghi-ec785.bg.jpg'),
+    isSold: true,
     description:
       'В комплекте темпер, питчер + дополнительный открытый холдер, большой ' +
       'запас кофе. Использовался только с водой из осмоса, поэтому накипи нет.',
@@ -119,6 +122,7 @@ export const products: Product[] = [
     name: 'Чайник Polaris PWK 1873CGLD',
     price: 150_000,
     image: require('./img/kettle.jpg'),
+    isSold: true,
     description:
       'Чайник с терморегулятором 60-100°C и функцией поддержания тепла. ' +
       'Мощность 2200Вт, объем 1,8 л. Идеален для чая, кофе и детского питания.',
