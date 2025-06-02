@@ -273,6 +273,7 @@ export const products: Product[] = [
     name: 'ИБП iON A-800',
     price: 400_000,
     image: require('./img/ion-a800.jpg'),
+    isSold: true,
     description:
       'Линейно-интерактивный ИБП мощностью 800 ВА/480 Вт с аккумулятором ' +
       '12В/9А·ч, двумя розетками Schuko, стабилизацией напряжения 170–280В ' +
@@ -283,6 +284,7 @@ export const products: Product[] = [
     name: 'Macbook Air M1 13” (8GB/256SSD)',
     price: 4_500_000,
     image: require('./img/macbook-m1.jpg'),
+    isSold: true,
     description:
       'Тонкий и лёгкий ноутбук с мощным чипом, 8 ГБ памяти, SSD 256 ГБ, ' +
       'ярким 13,3" Retina-дисплеем (2560×1600), бесшумной работой без ' +
