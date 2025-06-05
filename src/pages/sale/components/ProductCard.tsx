@@ -46,7 +46,9 @@ export default function ProductCard({ product }: { product: Product }) {
           {product.newPrice && (
             <p className={styles.oldPrice}>{formatUzsPrice(product.price)}</p>
           )}
-          <p className={styles.price}>{formatUzsPrice(product.price)}</p>
+          <p className={styles.price}>
+            {formatUzsPrice(product.newPrice || product.price)}
+          </p>
         </div>
       </div>
 
