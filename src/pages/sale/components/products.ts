@@ -283,6 +283,7 @@ export const products: Product[] = [
     newPrice: 600_000,
     price: 900_000,
     image: require('./img/ion-a1500-1.jpg'),
+    isSold: true,
     description:
       'Линейно-интерактивный ИБП мощностью 1500 ВА/900 Вт с двумя ' +
       'аккумуляторами 12В/9А·ч, четырьмя розетками Schuko, стабилизацией ' +
