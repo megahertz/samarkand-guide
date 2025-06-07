@@ -16,7 +16,7 @@ export const products: Product[] = [
   {
     id: 3,
     name: 'Кресло черное',
-    newPrice: 600_000,
+    newPrice: 550_000,
     price: 800_000,
     image: require('./img/black-chair.jpg'),
     description:
@@ -28,7 +28,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: 'Кресло IKEA JÄRVFJÄLLET',
-    newPrice: 2_100_000,
+    newPrice: 2_000_000,
     price: 2_400_000,
     image: require('./img/ikea-jarvfjallet.jpg'),
     description:
@@ -52,7 +52,7 @@ export const products: Product[] = [
   {
     id: 6,
     name: 'Роутер Mikrotik hAP ac lite',
-    newPrice: 500_000,
+    newPrice: 440_000,
     price: 580_000,
     image: require('./img/mikrotik-hap-lite-ac.png'),
     description:
@@ -63,7 +63,7 @@ export const products: Product[] = [
   {
     id: 7,
     name: 'Синтезатор YAMAHA YPT 370',
-    newPrice: 1_900_000,
+    newPrice: 1_800_000,
     price: 2_200_000,
     image: require('./img/yamaha-ypt-370.jpg'),
     description:
@@ -75,7 +75,7 @@ export const products: Product[] = [
   {
     id: 9,
     name: 'RC-модель Max Angry Beast',
-    newPrice: 450_000,
+    newPrice: 400_000,
     price: 500_000,
     image: require('./img/rc-model.jpg'),
     description:
@@ -89,7 +89,7 @@ export const products: Product[] = [
   {
     id: 10,
     name: 'Саундбар Samsung HW-Q600A',
-    newPrice: 2_400_000,
+    newPrice: 1_900_000,
     price: 2_900_000,
     image: require('./img/samsung-hwq600a.jpg'),
     description:
@@ -137,7 +137,7 @@ export const products: Product[] = [
   {
     id: 15,
     name: 'Минисистема Technics SC-EH590',
-    newPrice: 1_200_000,
+    newPrice: 1_100_000,
     price: 1_400_000,
     image: require('./img/technics-sc-eh590.jpg'),
     description:
@@ -151,7 +151,7 @@ export const products: Product[] = [
   {
     id: 19,
     name: 'Набор инструментов',
-    newPrice: 550_000,
+    newPrice: 450_000,
     price: 600_000,
     image: require('./img/tools.jpg'),
     description:
@@ -165,6 +165,7 @@ export const products: Product[] = [
     newPrice: 180_000,
     price: 200_000,
     image: require('./img/hair-dryer.png'),
+    isSold: true,
     description:
       'Фен с двигателем и инновационной технологией быстрой сушки. В ' +
       'комплекте 5 магнитных насадок для различных типов укладки',
@@ -172,6 +173,7 @@ export const products: Product[] = [
   {
     id: 24,
     name: 'Бассейн + насос',
+    newPrice: 200_000,
     price: 250_000,
     image: require('./img/pool.jpg'),
     description:
@@ -203,7 +205,7 @@ export const products: Product[] = [
   {
     id: 28,
     name: 'Увлажнитель Mi Smart Humidifier 2',
-    newPrice: 470_000,
+    newPrice: 450_000,
     price: 500_000,
     image: require('./img/mi-humidifier2.jpg'),
     description:
@@ -228,7 +230,7 @@ export const products: Product[] = [
   {
     id: 31,
     name: 'Роутер Mikrotik hAP ax³',
-    newPrice: 1_400_000,
+    newPrice: 1_300_000,
     price: 1_500_000,
     image: require('./img/mikrotik-hap-ax3.png'),
     description:
@@ -240,7 +242,7 @@ export const products: Product[] = [
   {
     id: 35,
     name: 'Монитор Xiaomi 4K 27"',
-    newPrice: 2_200_000,
+    newPrice: 2_450_000,
     price: 2_500_000,
     isSold: true,
     image: require('./img/redmi-rmmnt27nu.jpeg'),
@@ -253,7 +255,7 @@ export const products: Product[] = [
   {
     id: 36,
     name: 'Монитор Samsung 4K 27"',
-    newPrice: 2_500_000,
+    newPrice: 2_300_000,
     price: 2_900_000,
     image: require('./img/samsung-ls27a800u.jpg'),
     description:
@@ -278,7 +280,7 @@ export const products: Product[] = [
   {
     id: 40,
     name: 'ИБП iON A-1500',
-    newPrice: 700_000,
+    newPrice: 600_000,
     price: 900_000,
     image: require('./img/ion-a1500-1.jpg'),
     description:
