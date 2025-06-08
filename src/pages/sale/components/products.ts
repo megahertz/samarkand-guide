@@ -275,6 +275,7 @@ export const products: Product[] = [
     name: 'Настольная лампа IKEA LAMPAN',
     price: 100_000,
     image: require('./img/ikea-lamp.jpg'),
+    isSold: true,
     description:
       'Минималистичная настольная лампа IKEA LAMPAN: высота 29 см, ' +
       'мягкое уютное освещение, легкий белый корпус из полипропилена, ' +
