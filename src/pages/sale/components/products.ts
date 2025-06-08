@@ -19,6 +19,7 @@ export const products: Product[] = [
     newPrice: 550_000,
     price: 800_000,
     image: require('./img/black-chair.jpg'),
+    isSold: true,
     description:
       'Офисное кресло с высокой спинкой и рельефной обивкой из черной ' +
       'экокожи. Хромированные подлокотники и пятилучевая база с колесиками ' +
@@ -77,6 +78,7 @@ export const products: Product[] = [
     name: 'RC-модель Max Angry Beast',
     newPrice: 400_000,
     price: 500_000,
+    isSold: true,
     image: require('./img/rc-model.jpg'),
     description:
       'Радиоуправляемая модель начального уровня в масштабе 1:18, ' +
@@ -208,6 +210,7 @@ export const products: Product[] = [
     newPrice: 450_000,
     price: 500_000,
     image: require('./img/mi-humidifier2.jpg'),
+    isSold: true,
     description:
       'Xiaomi Smart Sterilization Humidifier 2 MJJSQ05DY - Ультразвуковой ' +
       'увлажнитель с УФ-стерилизацией, объемом 4,5 л, ' +
@@ -219,7 +222,8 @@ export const products: Product[] = [
     id: 30,
     name: 'TV-приставка Game Stick Lite',
     newPrice: 150_000,
-    price: 160_000,
+    price: 190_000,
+    isSold: true,
     image: require('./img/game-stick.jpg'),
     description:
       'Миниатюрная приставка с поддержкой 4K, более 10 000 ретро-игр, двумя ' +
