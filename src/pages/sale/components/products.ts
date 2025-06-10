@@ -29,7 +29,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: 'Кресло IKEA JÄRVFJÄLLET',
-    newPrice: 2_000_000,
+    newPrice: 1_800_000,
     price: 2_400_000,
     image: require('./img/ikea-jarvfjallet.jpg'),
     description:
@@ -53,7 +53,7 @@ export const products: Product[] = [
   {
     id: 6,
     name: 'Роутер Mikrotik hAP ac lite',
-    newPrice: 440_000,
+    newPrice: 400_000,
     price: 580_000,
     image: require('./img/mikrotik-hap-lite-ac.png'),
     description:
@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     id: 7,
     name: 'Синтезатор YAMAHA YPT 370',
-    newPrice: 1_800_000,
+    newPrice: 1_600_000,
     price: 2_200_000,
     image: require('./img/yamaha-ypt-370.jpg'),
     description:
@@ -91,7 +91,7 @@ export const products: Product[] = [
   {
     id: 10,
     name: 'Саундбар Samsung HW-Q600A',
-    newPrice: 1_900_000,
+    newPrice: 1_600_000,
     price: 2_900_000,
     image: require('./img/samsung-hwq600a.jpg'),
     description:
@@ -107,7 +107,7 @@ export const products: Product[] = [
   {
     id: 11,
     name: 'Весы Mi BC Scale 2',
-    newPrice: 180_000,
+    newPrice: 150_000,
     price: 200_000,
     image: require('./img/mi-body-scale.png'),
     description:
@@ -139,7 +139,7 @@ export const products: Product[] = [
   {
     id: 15,
     name: 'Минисистема Technics SC-EH590',
-    newPrice: 1_100_000,
+    newPrice: 1_000_000,
     price: 1_400_000,
     image: require('./img/technics-sc-eh590.jpg'),
     description:
@@ -153,7 +153,7 @@ export const products: Product[] = [
   {
     id: 19,
     name: 'Набор инструментов',
-    newPrice: 450_000,
+    newPrice: 400_000,
     price: 600_000,
     image: require('./img/tools.jpg'),
     description:
@@ -164,7 +164,7 @@ export const products: Product[] = [
   {
     id: 20,
     name: 'Фен',
-    newPrice: 180_000,
+    newPrice: 170_000,
     price: 200_000,
     image: require('./img/hair-dryer.png'),
     isSold: true,
@@ -185,18 +185,18 @@ export const products: Product[] = [
   {
     id: 25,
     name: 'Лампочки IKEA TOSTHULT',
-    newPrice: 55_000,
+    newPrice: 45_000,
     price: 70_000,
     image: require('./img/ikea-tosthult.jpg'),
     description:
       'Работают от аккумулятора при отключении электричества. Цоколь E27, ' +
-      'световой поток 400 лм, теплый белый свет 2700К. Осталось 5 штук. ' +
+      'световой поток 400 лм, теплый белый свет 2700К. Осталось 3 штуки. ' +
       'IKEA 704.004.29.',
   },
   {
     id: 27,
     name: 'Ингалятор ЮЛАЙЗЕР (небулайзер)',
-    newPrice: 200_000,
+    newPrice: 180_000,
     price: 250_000,
     image: require('./img/nebulizer.jpg'),
     description:
@@ -234,7 +234,7 @@ export const products: Product[] = [
   {
     id: 31,
     name: 'Роутер Mikrotik hAP ax³',
-    newPrice: 1_300_000,
+    newPrice: 1_200_000,
     price: 1_500_000,
     image: require('./img/mikrotik-hap-ax3.png'),
     description:
@@ -259,7 +259,7 @@ export const products: Product[] = [
   {
     id: 36,
     name: 'Монитор Samsung 4K 27"',
-    newPrice: 2_300_000,
+    newPrice: 2_100_000,
     price: 2_900_000,
     image: require('./img/samsung-ls27a800u.jpg'),
     description:
@@ -321,7 +321,7 @@ export const products: Product[] = [
   {
     id: 43,
     name: 'Фильтр Аквафор DWM 101S',
-    newPrice: 900_000,
+    newPrice: 800_000,
     price: 1_000_000,
     image: require('./img/osmos.jpg'),
     description:
