@@ -67,6 +67,7 @@ export const products: Product[] = [
     newPrice: 1_600_000,
     price: 2_200_000,
     image: require('./img/yamaha-ypt-370.jpg'),
+    isSold: true,
     description:
       '61 динамическая клавиша, 622 выразительных тембра, автоаккомпанемент, ' +
       'обучающие функции, мощные эффекты и легкое подключение - идеальный ' +
