@@ -29,7 +29,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: 'Кресло IKEA JÄRVFJÄLLET',
-    newPrice: 1_800_000,
+    newPrice: 1_500_000,
     price: 2_400_000,
     image: require('./img/ikea-jarvfjallet.jpg'),
     description:
@@ -53,7 +53,7 @@ export const products: Product[] = [
   {
     id: 6,
     name: 'Роутер Mikrotik hAP ac lite',
-    newPrice: 400_000,
+    newPrice: 300_000,
     price: 580_000,
     image: require('./img/mikrotik-hap-lite-ac.png'),
     description:
@@ -92,7 +92,7 @@ export const products: Product[] = [
   {
     id: 10,
     name: 'Саундбар Samsung HW-Q600A',
-    newPrice: 1_600_000,
+    newPrice: 1_300_000,
     price: 2_900_000,
     image: require('./img/samsung-hwq600a.jpg'),
     description:
@@ -140,7 +140,7 @@ export const products: Product[] = [
   {
     id: 15,
     name: 'Минисистема Technics SC-EH590',
-    newPrice: 1_000_000,
+    newPrice: 900_000,
     price: 1_400_000,
     image: require('./img/technics-sc-eh590.jpg'),
     description:
@@ -154,7 +154,7 @@ export const products: Product[] = [
   {
     id: 19,
     name: 'Набор инструментов',
-    newPrice: 400_000,
+    newPrice: 300_000,
     price: 600_000,
     image: require('./img/tools.jpg'),
     description:
@@ -235,7 +235,7 @@ export const products: Product[] = [
   {
     id: 31,
     name: 'Роутер Mikrotik hAP ax³',
-    newPrice: 1_200_000,
+    newPrice: 1_100_000,
     price: 1_500_000,
     image: require('./img/mikrotik-hap-ax3.png'),
     description:
@@ -260,7 +260,7 @@ export const products: Product[] = [
   {
     id: 36,
     name: 'Монитор Samsung 4K 27"',
-    newPrice: 2_100_000,
+    newPrice: 1_900_000,
     price: 2_900_000,
     image: require('./img/samsung-ls27a800u.jpg'),
     description:
@@ -322,7 +322,7 @@ export const products: Product[] = [
   {
     id: 43,
     name: 'Фильтр Аквафор DWM 101S',
-    newPrice: 800_000,
+    newPrice: 700_000,
     price: 1_000_000,
     image: require('./img/osmos.jpg'),
     description:
