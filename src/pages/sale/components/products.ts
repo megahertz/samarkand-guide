@@ -32,6 +32,7 @@ export const products: Product[] = [
     newPrice: 1_500_000,
     price: 2_400_000,
     image: require('./img/ikea-jarvfjallet.jpg'),
+    isSold: true,
     description:
       'Регулируемые подголовник, спинка, подлокотники и сиденье, сетчатая ' +
       'спинка для вентиляции, поддержка поясницы, стильный дизайн, идеально ' +
@@ -111,6 +112,7 @@ export const products: Product[] = [
     newPrice: 150_000,
     price: 200_000,
     image: require('./img/mi-body-scale.png'),
+    isSold: true,
     description:
       'Измеряет 13 показателей тела, включая вес, процент жира, воды, ' +
       'мышечную и костную массу. Точность 50 г, выдерживает до 150 кг, ' +
