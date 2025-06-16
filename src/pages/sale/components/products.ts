@@ -54,7 +54,7 @@ export const products: Product[] = [
   {
     id: 6,
     name: 'Роутер Mikrotik hAP ac lite',
-    newPrice: 300_000,
+    newPrice: 250_000,
     price: 580_000,
     image: require('./img/mikrotik-hap-lite-ac.png'),
     description:
@@ -93,7 +93,7 @@ export const products: Product[] = [
   {
     id: 10,
     name: 'Саундбар Samsung HW-Q600A',
-    newPrice: 1_300_000,
+    newPrice: 1_100_000,
     price: 2_900_000,
     image: require('./img/samsung-hwq600a.jpg'),
     description:
@@ -156,7 +156,7 @@ export const products: Product[] = [
   {
     id: 19,
     name: 'Набор инструментов',
-    newPrice: 300_000,
+    newPrice: 250_000,
     price: 600_000,
     image: require('./img/tools.jpg'),
     description:
@@ -167,7 +167,7 @@ export const products: Product[] = [
   {
     id: 20,
     name: 'Фен',
-    newPrice: 170_000,
+    newPrice: 150_000,
     price: 200_000,
     image: require('./img/hair-dryer.png'),
     isSold: true,
@@ -178,7 +178,7 @@ export const products: Product[] = [
   {
     id: 24,
     name: 'Бассейн + насос',
-    newPrice: 200_000,
+    newPrice: 150_000,
     price: 250_000,
     image: require('./img/pool.jpg'),
     description:
@@ -188,7 +188,7 @@ export const products: Product[] = [
   {
     id: 25,
     name: 'Лампочки IKEA TOSTHULT',
-    newPrice: 45_000,
+    newPrice: 40_000,
     price: 70_000,
     image: require('./img/ikea-tosthult.jpg'),
     description:
@@ -199,7 +199,7 @@ export const products: Product[] = [
   {
     id: 27,
     name: 'Ингалятор ЮЛАЙЗЕР (небулайзер)',
-    newPrice: 180_000,
+    newPrice: 150_000,
     price: 250_000,
     image: require('./img/nebulizer.jpg'),
     description:
@@ -265,6 +265,7 @@ export const products: Product[] = [
     newPrice: 1_900_000,
     price: 2_900_000,
     image: require('./img/samsung-ls27a800u.jpg'),
+    isSold: true,
     description:
       'Samsung LS27A800U - 27" IPS монитор с 4K UHD (3840×2160) c ' +
       'регулировкой высоты и поворотом на 90°, HDR10, sRGB 99% и DCI-P3 94%, ' +
@@ -324,7 +325,7 @@ export const products: Product[] = [
   {
     id: 43,
     name: 'Фильтр Аквафор DWM 101S',
-    newPrice: 700_000,
+    newPrice: 500_000,
     price: 1_000_000,
     image: require('./img/osmos.jpg'),
     description:
