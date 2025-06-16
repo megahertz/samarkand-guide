@@ -57,6 +57,7 @@ export const products: Product[] = [
     newPrice: 250_000,
     price: 580_000,
     image: require('./img/mikrotik-hap-lite-ac.png'),
+    isSold: true,
     description:
       'Компактный двухдиапазонный роутер 2,4 и 5 ГГц, скорость Wi-Fi до 433 ' +
       'Мбит/с, 5 Fast Ethernet портов, PoE in/out, USB, 64 МБ ОЗУ. Для ' +
@@ -95,6 +96,7 @@ export const products: Product[] = [
     name: 'Саундбар Samsung HW-Q600A',
     newPrice: 1_100_000,
     price: 2_900_000,
+    isSold: true,
     image: require('./img/samsung-hwq600a.jpg'),
     description:
       'Мощный саундбар с системой 3.1.2, оснащённый ' +
@@ -145,6 +147,7 @@ export const products: Product[] = [
     newPrice: 900_000,
     price: 1_400_000,
     image: require('./img/technics-sc-eh590.jpg'),
+    isSold: true,
     description:
       'Минисистема SC-EH590 - это народный Hi-Fi из легендарной серии ' +
       'Technics начала нулевых. Отлично подходит для использования в ' +
@@ -202,6 +205,7 @@ export const products: Product[] = [
     newPrice: 150_000,
     price: 250_000,
     image: require('./img/nebulizer.jpg'),
+    isSold: true,
     description:
       'Ингалятор Ulaizer Home для детей и взрослых. Простой в использовании. ' +
       'Подходит для всех возрастов. Пользовались мало, в комплекте НОВЫЕ ' +
@@ -328,6 +332,7 @@ export const products: Product[] = [
     newPrice: 500_000,
     price: 1_000_000,
     image: require('./img/osmos.jpg'),
+    isSold: true,
     description:
       'Компактная система обратного осмоса с минерализацией, удаляющая 99% ' +
       'загрязнений, включая бактерии и вирусы. Работает при низком давлении, ' +
