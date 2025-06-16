@@ -173,7 +173,6 @@ export const products: Product[] = [
     newPrice: 150_000,
     price: 200_000,
     image: require('./img/hair-dryer.png'),
-    isSold: true,
     description:
       'Фен с двигателем и инновационной технологией быстрой сушки. В ' +
       'комплекте 5 магнитных насадок для различных типов укладки',
