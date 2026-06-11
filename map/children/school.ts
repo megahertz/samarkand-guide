@@ -86,9 +86,12 @@ export default {
       telegram: 'https://t.me/oischooluz',
       instagram: 'https://www.instagram.com/oischool.uz/',
       facebook: 'https://www.facebook.com/oischool.uz',
-      price: [3_000_000],
-      phones: ['+998 (95) 411-00-22'],
-      description: 'С 9 по 11 класс.',
+      price: [4_500_000],
+      priceDate: new Date('2026-06-11'),
+      phones: ['+998 (99) 056-00-11', '+998 (78) 707-08-80'],
+      description:
+        'Обучение по государственным стандартам для 1 и 5–11 классов, ' +
+        'подготовка к IELTS, SAT, AP и IT-сертификациям.',
     },
     {
       id: 'redbridge',
