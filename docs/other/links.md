@@ -73,7 +73,7 @@ description:
 - [icon-telegram Чат про ИП](https://t.me/YATT_UZ)
 - [icon-telegram Чат Самозанятые в Узбекистане](https://t.me/self_employment_uz)
 - [icon-telegram Чат для поиска работы](https://t.me/+hpVi2hLJkaUxN2Fi)
-- [icon-telegram Чат про IT](https://t.me/+HnxP0Ru23jMzM2Iy)
+- [icon-telegram Чат про IT](https://t.me/+3QidW99-kXU5NmIy)
 
 ### Спорт, досуг и развлечения {#uzbekistan-activities}
 
